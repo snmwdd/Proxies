@@ -1,0 +1,1410 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🇮🇳IN_29|370KB/s|R002-260618 [f69a1901]
+  port: 443
+  server: 110.173.188.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇳IN_1|946KB/s|K001-260618 [70da433a]
+  password: ''
+  port: 1088
+  server: 144.24.111.128
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- type: ss
+  name: ' SS-TCP-NA  IN-103.174.86.113:51348 [cbbdbd31]'
+  server: 103.174.86.113
+  port: 51348
+  cipher: chacha20-ietf-poly1305
+  password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn
+- type: ss
+  name: ' SS-TCP-NA  IN-159.65.149.72:51348 [f851ffe0]'
+  server: 159.65.149.72
+  port: 51348
+  cipher: chacha20-ietf-poly1305
+  password: p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ
+- type: ss
+  name: ' SS-TCP-NA  IN-165.22.208.240:4917 [56b44416]'
+  server: 165.22.208.240
+  port: 4917
+  cipher: chacha20-ietf-poly1305
+  password: l2zEoLV7XbwU4ZvGN46gyr
+- type: ss
+  name: ' SS-TCP-NA  IN-64.227.144.190:50690 [09dbe0a6]'
+  server: 64.227.144.190
+  port: 50690
+  cipher: chacha20-ietf-poly1305
+  password: x3vkLkeXkiCnNZuLxuDcJy
+- type: ss
+  name: 0|🇮🇳印度 01 | 1x IN [81cb73d0]
+  server: free.2apzhfa.xyz
+  port: 31371
+  cipher: chacha20-ietf-poly1305
+  password: 295612f0-072a-42cd-be02-722f4f9389cf
+- type: ss
+  name: 1|🇮🇳 印度 01 | 1x IN [bfbe12e6]
+  server: free.2weradf.xyz
+  port: 36371
+  cipher: chacha20-ietf-poly1305
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+- type: ss
+  name: IN 🇮🇳 | @Raydikalx | 614751 | 207ms [0557ab8d]
+  server: 103.181.177.88
+  port: 443
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+- type: ss
+  name: IN_@baipiao01 [63db2d56]
+  server: 3.111.137.132
+  port: 53223
+  cipher: chacha20-ietf-poly1305
+  password: lalEvremHu
+- type: ss
+  name: 🇮🇳 IN🇮🇳 | 82.180.146.173-35652 | 275.35ms [483098a6]
+  server: 82.180.146.173
+  port: 35652
+  cipher: aes-128-gcm
+  password: 93498539-7838-4836-b9b3-8311ffc79bcf
+- type: ss
+  name: 🇮🇳 ROSE–IN42 [93871254]
+  server: 134.209.147.198
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: 🇮🇳 🇮🇳IN-159.65.155.229-0282 [fae64f7b]
+  server: 159.65.155.229
+  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: bvr9u3aeRQwAafhjmvHtwH
+- type: ss
+  name: 🇮🇳IN-103.111.114.80-0128 [f98b53fc]
+  server: 103.111.114.80
+  port: 28061
+  cipher: chacha20-ietf-poly1305
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+- type: ss
+  name: 🇮🇳IN-134.209.147.198-0312 | 224ms [ad08cf0e]
+  server: 134.209.147.198
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: 🇮🇳IN-45.88.183.124-0863 [33e91c6a]
+  server: 45.88.183.124
+  port: 25578
+  cipher: chacha20-ietf-poly1305
+  password: bCZLsl80SLLqkljWS7yRk8
+- cipher: aes-256-gcm
+  name: 🇮🇳IN_24|399KB/s|B007-260618 [b7df40ff]
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 172.105.39.124
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561... [3768c3683ae1e610] [afcda25c]
+- type: trojan
+  name: IN 🇮🇳 | @Raydikalx | 4ED17A | 206ms [461a0ac0]
+  server: 185.67.125.119
+  port: 443
+  password: '3747000103274291200'
+  tls: true
+  servername: oriented-pug.adder289.quest
+- type: trojan
+  name: IN 🇮🇳 | @Raydikalx | 787FF1 | 219ms [78355afe]
+  server: 143.110.246.228
+  port: 443
+  password: 3bcd9e33-8377-4b32-af33-217158577ff3
+  tls: true
+  servername: kdlsupport.zendesk.com
+- type: trojan
+  name: IN 🇮🇳 | @Raydikalx | 8189BD | 224ms [8ad95ac6]
+  server: 64.227.131.19
+  port: 443
+  password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442
+  tls: true
+  servername: us02web.zoom.us
+- type: trojan
+  name: IN 🇮🇳 | @Raydikalx | B5A0AD | 226ms [e1dab73f]
+  server: 65.20.82.177
+  port: 443
+  password: Tg3RnK7Xp8B1
+  tls: true
+  servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+- type: trojan
+  name: IN 🇮🇳 | @Raydikalx | F736AA | 222ms [34b8bc63]
+  server: 185.67.125.147
+  port: 443
+  password: '3747000103274291200'
+  tls: true
+- type: trojan
+  name: IN 🇮🇳 | @xray_ehi_hub | adc81 [35bd4d76]
+  server: in.tronsg.com
+  port: 443
+  password: Trojan@82164024
+  tls: true
+  servername: in.tronsg.com
+- name: 🇮🇳IN_36|539KB/s|C001-260618 [b156a5dc]
+  password: Trojan@82164024
+  port: 443
+  server: in.tronsg.com
+  skip-cert-verify: true
+  sni: in.tronsg.com
+  type: trojan
+  udp: true
+  network: tcp
+- client-fingerprint: chrome
+  name: 🇮🇳IN_43|493KB/s|A004-260618 [5439d9b6]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: in.tronsg.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇮🇳IN_46|570KB/s|A004-260618 [5f8d870e]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: 139.84.132.62
+  skip-cert-verify: false
+  sni: in.tronsg.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇮🇳IN_46|573KB/s|C002-260622 [e37f3ec5]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: 139.84.132.62
+  skip-cert-verify: true
+  sni: 139.84.132.62
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇮🇳IN_50|573KB/s|A004-260618 [2b26a01d]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: 139.84.132.62
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇮🇳IN_9|558KB/s|A004-260618 [9f90733c]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: in.tronsg.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  sni: in.tronsg.com
+- type: vless
+  name: '>>@oneclickvpnkeys::IN [c57c0ca3]'
+  server: g.sandesh.qzz.io
+  port: 443
+  uuid: 1027b850-de79-4a94-b337-eccdac28e141
+  tls: true
+  encryption: none
+  servername: g.sandesh.qzz.io
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: g.sandesh.qzz.io
+- type: vless
+  name: IN [8827be9e]
+  server: ind01-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: 2a02cb25-0f58-4b19-a7a6-8c205fdb9042
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: d3b13f31
+  client-fingerprint: chrome
+  servername: hls-svod.itunes.apple.com
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  port: 40443
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  server: 5.253.28.240
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  name: IN - zhuhai.uk [9d5b0dd64d407aa9] [9c325496]
+- type: vless
+  name: Rose | 🇮🇳 IN | VLESS | 1256 [1288d087]
+  server: 188.164.248.18
+  port: 443
+  uuid: a7677084-1349-409a-acf8-595d4ec769fa
+  tls: true
+  encryption: none
+  servername: mm.abcai.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mm.abcai.online
+- type: vless
+  name: '[5440][IN][0][VLESS][None][freeconfigv2][2023-09-28][2026-10-28 [49cbce63]'
+  server: 104.22.60.15
+  port: 443
+  uuid: 6847f901-3938-4083-9fd9-2de96bcb6b9f
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 104.22.60.15
+- type: vless
+  name: '[OpenRay] 🇮🇳 IN-252 [66f5ddd2]'
+  server: 5.8.35.72
+  port: 443
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ
+    short-id: ''
+  client-fingerprint: random
+  servername: zealous-glyph.cdn.cachefleet.com
+- type: vless
+  name: '[OpenRay] 🇮🇳 IN-284 [0fa4e932]'
+  server: 5.253.42.163
+  port: 40443
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  client-fingerprint: chrome
+  servername: deepl.com
+- type: vless
+  name: v2go | 🇮🇳 IN | VLESS | 146 [0b3441da]
+  server: 109.237.98.217
+  port: 443
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lR8BTY8XJ6qt9th7wR3ZnfwCiqRs2yosrONK-SuSsDo
+    short-id: ''
+  client-fingerprint: chrome
+  servername: rdaes5js9g1.img-assets.world
+- type: vless
+  name: 🇮🇳 IN tls-0124 [51b0a005]
+  server: 104.18.40.35
+  port: 443
+  uuid: a7677084-1349-409a-acf8-595d4ec769fa
+  tls: true
+  encryption: none
+  servername: mm.abcai.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mm.abcai.online
+- type: vless
+  name: '🇮🇳 IN | VLESS | @hope_net #1 [medium] [597d0da1]'
+  server: 172.105.252.35
+  port: 443
+  uuid: 99de7aac-d2a5-48fd-92cb-d1e6c3c719a4
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  servername: in-full.privateip.net
+- type: vless
+  name: 🇮🇳 | IN | 3381ms | @filembad [fdb9c9c3]
+  server: 5.253.28.189
+  port: 13443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  client-fingerprint: qq
+  servername: auto.cendora.ru
+- name: 🇮🇳IN_10|428KB/s|A001-260618 [52831e4c]
+  network: ws
+  port: 14430
+  server: 13.140.56.100
+  type: vless
+  udp: true
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  ws-opts:
+    headers:
+      Host: 13.140.56.100
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /vless
+  packet-encoding: xudp
+  servername: 13.140.56.100
+- encryption: none
+  name: 🇮🇳IN_19|270KB/s|S004-260618 [1e259e45]
+  network: ws
+  port: 14430
+  server: 13.140.56.100
+  type: vless
+  udp: true
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  ws-opts:
+    headers:
+      Host: 13.140.56.100
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /vless
+  packet-encoding: xudp
+- client-fingerprint: chrome
+  name: 🇮🇳IN_39|113KB/s|A004-260618 [0cd02249]
+  network: tcp
+  port: 46362
+  server: in002.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: in002.zestapp778.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇮🇳IN_40|775KB/s|B007-260618 [ca762e0f]
+  network: ws
+  port: 443
+  server: 122.176.216.52
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+  ws-opts:
+    headers:
+      Host: app-6ada5023.deploy.meerasolution.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+  packet-encoding: xudp
+  servername: app-6ada5023.deploy.meerasolution.com
+- client-fingerprint: firefox
+  name: 🇮🇳IN_56|584KB/s|M003-260806 [b212f93b]
+  network: ws
+  port: 443
+  server: 144.24.140.37
+  tls: true
+  type: vless
+  udp: true
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  ws-opts:
+    headers:
+      Host: wzs.echo.net.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  packet-encoding: xudp
+  servername: wzs.echo.net.eu.org
+- type: vless
+  name: '🇮🇳[www.v2nodes.com] vless-IN-1... #1 [069ad9e2]'
+  server: 5.253.28.224
+  port: 40443
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: deepl.com
+- port: 40443
+  server: dorado.yokkastars.com
+  tls: false
+  type: vless
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+  name: '🇮🇳[www.v2nodes.com] vless-IN-1... #1 [4af488eaef289ec5] [ac142c7c]'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  port: 2096
+  server: sinavm.soft10.ir
+  servername: sinavm.soft10.ir
+  tls: true
+  type: vless
+  uuid: 295009c6-5a47-4f77-b9ac-9be24a61da48
+  ws-opts:
+    headers:
+      Host: sinavm.soft10.ir
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
+  name: 🇮🇳[www.v2nodes.com] vless-IN-1... [e716ff99906a9bdd] [99cc3892]
+- type: vless
+  name: 🔒 VL-TCP-TLS 🇮🇳 IN-144.24.97.225:443 [bf0cdc02]
+  server: 144.24.97.225
+  port: 443
+  uuid: 95eb72fe-e967-4540-ac10-069c8a95c6d7
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: jsdownloadin1.xn--4gq62f52gopi49k.com
+- type: vless
+  name: 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.142:80 [3ac612e8]
+  server: 154.198.173.142
+  port: 80
+  uuid: 2c79b667-b103-4d22-86d0-5ef23f303c06
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 154.198.173.142
+- type: vless
+  name: 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.154:80 [13194212]
+  server: 154.198.173.154
+  port: 80
+  uuid: 2c79b667-b103-4d22-86d0-5ef23f303c06
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 154.198.173.154
+- type: vless
+  name: 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.207:80 [c4a79427]
+  server: 154.198.173.207
+  port: 80
+  uuid: 2c79b667-b103-4d22-86d0-5ef23f303c06
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 154.198.173.207
+- type: vless
+  name: 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.99:80 [1cac5dda]
+  server: 154.198.173.99
+  port: 80
+  uuid: 2c79b667-b103-4d22-86d0-5ef23f303c06
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 154.198.173.99
+- type: vless
+  name: 🔒 VL-WS-TLS 🇮🇳 IN-129.159.22.4:443 [3ab34736]
+  server: 129.159.22.4
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  tls: true
+  encryption: none
+  servername: uxa.vs2024.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: uxa.vs2024.us.kg
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_11|263KB/s|A004-260618 [835a0d43]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0165 | 0.0mb
+- alterId: '0'
+  cipher: auto
+  name: 🇮🇳IN_12|131KB/s|C002-260622 [5ec653e0]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_13|179KB/s|A004-260618 [ab246af9]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0183 | 1.37mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_13|676KB/s|A004-260618 [a6aa414d]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0138 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_14|130KB/s|A004-260618 [8c40c0a1]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0158 | 4.3mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_14|84KB/s|A004-260618 [337afbb0]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0189 | 3.5mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_15|293KB/s|A004-260618 [6375aa45]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0178 | 2.229mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_15|427KB/s|A004-260618 [81371bf6]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0217 | 0.245mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_16|527KB/s [3c3e438b]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+  udp: true
+  servername: 152.67.8.205
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_17|243KB/s|A004-260618 [94edb3dc]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0132 | 10.558mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_18|99KB/s|A004-260618 [944cd7ef]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0242 | 3.61mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_1|318KB/s|A004-260618 [9d6d73e3]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0282 | 3.796mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_20|200KB/s|A004-260618 [4725ed53]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0158 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_21|487KB/s|A004-260618 [dadbe19d]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-4877 | 0.022mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_23|250KB/s|M002-260618 [1bb6c13c]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0164 | 0.149mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_27|254KB/s|A004-260618 [f065f91e]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0158 | 2.771mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_28|245KB/s|A004-260618 [0eab18b6]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: in-152.67.8.205-0250
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0250
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_30|933KB/s|A004-260618 [7817bde2]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0168 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_31|333KB/s|A004-260618 [560690ab]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0196 | 4.578mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_31|690KB/s|A004-260618 [d8cf069f]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0184
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_32|390KB/s|M003-260806 [849c76e0]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0200
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_32|673KB/s|A004-260618 [bdc2c0e3]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0147 | 2.711mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_34|717KB/s|A004-260618 [836e4273]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0179 | 0.1mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_35|373KB/s|A004-260618 [d7065f0a]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0279 | 3.849mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_37|264KB/s|A004-260618 [63e6a401]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: in-152.67.8.205-0204
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0204
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_38|758KB/s|A004-260618 [e3e60da4]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0143 | 1.442mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_39|419KB/s|A004-260618 [fe2f3e47]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0204 | 2.794mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_3|489KB/s|A004-260618 [e078d91b]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0188 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_41|143KB/s|A004-260618 [f8a5863c]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0185 | 0.874mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_41|75KB/s|M003-260806 [d305b7b7]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0128 | 0.582mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_42|87KB/s|A004-260618 [c9b8fadb]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0153 | 2.378mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_48|345KB/s|M003-260806 [cbd44dac]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0185 | 0.051mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_48|375KB/s|M003-260806 [0dee2e26]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0152 | 3.928mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_49|203KB/s|M003-260806 [a7fad82d]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: in-152.67.8.205-0179
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0179
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_49|267KB/s|M003-260806 [f3040685]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0193 | 1.166mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_4|217KB/s|A004-260618 [769a3903]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0191 | 3.618mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_4|254KB/s|A004-260618 [2041f51c]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0132 | 3.18mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_51|318KB/s|M003-260806 [48a84a25]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0128 | 4.066mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_52|210KB/s|M003-260806 [4d0d000b]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: in-152.67.8.205-0242
+    path: /
+  packet-encoding: xudp
+  servername: in-152.67.8.205-0242
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_53|710KB/s|M003-260806 [1f157ba6]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0149 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_54|741KB/s|M003-260806 [c317e98d]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0185 | 4.081mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_55|156KB/s|M003-260806 [aecab508]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0210 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_5|116KB/s|A004-260618 [b9c38147]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0179 | 0.0mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_5|152KB/s|A004-260618 [60fc9036]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0135 | 0.409mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_6|233KB/s|A004-260618 [39ead5f6]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0135 | 0.561mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_7|302KB/s|A004-260618 [bcb38322]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0145 | 2.811mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_8|597KB/s|A004-260618 [b3ef4807]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0202 | 2.706mb
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN_9|424KB/s|A004-260618 [387ff345]
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
+  packet-encoding: xudp
+  servername: 🇮🇳in-152.67.8.205-0247 | 3.731mb
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇮🇳IN_29|370KB/s|R002-260618 [f69a1901]
+  - 🇮🇳IN_1|946KB/s|K001-260618 [70da433a]
+  - ' SS-TCP-NA  IN-103.174.86.113:51348 [cbbdbd31]'
+  - ' SS-TCP-NA  IN-159.65.149.72:51348 [f851ffe0]'
+  - ' SS-TCP-NA  IN-165.22.208.240:4917 [56b44416]'
+  - ' SS-TCP-NA  IN-64.227.144.190:50690 [09dbe0a6]'
+  - 0|🇮🇳印度 01 | 1x IN [81cb73d0]
+  - 1|🇮🇳 印度 01 | 1x IN [bfbe12e6]
+  - IN 🇮🇳 | @Raydikalx | 614751 | 207ms [0557ab8d]
+  - IN_@baipiao01 [63db2d56]
+  - 🇮🇳 IN🇮🇳 | 82.180.146.173-35652 | 275.35ms [483098a6]
+  - 🇮🇳 ROSE–IN42 [93871254]
+  - 🇮🇳 🇮🇳IN-159.65.155.229-0282 [fae64f7b]
+  - 🇮🇳IN-103.111.114.80-0128 [f98b53fc]
+  - 🇮🇳IN-134.209.147.198-0312 | 224ms [ad08cf0e]
+  - 🇮🇳IN-45.88.183.124-0863 [33e91c6a]
+  - 🇮🇳IN_24|399KB/s|B007-260618 [b7df40ff]
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561... [3768c3683ae1e610] [afcda25c]
+  - IN 🇮🇳 | @Raydikalx | 4ED17A | 206ms [461a0ac0]
+  - IN 🇮🇳 | @Raydikalx | 787FF1 | 219ms [78355afe]
+  - IN 🇮🇳 | @Raydikalx | 8189BD | 224ms [8ad95ac6]
+  - IN 🇮🇳 | @Raydikalx | B5A0AD | 226ms [e1dab73f]
+  - IN 🇮🇳 | @Raydikalx | F736AA | 222ms [34b8bc63]
+  - IN 🇮🇳 | @xray_ehi_hub | adc81 [35bd4d76]
+  - 🇮🇳IN_36|539KB/s|C001-260618 [b156a5dc]
+  - 🇮🇳IN_43|493KB/s|A004-260618 [5439d9b6]
+  - 🇮🇳IN_46|570KB/s|A004-260618 [5f8d870e]
+  - 🇮🇳IN_46|573KB/s|C002-260622 [e37f3ec5]
+  - 🇮🇳IN_50|573KB/s|A004-260618 [2b26a01d]
+  - 🇮🇳IN_9|558KB/s|A004-260618 [9f90733c]
+  - '>>@oneclickvpnkeys::IN [c57c0ca3]'
+  - IN [8827be9e]
+  - IN - zhuhai.uk [9d5b0dd64d407aa9] [9c325496]
+  - Rose | 🇮🇳 IN | VLESS | 1256 [1288d087]
+  - '[5440][IN][0][VLESS][None][freeconfigv2][2023-09-28][2026-10-28 [49cbce63]'
+  - '[OpenRay] 🇮🇳 IN-252 [66f5ddd2]'
+  - '[OpenRay] 🇮🇳 IN-284 [0fa4e932]'
+  - v2go | 🇮🇳 IN | VLESS | 146 [0b3441da]
+  - 🇮🇳 IN tls-0124 [51b0a005]
+  - '🇮🇳 IN | VLESS | @hope_net #1 [medium] [597d0da1]'
+  - 🇮🇳 | IN | 3381ms | @filembad [fdb9c9c3]
+  - 🇮🇳IN_10|428KB/s|A001-260618 [52831e4c]
+  - 🇮🇳IN_19|270KB/s|S004-260618 [1e259e45]
+  - 🇮🇳IN_39|113KB/s|A004-260618 [0cd02249]
+  - 🇮🇳IN_40|775KB/s|B007-260618 [ca762e0f]
+  - 🇮🇳IN_56|584KB/s|M003-260806 [b212f93b]
+  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1 [069ad9e2]'
+  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1 [4af488eaef289ec5] [ac142c7c]'
+  - 🇮🇳[www.v2nodes.com] vless-IN-1... [e716ff99906a9bdd] [99cc3892]
+  - 🔒 VL-TCP-TLS 🇮🇳 IN-144.24.97.225:443 [bf0cdc02]
+  - 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.142:80 [3ac612e8]
+  - 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.154:80 [13194212]
+  - 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.207:80 [c4a79427]
+  - 🔒 VL-WS-NA 🇮🇳 IN-154.198.173.99:80 [1cac5dda]
+  - 🔒 VL-WS-TLS 🇮🇳 IN-129.159.22.4:443 [3ab34736]
+  - 🇮🇳IN_11|263KB/s|A004-260618 [835a0d43]
+  - 🇮🇳IN_12|131KB/s|C002-260622 [5ec653e0]
+  - 🇮🇳IN_13|179KB/s|A004-260618 [ab246af9]
+  - 🇮🇳IN_13|676KB/s|A004-260618 [a6aa414d]
+  - 🇮🇳IN_14|130KB/s|A004-260618 [8c40c0a1]
+  - 🇮🇳IN_14|84KB/s|A004-260618 [337afbb0]
+  - 🇮🇳IN_15|293KB/s|A004-260618 [6375aa45]
+  - 🇮🇳IN_15|427KB/s|A004-260618 [81371bf6]
+  - 🇮🇳IN_16|527KB/s [3c3e438b]
+  - 🇮🇳IN_17|243KB/s|A004-260618 [94edb3dc]
+  - 🇮🇳IN_18|99KB/s|A004-260618 [944cd7ef]
+  - 🇮🇳IN_1|318KB/s|A004-260618 [9d6d73e3]
+  - 🇮🇳IN_20|200KB/s|A004-260618 [4725ed53]
+  - 🇮🇳IN_21|487KB/s|A004-260618 [dadbe19d]
+  - 🇮🇳IN_23|250KB/s|M002-260618 [1bb6c13c]
+  - 🇮🇳IN_27|254KB/s|A004-260618 [f065f91e]
+  - 🇮🇳IN_28|245KB/s|A004-260618 [0eab18b6]
+  - 🇮🇳IN_30|933KB/s|A004-260618 [7817bde2]
+  - 🇮🇳IN_31|333KB/s|A004-260618 [560690ab]
+  - 🇮🇳IN_31|690KB/s|A004-260618 [d8cf069f]
+  - 🇮🇳IN_32|390KB/s|M003-260806 [849c76e0]
+  - 🇮🇳IN_32|673KB/s|A004-260618 [bdc2c0e3]
+  - 🇮🇳IN_34|717KB/s|A004-260618 [836e4273]
+  - 🇮🇳IN_35|373KB/s|A004-260618 [d7065f0a]
+  - 🇮🇳IN_37|264KB/s|A004-260618 [63e6a401]
+  - 🇮🇳IN_38|758KB/s|A004-260618 [e3e60da4]
+  - 🇮🇳IN_39|419KB/s|A004-260618 [fe2f3e47]
+  - 🇮🇳IN_3|489KB/s|A004-260618 [e078d91b]
+  - 🇮🇳IN_41|143KB/s|A004-260618 [f8a5863c]
+  - 🇮🇳IN_41|75KB/s|M003-260806 [d305b7b7]
+  - 🇮🇳IN_42|87KB/s|A004-260618 [c9b8fadb]
+  - 🇮🇳IN_48|345KB/s|M003-260806 [cbd44dac]
+  - 🇮🇳IN_48|375KB/s|M003-260806 [0dee2e26]
+  - 🇮🇳IN_49|203KB/s|M003-260806 [a7fad82d]
+  - 🇮🇳IN_49|267KB/s|M003-260806 [f3040685]
+  - 🇮🇳IN_4|217KB/s|A004-260618 [769a3903]
+  - 🇮🇳IN_4|254KB/s|A004-260618 [2041f51c]
+  - 🇮🇳IN_51|318KB/s|M003-260806 [48a84a25]
+  - 🇮🇳IN_52|210KB/s|M003-260806 [4d0d000b]
+  - 🇮🇳IN_53|710KB/s|M003-260806 [1f157ba6]
+  - 🇮🇳IN_54|741KB/s|M003-260806 [c317e98d]
+  - 🇮🇳IN_55|156KB/s|M003-260806 [aecab508]
+  - 🇮🇳IN_5|116KB/s|A004-260618 [b9c38147]
+  - 🇮🇳IN_5|152KB/s|A004-260618 [60fc9036]
+  - 🇮🇳IN_6|233KB/s|A004-260618 [39ead5f6]
+  - 🇮🇳IN_7|302KB/s|A004-260618 [bcb38322]
+  - 🇮🇳IN_8|597KB/s|A004-260618 [b3ef4807]
+  - 🇮🇳IN_9|424KB/s|A004-260618 [387ff345]
+rules:
+- MATCH,SCANNED-NODES

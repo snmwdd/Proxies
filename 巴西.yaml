@@ -1,0 +1,573 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🇧🇷BR_1|536KB/s|R002-260618 [5d98e415]
+  port: 443
+  server: 134.65.17.77
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: 0|🇧🇷巴西 01 | 1x BR [ad12bf42]
+  server: free.2apzhfa.xyz
+  port: 31671
+  cipher: chacha20-ietf-poly1305
+  password: 295612f0-072a-42cd-be02-722f4f9389cf
+- type: ss
+  name: 1|🇧🇷 巴西 01 | 1x BR [74b76b1c]
+  server: free.2weradf.xyz
+  port: 36671
+  cipher: chacha20-ietf-poly1305
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+- type: ss
+  name: BR-01 [56744698]
+  server: 185.192.124.41
+  port: 20013
+  cipher: aes-256-gcm
+  password: HNH8QUZU58O10CCG
+- type: ss
+  name: '[9164][BR][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][202 [92fb1d80]'
+  server: 147.15.111.224
+  port: 59319
+  cipher: chacha20-ietf-poly1305
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+- type: ss
+  name: '[9196][BR][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][202 [1ca4ce40]'
+  server: 137.131.170.42
+  port: 59319
+  cipher: chacha20-ietf-poly1305
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+- type: ss
+  name: '[OpenRay] 🇧🇷 BR-197 [1bf0104f]'
+  server: creativeboxnl2.zanity.net
+  port: 5228
+  cipher: chacha20-ietf-poly1305
+  password: nfqXKhEmvHdOUVqFyNLnvx
+- type: ss
+  name: '[OpenRay] 🇧🇷BR-51 [ece28e54]'
+  server: 78.111.102.80
+  port: 2083
+  cipher: chacha20-ietf-poly1305
+  password: banJ58KfDF21KoMFZ5TXmg
+- type: ss
+  name: 🇧🇷 | BR | 405ms | 153856 | @LonUp_M [b236ead4]
+  server: 137.131.128.103
+  port: 59319
+  cipher: 2022-blake3-chacha20-poly1305
+  password: GGGJ69mNdkRpgCbE/lUZvtaebOqshKW8PVWgIUaaRHc=
+- type: ss
+  name: 🇧🇷BR-38.180.221.143-0116 [4858f62b]
+  server: 38.180.221.143
+  port: 17283
+  cipher: chacha20-ietf-poly1305
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+- type: ss
+  name: 🇧🇷BR-38.54.57.90-0396 [800728cb]
+  server: 38.54.57.90
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: trojan
+  name: 🇧🇷BR-144.22.250.122-1617 | 146ms [00e9529f]
+  server: 144.22.250.122
+  port: 443
+  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
+  tls: true
+  servername: golinkwuxian.top
+- type: trojan
+  name: 🇧🇷BR-185.133.35.254-1205 | 7ms [6a6bfd7f]
+  server: 185.133.35.254
+  port: 443
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  tls: true
+  servername: icecream.955850.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 185.133.35.254
+- client-fingerprint: chrome
+  name: 🇧🇷BR_4|712KB/s|A004-260618 [f4135b46]
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.238.104.154
+  skip-cert-verify: false
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  type: trojan
+  udp: true
+- type: vless
+  name: ' VL-WS-TLS  BR-132.226.163.224:2053 [08445476]'
+  server: 132.226.163.224
+  port: 2053
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  tls: true
+  encryption: none
+  servername: bPB005.PAGeS.Dev
+  network: ws
+  ws-opts:
+    path: /tsk179ptmakaggvh/mtuyljy3ljiznc40oq
+    headers:
+      Host: bPB005.PAGeS.Dev
+- type: vless
+  name: ' VL-WS-TLS  BR-199.232.113.226:443 [703ae2a2]'
+  server: 199.232.113.226
+  port: 443
+  uuid: 04303375-20cb-4e2f-b19d-1ed05b786269
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: video.nordkapp-boats.no
+  network: ws
+  ws-opts:
+    path: ws/VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM?ed=1024
+    headers:
+      Host: matinof.com
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: BR - zhuhai.uk [b9301a77]
+  type: vless
+  server: 177.7.51.29
+  port: 8443
+  uuid: c6b1b2d0-ed5e-48ce-99e6-112ff330030d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: laG5BxoSbdRozpauATNFBPPTwhuDuu0JFl_SCP2ZQlU
+    short-id: 14fbf992
+- network: ws
+  port: 8443
+  server: de9.pad-sservice.lat
+  servername: de9.pad-sservice.lat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  ws-opts:
+    headers:
+      Host: de9.pad-service.com
+    path: /DE9W
+  name: BR_speednode_0003 [addfd5b734e7aff0] [8ff777bb]
+- type: vless
+  name: BR【机场推荐：https://a9a.xyz】13 [f4ab4d37]
+  server: 200.165.225.174
+  port: 443
+  uuid: b6b92515-13c5-4e6e-9fea-8db2d44628a0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  client-fingerprint: firefox
+  servername: veilix.ciphero.xyz
+- type: vless
+  name: BR【机场推荐：https://a9a.xyz】9 [802c54db]
+  server: veilix.ciphero.xyz
+  port: 443
+  uuid: b6b92515-13c5-4e6e-9fea-8db2d44628a0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  client-fingerprint: qq
+  servername: veilix.ciphero.xyz
+- type: vless
+  name: '[OpenRay] 🇧🇷 BR-237 [d9af4de4]'
+  server: cave.magazinetut.online
+  port: 443
+  uuid: 0000e293-996d-4c32-99dc-29a8aba80d06
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: cave.magazinetut.online
+- type: vless
+  name: '[OpenRay] 🇧🇷 BR-299 [20c6fcea]'
+  server: 147.45.116.52
+  port: 443
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
+    short-id: ''
+  client-fingerprint: firefox
+  servername: www.wikihow.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-22 [7bc47933]'
+  server: 201.10.91.68
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: pl1.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /PL1W
+    headers:
+      Host: pl1.pad-service.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-23 [2e1015f1]'
+  server: 201.58.179.103
+  port: 443
+  uuid: 32daf25d-9ffa-4f43-b6a3-2ebc21014681
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: MN2XIVlIusdWaGwyyrGZ7Ti3jzqjDlpMmc12WcrV1nU
+    short-id: ''
+  client-fingerprint: firefox
+  servername: www.tradingview.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-30 [b687bda2]'
+  server: 179.254.115.191
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: de8.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /DE8W
+    headers:
+      Host: de8.pad-service.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-33 [04804d58]'
+  server: 177.3.220.105
+  port: 20324
+  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RK2g-bLoaa9GD9cJRRk2ktU9nAvP4-YmUPnBs1-UC1A
+    short-id: a9391e22
+  client-fingerprint: chrome
+  servername: metrika.yandex.ru
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-4 [891e0081]'
+  server: 201.10.91.98
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: pl3.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /PL3W
+    headers:
+      Host: pl3.pad-service.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-45 [209fe2df]'
+  server: 191.217.211.128
+  port: 20268
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
+    short-id: 0c774b50
+  client-fingerprint: firefox
+  servername: metrika.yandex.ru
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-46 [d3fc40ea]'
+  server: 201.58.182.250
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
+    short-id: ''
+  client-fingerprint: firefox
+  servername: hollandlanzerotte.xyz
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-5 [526db707]'
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-tr
+    headers:
+      Host: tgmansion.site
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-50 [3584470e]'
+  server: 201.58.182.12
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: c45KyRQO_-rZ282JqMRcxlwu2DOV30b999vwCi0sLy0
+    short-id: ''
+  client-fingerprint: firefox
+  servername: netherafteraventura.site
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-61 [453f0019]'
+  server: 201.58.177.108
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
+    short-id: ''
+  client-fingerprint: ios
+  servername: swedenafteraventura.space
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-74 [5e6c7327]'
+  server: 179.254.115.126
+  port: 443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: VQ_YLtFuq-mKdLTWXl1FHJoiIVVRHBRs8koxxKFEtzM
+    short-id: 9af4ce6e28a5fa00
+  client-fingerprint: firefox
+  servername: de7.pad-service.com
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-76 [da77f22e]'
+  server: 191.217.251.249
+  port: 20268
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
+    short-id: 0c774b50
+  client-fingerprint: firefox
+  servername: metrika.yandex.ru
+- type: vless
+  name: '[OpenRay] 🇧🇷BR-96 [401c98dd]'
+  server: 191.217.225.33
+  port: 443
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RDuJ2cZE2WiT5kUd0L2SowECJMa_plTqH706nECMkhk
+    short-id: 596c9d1f95308d92
+  client-fingerprint: firefox
+  servername: 191.217.225.33.sslip.io
+- type: vless
+  name: 🇧🇷 BR - [github.com/acymz] [27c39b7e]
+  server: 152.67.41.217
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- client-fingerprint: firefox
+  name: 🇧🇷BR_10|629KB/s|M003-260806 [27ecbf53]
+  network: tcp
+  port: 15040
+  server: 216.128.173.124
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: br001.zestapp778.com
+- type: vless
+  name: 🇧🇷BR_11|222KB/s|A004-260618 01 [80631465]
+  server: 2.27.54.187
+  port: 443
+  uuid: 7007f4fb-b059-41e1-a8f0-d6df6bc803ac
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lSuq5s560VLvzELn2cTjWpT1IcL9rlgFOOCkxu_HN1M
+    short-id: '15'
+  client-fingerprint: qq
+  servername: cloudflare.com
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇧🇷BR_2|225KB/s|F003-260618 [d4a6a3bd]
+  network: ws
+  port: 2053
+  server: 146.235.59.153
+  tls: true
+  type: vless
+  udp: true
+  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+  ws-opts:
+    headers:
+      Host: shin-ra.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  packet-encoding: xudp
+  servername: shin-ra.ccwu.cc
+- client-fingerprint: chrome
+  name: 🇧🇷BR_5|644KB/s|A004-260618 [f22a317e]
+  network: tcp
+  port: 15040
+  server: br001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: br.zestapp778.com
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇧🇷BR_6|256KB/s|M003-260806 [514ee724]
+  network: tcp
+  port: 15040
+  server: 216.128.173.124
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: br.zestapp778.com
+- client-fingerprint: chrome
+  name: 🇧🇷BR_7|630KB/s|M003-260806 [747dbe78]
+  network: tcp
+  port: 15040
+  server: br001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: br001.zestapp778.com
+- type: vless
+  name: 🔒 VL-WS-TLS 🇧🇷 BR-185.133.35.25:443 [23a7f579]
+  server: 185.133.35.25
+  port: 443
+  uuid: 219d848d-60f2-4321-8275-72b9b575b37e
+  tls: true
+  encryption: none
+  servername: qaa.zhuk.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: qaa.zhuk.us.kg
+- type: vless
+  name: 🔒 VL-WS-TLS 🇧🇷 BR-185.133.35.27:443 [01c9e891]
+  server: 185.133.35.27
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  tls: true
+  encryption: none
+  servername: vs1.ylks2024.us.kg
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      Host: vs1.ylks2024.us.kg
+- type: vless
+  name: 🔒 VL-WS-TLS 🇧🇷 BR-199.232.112.11:443 [e69b0a14]
+  server: 199.232.112.11
+  port: 443
+  uuid: 8b269721-714f-4bb8-a18e-76038fbec1ec
+  tls: true
+  encryption: none
+  servername: Elena.io
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jOin-E.L.i.V.2.R.A.Y.stOre
+- type: vmess
+  name: 🔒 VM-WS-NA 🇧🇷 BR-168.138.240.0:48679 [db0e1add]
+  server: 168.138.240.0
+  port: 48679
+  uuid: 0ec2298b-b8b3-437a-8053-05bff19be248
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /wada12222
+    headers:
+      Host: tms.dingtalk.com
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇧🇷BR_1|536KB/s|R002-260618 [5d98e415]
+  - 0|🇧🇷巴西 01 | 1x BR [ad12bf42]
+  - 1|🇧🇷 巴西 01 | 1x BR [74b76b1c]
+  - BR-01 [56744698]
+  - '[9164][BR][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][202 [92fb1d80]'
+  - '[9196][BR][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][202 [1ca4ce40]'
+  - '[OpenRay] 🇧🇷 BR-197 [1bf0104f]'
+  - '[OpenRay] 🇧🇷BR-51 [ece28e54]'
+  - 🇧🇷 | BR | 405ms | 153856 | @LonUp_M [b236ead4]
+  - 🇧🇷BR-38.180.221.143-0116 [4858f62b]
+  - 🇧🇷BR-38.54.57.90-0396 [800728cb]
+  - 🇧🇷BR-144.22.250.122-1617 | 146ms [00e9529f]
+  - 🇧🇷BR-185.133.35.254-1205 | 7ms [6a6bfd7f]
+  - 🇧🇷BR_4|712KB/s|A004-260618 [f4135b46]
+  - ' VL-WS-TLS  BR-132.226.163.224:2053 [08445476]'
+  - ' VL-WS-TLS  BR-199.232.113.226:443 [703ae2a2]'
+  - BR - zhuhai.uk [b9301a77]
+  - BR_speednode_0003 [addfd5b734e7aff0] [8ff777bb]
+  - BR【机场推荐：https://a9a.xyz】13 [f4ab4d37]
+  - BR【机场推荐：https://a9a.xyz】9 [802c54db]
+  - '[OpenRay] 🇧🇷 BR-237 [d9af4de4]'
+  - '[OpenRay] 🇧🇷 BR-299 [20c6fcea]'
+  - '[OpenRay] 🇧🇷BR-22 [7bc47933]'
+  - '[OpenRay] 🇧🇷BR-23 [2e1015f1]'
+  - '[OpenRay] 🇧🇷BR-30 [b687bda2]'
+  - '[OpenRay] 🇧🇷BR-33 [04804d58]'
+  - '[OpenRay] 🇧🇷BR-4 [891e0081]'
+  - '[OpenRay] 🇧🇷BR-45 [209fe2df]'
+  - '[OpenRay] 🇧🇷BR-46 [d3fc40ea]'
+  - '[OpenRay] 🇧🇷BR-5 [526db707]'
+  - '[OpenRay] 🇧🇷BR-50 [3584470e]'
+  - '[OpenRay] 🇧🇷BR-61 [453f0019]'
+  - '[OpenRay] 🇧🇷BR-74 [5e6c7327]'
+  - '[OpenRay] 🇧🇷BR-76 [da77f22e]'
+  - '[OpenRay] 🇧🇷BR-96 [401c98dd]'
+  - 🇧🇷 BR - [github.com/acymz] [27c39b7e]
+  - 🇧🇷BR_10|629KB/s|M003-260806 [27ecbf53]
+  - 🇧🇷BR_11|222KB/s|A004-260618 01 [80631465]
+  - 🇧🇷BR_2|225KB/s|F003-260618 [d4a6a3bd]
+  - 🇧🇷BR_5|644KB/s|A004-260618 [f22a317e]
+  - 🇧🇷BR_6|256KB/s|M003-260806 [514ee724]
+  - 🇧🇷BR_7|630KB/s|M003-260806 [747dbe78]
+  - 🔒 VL-WS-TLS 🇧🇷 BR-185.133.35.25:443 [23a7f579]
+  - 🔒 VL-WS-TLS 🇧🇷 BR-185.133.35.27:443 [01c9e891]
+  - 🔒 VL-WS-TLS 🇧🇷 BR-199.232.112.11:443 [e69b0a14]
+  - 🔒 VM-WS-NA 🇧🇷 BR-168.138.240.0:48679 [db0e1add]
+rules:
+- MATCH,SCANNED-NODES

@@ -1,0 +1,588 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- type: ss
+  name: SC [b406dc5c]
+  server: 196.196.156.122
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: '[14170][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][20 [8ebeb937]'
+  server: 154.90.32.5
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: '[6608][SC][0][SS][None][mftizi][2025-02-19][2026-10-28 [4778f25d]'
+  server: 156.231.104.24
+  port: 18014
+  cipher: aes-256-gcm
+  password: 3JHTNK13T6BCEVNH
+- type: ss
+  name: '[OpenRay] 🇸🇨SC-27 [53afa408]'
+  server: 84.21.191.180
+  port: 1081
+  cipher: chacha20-ietf-poly1305
+  password: iWhDZY1CQ-7AQYQtmc8Ki4r3H4UYP0SF
+- type: trojan
+  name: SC [b31be88c]
+  server: 45.130.125.69
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- type: trojan
+  name: '[1287][SC][0][TROJAN][None][oneclickvpnkeys][2026-10-26][2026-10-28 02 [fece8b55]'
+  server: 154.81.141.42
+  port: 443
+  password: humanity
+  tls: true
+- type: trojan
+  name: '[1636][SC][0][TROJAN][None][SafeNet_Server][2026-06-27][2026-10-28 02: [56489e93]'
+  server: 45.130.125.32
+  port: 443
+  password: humanity
+  tls: true
+- type: trojan
+  name: '[3808][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [f7b9a36e]'
+  server: 154.197.64.219
+  port: 2083
+  password: Aimer
+  tls: true
+  servername: epgb.aimercc.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: epgb.aimercc.dpdns.org
+- type: trojan
+  name: '[437][SC][0][TROJAN][None][prrofile_purple][2026-06-22][2026-10-28 02: [4adddc47]'
+  server: 45.130.125.126
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  tls: true
+- type: trojan
+  name: '[600][SC][0][TROJAN][None][nofiltering2][2026-07-30][2026-10-28 02:49] [fecdca99]'
+  server: 45.130.125.112
+  port: 443
+  password: MITIVPN
+  tls: true
+- name: Node_87_sc-the_8443 [a1c7704b]
+  server: sc-thenetherlands2.09vpn.com
+  port: 8443
+  type: vless
+  uuid: e73df646-1f62-41bf-8c50-653497d603d0
+  tls: true
+  network: ws
+  ws-opts:
+    path: /vless/
+- type: vless
+  name: REALITY|SC🇸🇨 [88fc64a0]
+  server: 45.95.96.236
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  client-fingerprint: firefox
+  servername: gesmankos.sadiepinki.com
+- type: vless
+  name: REALITY|SC🇸🇨 [e742e5ea]
+  server: 45.95.96.198
+  port: 443
+  uuid: 2f5cfa10-43e5-4912-800d-557308a26a29
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 8RfEuI1RxxW1dqq2nbt6ssKwx7UdmgKW1nKL9OuilGs
+    short-id: 0492eabdb9
+  client-fingerprint: firefox
+  servername: yw0ein72.cloudydigital.net
+- type: vless
+  name: '[12550][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [7a5bf2b7]'
+  server: 45.195.111.131
+  port: 443
+  uuid: 4af89b09-ce0c-4dab-b798-629d8b900af0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[12571][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [23b4abe1]'
+  server: 45.195.111.180
+  port: 443
+  uuid: 4af89b09-ce0c-4dab-b798-629d8b900af0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[12610][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [db8829d7]'
+  server: 45.195.111.40
+  port: 443
+  uuid: 4af89b09-ce0c-4dab-b798-629d8b900af0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[12627][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [7aebc323]'
+  server: 45.195.111.80
+  port: 443
+  uuid: 4af89b09-ce0c-4dab-b798-629d8b900af0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[12659][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [650321fb]'
+  server: 194.156.26.1
+  port: 443
+  uuid: 4b5de9a4-3543-4f04-af6e-5c20141520ce
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==
+    headers:
+      Host: 194.156.26.1
+- type: vless
+  name: '[1289][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [98c9f266]'
+  server: 45.155.68.164
+  port: 13868
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: xbCFPD2Gk3HP6EwfFT_0W3D_-biFaz10wlPc2h3y6QQ
+    short-id: e852dc
+  client-fingerprint: chrome
+  servername: yoox.com
+- type: vless
+  name: '[13346][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28] [f3657de8]'
+  server: 45.196.201.30
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[13347][SC][0][VLESS][None][prrofile_purple][2026-07-20][2026-10-28 [324072bf]'
+  server: 45.196.201.46
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  reality-opts:
+    public-key: ''
+    short-id: ''
+- type: vless
+  name: '[20614][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [51bfc5ce]'
+  server: 45.195.137.193
+  port: 8443
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  servername: storage.yandex.net
+- type: vless
+  name: '[23778][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-22] [95db1f50]'
+  server: 45.196.193.138
+  port: 443
+  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 40ce08cf20c67003
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[30138][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [439d7f26]'
+  server: 156.244.43.22
+  port: 443
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  servername: r1.mizulina.top
+- type: vless
+  name: '[3378][SC][0][VLESS][None][v2ray1_ng][2026-07-19][2026-07-28 [2bfd4569]'
+  server: 45.130.125.21
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: shegeftihaaa.net
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+- type: vless
+  name: '[35019][SC][0][VLESS][None][oneclickvpnkeys][2026-08-10][2026-08-16 [86210573]'
+  server: 154.222.9.122
+  port: 443
+  uuid: d2042070-c247-4226-a3ac-15337923e00d
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 5be97fb85093a3a9
+  servername: storage.yandex.net
+- type: vless
+  name: '[35053][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [84085199]'
+  server: 45.196.193.123
+  port: 443
+  uuid: d2042070-c247-4226-a3ac-15337923e00d
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 40ce08cf20c67003
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[42080][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [87af3e82]'
+  server: 45.198.80.84
+  port: 443
+  uuid: eece4171-e025-40a3-9027-e395036ff99d
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 28047c78b3f5ee2c
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[43406][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [516f93f0]'
+  server: 45.196.201.132
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43488][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [a5466127]'
+  server: 45.196.201.198
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43493][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [d5e7e3ca]'
+  server: 45.196.201.201
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43500][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [42a13eb2]'
+  server: 45.196.201.209
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43569][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [021bef70]'
+  server: 45.196.201.32
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43612][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [b54a98dd]'
+  server: 45.196.201.49
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43619][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [6a2736c5]'
+  server: 45.196.201.51
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[43668][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [70a4bf4c]'
+  server: 45.196.201.75
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: firefox
+  servername: storage.yandex.net
+- type: vless
+  name: '[6358][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [f16536dd]'
+  server: 45.195.137.117
+  port: 8443
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[8809][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [9b275814]'
+  server: 45.198.87.54
+  port: 8443
+  uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  client-fingerprint: chrome
+  servername: storage.yandex.net
+- type: vless
+  name: '[OpenRay] 🇸🇨SC-1 [7a72e9f1]'
+  server: 45.128.78.176
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: chrome
+  servername: ozon.ru
+- type: vless
+  name: '[OpenRay] 🇸🇨SC-34 [32656091]'
+  server: 194.156.26.6
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-10609203787d
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: rqzt0xexu5ms.rwf5sggee1geeewwrfg.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/10609203787d/loc-1
+    headers:
+      Host: 194.156.26.6
+- type: vless
+  name: 🇸🇨+SC+塞舌尔+14 [bf0ae6d6]
+  server: 45.133.247.196
+  port: 2083
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  tls: true
+  encryption: none
+  servername: juzibaipiao.5112233.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: juzibaipiao.5112233.xyz
+- type: vless
+  name: 🇸🇨+SC+塞舌尔+30 [16634cc0]
+  server: 154.197.92.114
+  port: 5010
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  tls: true
+  encryption: none
+  servername: juzibaipiao.5112233.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: juzibaipiao.5112233.xyz
+- type: vless
+  name: 🇸🇨_SC_塞舌尔_24 [6c4f2335]
+  server: 45.133.247.151
+  port: 443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  tls: true
+  encryption: none
+  servername: juzibaipiao.5112233.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: juzibaipiao.5112233.xyz
+- type: vless
+  name: 🇸🇨_SC_塞舌尔_27 [d0f83cd6]
+  server: 154.197.88.97
+  port: 2053
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  tls: true
+  encryption: none
+  servername: juzibaipiao.5112233.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: juzibaipiao.5112233.xyz
+- type: vless
+  name: 🇸🇨_SC_塞舌尔_5 [3f9cadc7]
+  server: 45.133.247.14
+  port: 443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  tls: true
+  encryption: none
+  servername: juzibaipiao.5112233.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: juzibaipiao.5112233.xyz
+- type: vless
+  name: 🔒 VL-WS-TLS 🇸🇨 SC-154.197.75.58:8443 [94c14329]
+  server: 154.197.75.58
+  port: 8443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  tls: true
+  encryption: none
+  servername: va.zhuk.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: va.zhuk.us.kg
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - SC [b406dc5c]
+  - '[14170][SC][0][SS][None][ext_raw.githubusercontent.com][2026-08-16][20 [8ebeb937]'
+  - '[6608][SC][0][SS][None][mftizi][2025-02-19][2026-10-28 [4778f25d]'
+  - '[OpenRay] 🇸🇨SC-27 [53afa408]'
+  - SC [b31be88c]
+  - '[1287][SC][0][TROJAN][None][oneclickvpnkeys][2026-10-26][2026-10-28 02 [fece8b55]'
+  - '[1636][SC][0][TROJAN][None][SafeNet_Server][2026-06-27][2026-10-28 02: [56489e93]'
+  - '[3808][SC][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [f7b9a36e]'
+  - '[437][SC][0][TROJAN][None][prrofile_purple][2026-06-22][2026-10-28 02: [4adddc47]'
+  - '[600][SC][0][TROJAN][None][nofiltering2][2026-07-30][2026-10-28 02:49] [fecdca99]'
+  - Node_87_sc-the_8443 [a1c7704b]
+  - REALITY|SC🇸🇨 [88fc64a0]
+  - REALITY|SC🇸🇨 [e742e5ea]
+  - '[12550][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [7a5bf2b7]'
+  - '[12571][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [23b4abe1]'
+  - '[12610][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [db8829d7]'
+  - '[12627][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [7aebc323]'
+  - '[12659][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [650321fb]'
+  - '[1289][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [98c9f266]'
+  - '[13346][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28] [f3657de8]'
+  - '[13347][SC][0][VLESS][None][prrofile_purple][2026-07-20][2026-10-28 [324072bf]'
+  - '[20614][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [51bfc5ce]'
+  - '[23778][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-09-22] [95db1f50]'
+  - '[30138][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [439d7f26]'
+  - '[3378][SC][0][VLESS][None][v2ray1_ng][2026-07-19][2026-07-28 [2bfd4569]'
+  - '[35019][SC][0][VLESS][None][oneclickvpnkeys][2026-08-10][2026-08-16 [86210573]'
+  - '[35053][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [84085199]'
+  - '[42080][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [87af3e82]'
+  - '[43406][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [516f93f0]'
+  - '[43488][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [a5466127]'
+  - '[43493][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [d5e7e3ca]'
+  - '[43500][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [42a13eb2]'
+  - '[43569][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [021bef70]'
+  - '[43612][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [b54a98dd]'
+  - '[43619][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [6a2736c5]'
+  - '[43668][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16] [70a4bf4c]'
+  - '[6358][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [f16536dd]'
+  - '[8809][SC][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [9b275814]'
+  - '[OpenRay] 🇸🇨SC-1 [7a72e9f1]'
+  - '[OpenRay] 🇸🇨SC-34 [32656091]'
+  - 🇸🇨+SC+塞舌尔+14 [bf0ae6d6]
+  - 🇸🇨+SC+塞舌尔+30 [16634cc0]
+  - 🇸🇨_SC_塞舌尔_24 [6c4f2335]
+  - 🇸🇨_SC_塞舌尔_27 [d0f83cd6]
+  - 🇸🇨_SC_塞舌尔_5 [3f9cadc7]
+  - 🔒 VL-WS-TLS 🇸🇨 SC-154.197.75.58:8443 [94c14329]
+rules:
+- MATCH,SCANNED-NODES

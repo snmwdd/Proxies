@@ -1,0 +1,210 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- password: None
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  name: 🇨🇿CZ_1|2.7MB/s [23e9740e0ad3d18f] [6cdd618b]
+- name: 🇨🇿CZ_1|3.3MB/s|R002-260618 [56c7afdd]
+  port: 443
+  server: 193.35.104.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇿CZ_2|1.2MB/s|R002-260618 [d799c799]
+  port: 8443
+  server: 5.35.100.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- port: 9443
+  server: 152.233.16.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+  name: 🇨🇿CZ_2|2.1MB/s [de2d5fed0a65b520] [c4508b41]
+- port: 443
+  server: 185.216.35.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  name: 🇨🇿CZ_3|2.1MB/s [194e234bdd10b7e0] [c2863137]
+- name: 🇨🇿CZ_4|816KB/s|P002-260618 [948aaa40]
+  password: None
+  port: 443
+  server: 185.216.35.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇿CZ_5|485KB/s|R002-260618 [60e89013]
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇿CZ_6|883KB/s|K001-260618 [27c5f2f0]
+  password: None
+  port: 9443
+  server: 152.233.16.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: ' SS-TCP-NA  CZ-195.181.160.6:990 [b060cca1]'
+  server: 195.181.160.6
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: '[OpenRay] 🇨🇿 CZ-205 [1bb79cad]'
+  server: italy3.fapinet.website
+  port: 52941
+  cipher: chacha20-ietf-poly1305
+  password: 8hAnlHqEqIw2wzFGBto3VQ
+- type: ss
+  name: '[OpenRay] 🇨🇿 CZ-211 [337aaaa9]'
+  server: 45.129.142.41
+  port: 47425
+  cipher: chacha20-ietf-poly1305
+  password: lIoNSMeYLX8QGHnOp0DTBR0W91/CHVDEjPqjMDuYcdQ=
+- type: ss
+  name: '[OpenRay] 🇨🇿 CZ-220 [8e0fe659]'
+  server: turkish.fardad1.ir
+  port: 58326
+  cipher: chacha20-ietf-poly1305
+  password: HXFF97gxFjavgidzcRWw9Q
+- type: ss
+  name: 🇨🇿CZ-143.244.58.102-8221 | 122ms [47b61d87]
+  server: 143.244.58.102
+  port: 443
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+- type: ss
+  name: 🇨🇿CZ_7|782KB/s|A004-260618 [8eab8cf5fd9b] [de29fe6c]
+  server: 67.159.18.34
+  port: 17001
+  cipher: aes-256-gcm
+  password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
+- type: trojan
+  name: CZ [8d9ccbb5]
+  server: 85.255.9.247
+  port: 1935
+  password: mZMgM1vKw5
+  tls: true
+  servername: x1-czech-aruba-v2.devefun.org
+- type: vless
+  name: CZ🇨🇿 [842a259b]
+  server: 80.211.205.173
+  port: 8443
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  encryption: none
+  client-fingerprint: random
+  servername: snippet.fgfw.ye.gs
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.ye.gs
+- type: vless
+  name: REALITY|CZ🇨🇿 [918adc04]
+  server: 188.130.208.210
+  port: 443
+  uuid: 08b6dd4b-08df-4aa2-9580-92a3360cf07c
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: x_sc52Wgwr7bsogvKRA5hHHS5PJpdocqZNW_Up1mty8
+    short-id: 59ab2fc39ec55bc7
+  servername: edge-cz1.lovely.ceo
+- type: vless
+  name: '[CZ] | SOS | 2ms | ws [2137c968]'
+  server: 14.102.228.76
+  port: 2096
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  tls: true
+  encryption: none
+  servername: jp.aniua.qzz.io
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp.aniua.qzz.io
+- type: vless
+  name: '[OpenRay] 🇨🇿 CZ-254 [25c41865]'
+  server: 78.159.247.151
+  port: 60066
+  uuid: 52b55083-112b-4f12-8c69-c0d48c32f801
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 0_FWbcTe6tvBuSZ7_7PrMaNmg44a8VxYRXPKjZuERwQ
+    short-id: a150dff4
+  client-fingerprint: firefox
+  servername: eh.vk.com
+- type: vless
+  name: 🇨🇿 | CZ | 561ms | 153652 | @SOSkeyNET [062ed2a2]
+  server: 150.241.121.61
+  port: 443
+  uuid: 98b0ccb7-325d-4dd4-b1c0-92671e94f5be
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: 1pgt5wjq9slq.bosfiles.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+  alpn:
+  - h2
+- type: vless
+  name: 🔒 VL-WS-TLS 🇨🇿 CZ-194.87.11.56:8000 [c59ca084]
+  server: 194.87.11.56
+  port: 8000
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  encryption: none
+  servername: a.mifeng.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: a.mifeng.us.kg
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇨🇿CZ_1|2.7MB/s [23e9740e0ad3d18f] [6cdd618b]
+  - 🇨🇿CZ_1|3.3MB/s|R002-260618 [56c7afdd]
+  - 🇨🇿CZ_2|1.2MB/s|R002-260618 [d799c799]
+  - 🇨🇿CZ_2|2.1MB/s [de2d5fed0a65b520] [c4508b41]
+  - 🇨🇿CZ_3|2.1MB/s [194e234bdd10b7e0] [c2863137]
+  - 🇨🇿CZ_4|816KB/s|P002-260618 [948aaa40]
+  - 🇨🇿CZ_5|485KB/s|R002-260618 [60e89013]
+  - 🇨🇿CZ_6|883KB/s|K001-260618 [27c5f2f0]
+  - ' SS-TCP-NA  CZ-195.181.160.6:990 [b060cca1]'
+  - '[OpenRay] 🇨🇿 CZ-205 [1bb79cad]'
+  - '[OpenRay] 🇨🇿 CZ-211 [337aaaa9]'
+  - '[OpenRay] 🇨🇿 CZ-220 [8e0fe659]'
+  - 🇨🇿CZ-143.244.58.102-8221 | 122ms [47b61d87]
+  - 🇨🇿CZ_7|782KB/s|A004-260618 [8eab8cf5fd9b] [de29fe6c]
+  - CZ [8d9ccbb5]
+  - CZ🇨🇿 [842a259b]
+  - REALITY|CZ🇨🇿 [918adc04]
+  - '[CZ] | SOS | 2ms | ws [2137c968]'
+  - '[OpenRay] 🇨🇿 CZ-254 [25c41865]'
+  - 🇨🇿 | CZ | 561ms | 153652 | @SOSkeyNET [062ed2a2]
+  - 🔒 VL-WS-TLS 🇨🇿 CZ-194.87.11.56:8000 [c59ca084]
+rules:
+- MATCH,SCANNED-NODES

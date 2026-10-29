@@ -1,0 +1,533 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🇮🇹IT_10|992KB/s|R002-260618 [055bfa91]
+  port: 8090
+  server: 93.71.245.84
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- password: None
+  port: 443
+  server: 185.183.105.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  name: 🇮🇹IT_1|2.0MB/s [ecc102fc8a3a0ba8] [3889c91d]
+- name: 🇮🇹IT_24|1.2MB/s|R002-260618 [6c843d2a]
+  port: 443
+  server: 109.116.41.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_25|766KB/s|P002-260618 [b98e5352]
+  password: None
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_26|931KB/s|R002-260618 [6e4597b2]
+  port: 443
+  server: 185.183.105.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_27|1.6MB/s|K001-260618 [668514b1]
+  password: None
+  port: 443
+  server: 95.229.15.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_5|720KB/s|R002-260618 [d9cbdf62]
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_6|2.0MB/s|R002-260618 [167258dc]
+  port: 443
+  server: 94.177.163.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_7|919KB/s|R002-260618 [b9cf7993]
+  port: 443
+  server: 95.229.15.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_8|994KB/s|R002-260618 [fa4fe22d]
+  port: 443
+  server: 91.243.118.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇮🇹IT_13|1.8MB/s|R002-260618 [64eecf4c]
+  port: 1088
+  server: 212.77.75.25
+  type: socks5
+  udp: true
+- type: ss
+  name: ' SS-TCP-NA  IT-185.213.20.227:990 [16172e85]'
+  server: 185.213.20.227
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: ->IT+( [a068ce1c]
+  server: it5.taskflowhub.org
+  port: 2083
+  cipher: aes-256-gcm
+  password: 34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0=
+- type: ss
+  name: IT-01 [3ab164af]
+  server: 185.213.20.36
+  port: 20029
+  cipher: aes-256-gcm
+  password: X1QS0GPCK4N93YUL
+- type: ss
+  name: United+States+IT7 [6c8afc48]
+  server: 104.128.80.237
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1JQTTbpHfPso
+- type: ss
+  name: United+States+IT7 [5a569c84]
+  server: 184.170.213.204
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: dqlr7JCgDrOK
+- type: ss
+  name: '[6297][IT][0][SS][None][v2rayNG_Matsuri][2026-10-17][2026-10-28 02:49] [b248d1fd]'
+  server: 95.141.37.24
+  port: 18172
+  cipher: aes-128-gcm
+  password: b6af4bce5459c412a0d6dcdd6921259b
+- type: ss
+  name: 🇮🇹+IT+-+[github.com/youfoundamin] [1ca10e00]
+  server: 95.174.23.218
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: 🇮🇹+IT+-+[github.com/youfoundamin] [04860d6c]
+  server: 95.141.37.111
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 🇮🇹IT-193.168.175.56-0117 [0b1417ed]
+  server: 193.168.175.56
+  port: 14605
+  cipher: chacha20-ietf-poly1305
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_11|4.2MB/s|B007-260618 [d0bae6ec]
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_14|1.6MB/s|A004-260618 [3865b886]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_15|1.8MB/s|A004-260618 [183d6b03]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_16|2.3MB/s|A004-260618 [7fe42383]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_17|3.0MB/s|A004-260618 [7366371f]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_18|1.6MB/s|B007-260618 [4df1a1c1]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_19|1.5MB/s|B007-260618 [0e47c92a]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- type: ss
+  name: 🇮🇹IT_20|1.9MB/s|A004-260618 01 | 143ms [bb60986a]
+  server: 91.201.65.122
+  port: 9065
+  cipher: aes-256-cfb
+  password: PeHSHm5SqEjBuEXE
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_20|2.0MB/s|C001-260618 [463d6dab]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_21|2.3MB/s|B007-260618 [8ed7cbd3]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_22|3.8MB/s|B007-260618 [ee056caf]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_23|2.6MB/s|A004-260618 [30abaa59]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇮🇹IT_27|1.4MB/s|A004-260618 [2d02526e]
+  password: qYEN5HX4JKeVCdEC
+  port: 9039
+  server: 91.201.65.122
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.8MB/s|S001-260618 [5833b77e]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.164.175.81
+  type: ss
+  udp: true
+- type: ss
+  name: 🇮🇹IT_53|1.9MB/s|A004-260618 01 | 143ms [dc7e6b80]
+  server: 91.201.65.122
+  port: 9059
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+- type: ss
+  name: 🇮🇹IT_55|777KB/s|A004-260618 01 | 148ms [fe5de7ea]
+  server: 91.201.65.122
+  port: 9053
+  cipher: aes-256-cfb
+  password: SBM7R883jBmnqe6C
+- type: ss
+  name: 🇮🇹[openproxylist.com] ss-IT [17c4e240]
+  server: 212.102.54.45
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (10) [6c3cf8b40f997ee3] [5e655b0f]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (2) [4275da4a6d2782e9] [cea25a54]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (3) [ebcfe89ae2994bb3] [6e09de62]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (4) [1c0c47befcb067a4] [2c123f83]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (5) [7c2d0d95354a513e] [6caf5911]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (6) [2b29aba01e0a97d9] [35fbc8a7]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (7) [dc2533261ee798c8] [bfa4b9a1]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (8) [1d76ed3d9064bb28] [8c6907ce]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 (9) [2b092e3303ee4be1] [51c7826f]
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  name: 🇮🇹_IT_意大利 [8b800ff364423c9f] [fdf7ab8f]
+- type: trojan
+  name: IT [c8a1bfff]
+  server: 212.102.54.11
+  port: 43118
+  password: ypDt8RkT7J
+  tls: true
+  servername: tpmrq.phooeyunfold.com
+- type: trojan
+  name: IT 🇮🇹 | @Raydikalx | D5F9B6 | 125ms [22b310ff]
+  server: 91.193.5.121
+  port: 8443
+  password: Aimer
+  tls: true
+  servername: ngepz.ambercc.filegear-sg.me
+- type: vless
+  name: ' VL-WS-TLS  IT-158.180.231.216:443 [6a3e5ad1]'
+  server: 158.180.231.216
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  tls: true
+  encryption: none
+  servername: cg.ylks.xyz
+  network: ws
+  ws-opts:
+    path: /blue
+    headers:
+      Host: cg.ylks.xyz
+- type: vless
+  name: '>>@oneclickvpnkeys::IT [3fab30de]'
+  server: it-one.quiet-rogue.site
+  port: 443
+  uuid: 71cada65-d23e-418c-88e4-a06188d14689
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    short-id: ''
+  servername: it-one.quiet-rogue.site
+- type: vless
+  name: IT [5938edb1]
+  server: wwwwww.mohsen.com.it.studentcp.ir
+  port: 15615
+  uuid: 85d3ef5e-a053-c9d6-5c32-e535d38ad6c3
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 74g1eX2r4tNtYKLLBjdetBdrNRJ-zjpE89-ggFpTjDs
+    short-id: 8bf91d50ee48dfeb
+  client-fingerprint: chrome
+  servername: refersion.com
+- type: vless
+  name: 'Italy 🇮🇹 8 🇮🇹IT_1|1.9MB/s | 网盘搜宝: https://t.me/diskseeker [3677a3d0]'
+  server: 172.238.232.239
+  port: 32833
+  uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
+    short-id: a0a305ccc8e94aa8
+  client-fingerprint: chrome
+  servername: www.intel.com
+- type: vless
+  name: '[OpenRay] 🇮🇹IT-1 [7e3fa862]'
+  server: 147.45.51.171
+  port: 8443
+  uuid: f5e70ce3-cfb4-4df1-b25c-d19bfae627c0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: dPa581kev2x9-st7VQ-DTh3NjXlHJ2830YDySuI8n2U
+    short-id: e723d26df67888b9
+  client-fingerprint: firefox
+  servername: twitch.tv
+- type: vless
+  name: '🇮🇹 IT | VLESS | @freeconfigsplus #1 [fast] [01e03e93]'
+  server: 31.76.113.51
+  port: 443
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: 7a3f9e2b1c8d4f6a
+  client-fingerprint: chrome
+  servername: it.s3-cloud.xyz
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+  name: '🇮🇹[www.v2nodes.com] vless-IT-1... #2 [57fae1e661993faf] [ef53f217]'
+- type: vless
+  name: 🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443 [74d674b9]
+  server: 158.180.231.216
+  port: 443
+  uuid: 8d391797-01f4-4393-92d0-504c96ca4c29
+  tls: true
+  encryption: none
+  servername: pscresearch.faculty.ucdavis.edu
+  network: ws
+  ws-opts:
+    path: ws/?ed=2048
+    headers:
+      Host: ihvtcd6ybun.com
+- type: vless
+  name: 🔒 VL-WS-TLS 🇮🇹 IT-204.216.216.148:2053 [36553bdf]
+  server: 204.216.216.148
+  port: 2053
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  tls: true
+  encryption: none
+  servername: uxb.vs2024.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: uxb.vs2024.us.kg
+- type: vmess
+  name: 🔒 VM-TCP-NA 🇮🇹 IT-147.45.51.16:2098 [33a4a632]
+  server: 147.45.51.16
+  port: 2098
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+  alterId: 0
+  cipher: auto
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇮🇹IT_10|992KB/s|R002-260618 [055bfa91]
+  - 🇮🇹IT_1|2.0MB/s [ecc102fc8a3a0ba8] [3889c91d]
+  - 🇮🇹IT_24|1.2MB/s|R002-260618 [6c843d2a]
+  - 🇮🇹IT_25|766KB/s|P002-260618 [b98e5352]
+  - 🇮🇹IT_26|931KB/s|R002-260618 [6e4597b2]
+  - 🇮🇹IT_27|1.6MB/s|K001-260618 [668514b1]
+  - 🇮🇹IT_5|720KB/s|R002-260618 [d9cbdf62]
+  - 🇮🇹IT_6|2.0MB/s|R002-260618 [167258dc]
+  - 🇮🇹IT_7|919KB/s|R002-260618 [b9cf7993]
+  - 🇮🇹IT_8|994KB/s|R002-260618 [fa4fe22d]
+  - 🇮🇹IT_13|1.8MB/s|R002-260618 [64eecf4c]
+  - ' SS-TCP-NA  IT-185.213.20.227:990 [16172e85]'
+  - ->IT+( [a068ce1c]
+  - IT-01 [3ab164af]
+  - United+States+IT7 [6c8afc48]
+  - United+States+IT7 [5a569c84]
+  - '[6297][IT][0][SS][None][v2rayNG_Matsuri][2026-10-17][2026-10-28 02:49] [b248d1fd]'
+  - 🇮🇹+IT+-+[github.com/youfoundamin] [1ca10e00]
+  - 🇮🇹+IT+-+[github.com/youfoundamin] [04860d6c]
+  - 🇮🇹IT-193.168.175.56-0117 [0b1417ed]
+  - 🇮🇹IT_11|4.2MB/s|B007-260618 [d0bae6ec]
+  - 🇮🇹IT_14|1.6MB/s|A004-260618 [3865b886]
+  - 🇮🇹IT_15|1.8MB/s|A004-260618 [183d6b03]
+  - 🇮🇹IT_16|2.3MB/s|A004-260618 [7fe42383]
+  - 🇮🇹IT_17|3.0MB/s|A004-260618 [7366371f]
+  - 🇮🇹IT_18|1.6MB/s|B007-260618 [4df1a1c1]
+  - 🇮🇹IT_19|1.5MB/s|B007-260618 [0e47c92a]
+  - 🇮🇹IT_20|1.9MB/s|A004-260618 01 | 143ms [bb60986a]
+  - 🇮🇹IT_20|2.0MB/s|C001-260618 [463d6dab]
+  - 🇮🇹IT_21|2.3MB/s|B007-260618 [8ed7cbd3]
+  - 🇮🇹IT_22|3.8MB/s|B007-260618 [ee056caf]
+  - 🇮🇹IT_23|2.6MB/s|A004-260618 [30abaa59]
+  - 🇮🇹IT_27|1.4MB/s|A004-260618 [2d02526e]
+  - 🇮🇹IT_2|1.8MB/s|S001-260618 [5833b77e]
+  - 🇮🇹IT_53|1.9MB/s|A004-260618 01 | 143ms [dc7e6b80]
+  - 🇮🇹IT_55|777KB/s|A004-260618 01 | 148ms [fe5de7ea]
+  - 🇮🇹[openproxylist.com] ss-IT [17c4e240]
+  - 🇮🇹_IT_意大利 (10) [6c3cf8b40f997ee3] [5e655b0f]
+  - 🇮🇹_IT_意大利 (2) [4275da4a6d2782e9] [cea25a54]
+  - 🇮🇹_IT_意大利 (3) [ebcfe89ae2994bb3] [6e09de62]
+  - 🇮🇹_IT_意大利 (4) [1c0c47befcb067a4] [2c123f83]
+  - 🇮🇹_IT_意大利 (5) [7c2d0d95354a513e] [6caf5911]
+  - 🇮🇹_IT_意大利 (6) [2b29aba01e0a97d9] [35fbc8a7]
+  - 🇮🇹_IT_意大利 (7) [dc2533261ee798c8] [bfa4b9a1]
+  - 🇮🇹_IT_意大利 (8) [1d76ed3d9064bb28] [8c6907ce]
+  - 🇮🇹_IT_意大利 (9) [2b092e3303ee4be1] [51c7826f]
+  - 🇮🇹_IT_意大利 [8b800ff364423c9f] [fdf7ab8f]
+  - IT [c8a1bfff]
+  - IT 🇮🇹 | @Raydikalx | D5F9B6 | 125ms [22b310ff]
+  - ' VL-WS-TLS  IT-158.180.231.216:443 [6a3e5ad1]'
+  - '>>@oneclickvpnkeys::IT [3fab30de]'
+  - IT [5938edb1]
+  - 'Italy 🇮🇹 8 🇮🇹IT_1|1.9MB/s | 网盘搜宝: https://t.me/diskseeker [3677a3d0]'
+  - '[OpenRay] 🇮🇹IT-1 [7e3fa862]'
+  - '🇮🇹 IT | VLESS | @freeconfigsplus #1 [fast] [01e03e93]'
+  - '🇮🇹[www.v2nodes.com] vless-IT-1... #2 [57fae1e661993faf] [ef53f217]'
+  - 🔒 VL-WS-TLS 🇮🇹 IT-158.180.231.216:443 [74d674b9]
+  - 🔒 VL-WS-TLS 🇮🇹 IT-204.216.216.148:2053 [36553bdf]
+  - 🔒 VM-TCP-NA 🇮🇹 IT-147.45.51.16:2098 [33a4a632]
+rules:
+- MATCH,SCANNED-NODES

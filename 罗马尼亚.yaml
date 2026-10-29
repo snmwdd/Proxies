@@ -1,0 +1,1124 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🇷🇴RO_101|617KB/s|K001-260618 [e3375ca9]
+  password: None
+  port: 9443
+  server: 135.136.1.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_102|535KB/s|P002-260618 [4d501fb5]
+  password: None
+  port: 9443
+  server: 169.150.199.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_103|1.6MB/s|K001-260618 [3e87c726]
+  password: None
+  port: 9002
+  server: 193.176.84.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_104|1021KB/s|K001-260618 [cd1e31ad]
+  password: None
+  port: 443
+  server: 185.163.110.194
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_10|1.5MB/s|P002-260618 [b2a0cda5]
+  password: ''
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_11|1.3MB/s|P002-260618 [a6a85cc1]
+  password: None
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_13|1.9MB/s|P002-260618 [28800221]
+  password: None
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_14|1.5MB/s|R002-260618 [8a3268da]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: 193.176.84.39
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_15|1.7MB/s|P002-260618 [d3cd5a39]
+  password: None
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_16|1.7MB/s|Z001-260618 [79abf0c2]
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_17|256KB/s|P002-260618 [c4901b5f]
+  password: None
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_18|958KB/s|P002-260618 [0a7b8773]
+  password: None
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_19|1.9MB/s [b6f2eb06]
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_1|1.5MB/s|R002-260618 [c65aaa53]
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_20|1.2MB/s|P002-260618 [07241eb8]
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_21|1.6MB/s|P002-260618 [4a819159]
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_22|2.0MB/s|G001-260618 [22d029c0]
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_23|1.7MB/s|R002-260618 [a1103ffb]
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_24|1.3MB/s|G001-260618 [86083a36]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_25|1.3MB/s|P002-260618 [3f9ee5bc]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_26|1.7MB/s [3aa491f0]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_27|1.3MB/s|P002-260618 [745e023b]
+  password: None
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_28|2.0MB/s|P002-260618 [a8e46ad9]
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_29|1.8MB/s|P002-260618 [cece57d9]
+  password: None
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_2|2.0MB/s|R002-260618 [721b6cff]
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_30|1.5MB/s|R002-260618 [f8fb0515]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_31|2.0MB/s|R002-260618 [7d7eb628]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_32|1.9MB/s|R002-260618 [6f2ea36f]
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_33|2.0MB/s [d461c85b]
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_34|2.1MB/s|R002-260618 [28952af3]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_35|1.5MB/s|P002-260618 [ac920514]
+  password: ''
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_36|1.8MB/s|P002-260618 [1e4bf9c6]
+  password: None
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_37|2.0MB/s|G001-260618 [170ddd14]
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_38|1.6MB/s [1738cb09]
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_39|1.9MB/s|P002-260618 [a5e75755]
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_3|1.9MB/s [3362f239]
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_40|2.1MB/s|P002-260618 [15d901f1]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_41|672KB/s|R002-260618 [f2c93f9f]
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_42|1.4MB/s|R002-260618 [e3cacffb]
+  port: 9002
+  server: 193.176.84.29
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_43|833KB/s [c5080689]
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_44|2.0MB/s|R002-260618 [bef8f101]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_45|1021KB/s|P002-260618 [df4d881c]
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_46|1.7MB/s|Z001-260618 [c3325aa9]
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_47|1.2MB/s|P002-260618 [71621297]
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_48|1.3MB/s [0125537e]
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_49|1.6MB/s|R002-260618 [e445fc11]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_4|1.7MB/s|Z001-260618 [9d97cf0c]
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_50|853KB/s|R002-260618 [7112dd44]
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_51|1.6MB/s|P002-260618 [02df63db]
+  password: None
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_52|1.3MB/s|R002-260618 [c09401f5]
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_53|1.7MB/s|R002-260618 [c582a55e]
+  password: None
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_54|1.8MB/s|P002-260618 [e9135379]
+  password: None
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_55|1.4MB/s|R002-260618 [cbef5999]
+  password: None
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_56|1.4MB/s|R002-260618 [b0b4eae9]
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_57|2.0MB/s [51b1c437]
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_58|2.1MB/s [c180f418]
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_59|1.6MB/s|P002-260618 [f0034306]
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_5|1.6MB/s [bb6fe7ab]
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_60|1.3MB/s [5a90359e]
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_61|2.1MB/s|P002-260618 [67b492cf]
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_64|1.6MB/s|P002-260618 [61351d3c]
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_65|1.4MB/s|R002-260618 [a49b0afb]
+  password: None
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_66|1.7MB/s|P002-260618 [96ad36ab]
+  password: None
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_67|1.2MB/s [d693a608]
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_68|1.4MB/s|R002-260618 [7139ea68]
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_69|545KB/s [06489cf3]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_6|1.9MB/s|P002-260618 [68732257]
+  password: None
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_70|1.4MB/s|R002-260618 [31aa0468]
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_71|1.6MB/s|R002-260618 [cbc9525f]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_72|1.6MB/s|R002-260618 [86bcd07b]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: 193.176.84.35
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_73|1.4MB/s|R002-260618 [75df8bdc]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_74|1.8MB/s|R002-260618 [26b9e6a2]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  sni: 193.176.84.38
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_75|1.5MB/s|R002-260618 [8376ed41]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_76|1.5MB/s|R002-260618 [da03e882]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_77|1.8MB/s [194843d3]
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_78|1.7MB/s|P002-260618 [791a920b]
+  password: None
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_79|1.9MB/s|K001-260618 [ada8a99f]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_7|1.7MB/s|P002-260618 [aba11442]
+  password: None
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_80|2.1MB/s|R002-260618 [788320fd]
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_81|1.6MB/s|P002-260618 [927693c2]
+  password: None
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_82|749KB/s|P002-260618 [abed6e20]
+  password: None
+  port: 9002
+  server: 193.176.84.29
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_83|1.3MB/s [6fd5f993]
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_84|1.9MB/s [400c3aab]
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_85|1.2MB/s|P002-260618 [34a2c7d7]
+  password: ''
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_86|1.2MB/s|R002-260618 [d18dac5f]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_88|1.4MB/s|R002-260618 [62592473]
+  port: 9002
+  server: 193.176.84.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_8|1.5MB/s [0a3cfa3f]
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_90|973KB/s|R002-260618 [88784180]
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_97|2.0MB/s|P002-260618 [380a1448]
+  password: None
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_98|1.9MB/s|K001-260618 [ad8f9d1c]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_99|1.5MB/s|P002-260618 [97aea95f]
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_9|1.5MB/s|R002-260618 [541a0965]
+  password: 'null'
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: 193.176.84.33
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: ' SS-TCP-NA  RO-194.14.217.115:989 [98a3a39c]'
+  server: 194.14.217.115
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: RO🇷🇴 | 193.29.12.15-8443 | 123.49ms [b4fccb6e]
+  server: 193.29.12.15
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: GTbV8LasBw4b8M0vEIrzYv
+- type: ss
+  name: '[OpenRay] 🇷🇴 RO-109 [073ea408]'
+  server: 80.97.27.106
+  port: 117
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- type: ss
+  name: '[OpenRay] 🇷🇴 RO-110 [077c3ce1]'
+  server: 80.97.27.106
+  port: 114
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- type: ss
+  name: '[OpenRay] 🇷🇴 RO-113 [4652955d]'
+  server: 80.97.27.52
+  port: 116
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- type: ss
+  name: '[OpenRay] 🇷🇴 RO-114 [b5139007]'
+  server: 80.97.27.52
+  port: 113
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- type: ss
+  name: '[OpenRay] 🇷🇴 RO-82 [5a146f3e]'
+  server: 82.152.132.103
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: 9FQFbgD0NCg68qIZbnFH46MlwQPbzl84
+- type: ss
+  name: 🇷🇴 Romania (RO) » Oneprovider.com » @Geek_Spot [00f91e34]
+  server: 185.126.237.38
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: 🇷🇴RO-185.126.237.38-0282 | 140ms [9e0c599e]
+  server: 185.126.237.38
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴RO_91|195KB/s|A004-260618 [12d10667]
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: 154.46.31.106
+  type: ss
+  name: 🇷🇴[www.v2nodes.com] ss-RO-1298... [8d15e8c36379206d] [ba8816e5]
+- cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
+  port: 64546
+  server: 194.68.44.42
+  type: ss
+  name: 🇷🇴[www.v2nodes.com] ss-RO-1595... [23441bd376c53499] [355f0158]
+- type: trojan
+  name: RO 🇷🇴 | @Raydikalx | 928FAD | 145ms [7ce276f1]
+  server: 185.247.224.136
+  port: 443
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  tls: true
+  servername: 185.247.224.136
+- type: trojan
+  name: RO🇷🇴 [a7897722]
+  server: it1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  tls: true
+- type: vless
+  name: 2|🌀7-RO |  5.0MB/s [7e8c396d]
+  server: bsuqian01.dynu.net
+  port: 17930
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 'Moldova 🇲🇩 14 🇷🇴RO_4|1.1MB/s | 网盘搜宝: https://t.me/diskseeker [935419d1]'
+  server: 85.120.252.15
+  port: 443
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  client-fingerprint: chrome
+  servername: mold.freeinternat.com
+- type: vless
+  name: '[24678][RO][0][VLESS][None][Outline_Vpn][2026-06-11][2026-08-16 [5e814ddf]'
+  server: 77.74.123.170
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: cdn3-87.vk-cdnvideo.com
+- type: vless
+  name: '[2905][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [fde1627c]'
+  server: 95.133.247.18
+  port: 8443
+  uuid: 3c95901c-10ce-4588-9c23-7684a09839a3
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: dJqaQL_kSl2DFR7Dx3igZXhPuw1uW9d7XejtyYSvkGg
+    short-id: aaa2ba7d45c12957
+  client-fingerprint: chrome
+  servername: fr.atlanta-api.com
+- type: vless
+  name: '[3196][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [26df51bd]'
+  server: 93.114.194.131
+  port: 443
+  uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s
+    short-id: 247fd6dab1a34a48
+  client-fingerprint: chrome
+  servername: web.max.ru
+- type: vless
+  name: '[6252][RO][0][VLESS][None][Capital_NET][2023-08-21][2026-10-28 [50a570d3]'
+  server: 45.12.31.143
+  port: 8443
+  uuid: 7de03ee8-663b-4384-9395-0033ab6cec29
+  tls: false
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- type: vless
+  name: '[6661][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [fc996db1]'
+  server: 109.104.106.149
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: a_v5l6R-rpVGlENLeONW4sz-GdRwIoDqISOWXGov8nw
+    short-id: 87709fed663228e5
+  client-fingerprint: chrome
+  servername: d3-ro.cloud-cdn.xyz
+- type: vless
+  name: '[OpenRay] 🇷🇴 RO-45 [991f3be8]'
+  server: 109.104.106.51
+  port: 443
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: ro.cdn-global.pro
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- type: vless
+  name: '[OpenRay] 🇷🇴 RO-79 [4f81c478]'
+  server: 82.117.255.26
+  port: 443
+  uuid: ee9e2135-c444-4adb-aaa5-a0efa1a74fdf
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: gMcijHp0RNZF6l556BaOxu1bKNIFON0_JjXhJzpioAk
+    short-id: b395baf965957d93
+  client-fingerprint: firefox
+  servername: www.cloudflare.com
+- type: vless
+  name: 🇷🇴RO-🚀@VPNine1 [fed04bef]
+  server: 162.249.126.76
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: cdn3-87.vk-cdnvideo.com
+- name: 🇷🇴RO_105|2.3MB/s|A004-260618 [c8f22673]
+  network: tcp
+  port: 2052
+  server: 155.117.5.208
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  packet-encoding: xudp
+- name: 🇷🇴RO_106|2.3MB/s|A004-260618 [9913cf37]
+  network: tcp
+  port: 2052
+  server: 178.83.45.226
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  packet-encoding: xudp
+- name: 🇷🇴RO_107|2.2MB/s|A004-260618 [a4bb2266]
+  network: raw
+  port: 2052
+  server: 178.83.45.226
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  packet-encoding: xudp
+- type: vless
+  name: 🇷🇴RO_78|541KB/s|B007-260618 01 [0a58feb3]
+  server: 193.163.203.253
+  port: 443
+  uuid: 441afe11-a180-4516-bb80-80a8a6b38705
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
+    short-id: 5ee019e02e6ed99a
+  client-fingerprint: chrome
+  servername: yandex.ru
+- name: 🇷🇴RO_89|2.8MB/s|A004-260618 [3d3c2b30]
+  network: raw
+  port: 2052
+  server: edge10.cyrionflare.com
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  packet-encoding: xudp
+- name: 🇷🇴RO_94|2.8MB/s|P002-260618 [ab7f49ca]
+  port: 2052
+  server: edge10.cyrionflare.com
+  tls: false
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  network: tcp
+- name: 🇷🇴RO_96|2.8MB/s|A004-260618 [2f88b82e]
+  network: tcp
+  port: 2052
+  server: edge10.cyrionflare.com
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  packet-encoding: xudp
+  servername: edge10.cyrionflare.com
+- type: vless
+  name: '🇷🇴[www.v2nodes.com] vless-RO-1... #1 [79967e70]'
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  tls: true
+  encryption: none
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇷🇴RO_101|617KB/s|K001-260618 [e3375ca9]
+  - 🇷🇴RO_102|535KB/s|P002-260618 [4d501fb5]
+  - 🇷🇴RO_103|1.6MB/s|K001-260618 [3e87c726]
+  - 🇷🇴RO_104|1021KB/s|K001-260618 [cd1e31ad]
+  - 🇷🇴RO_10|1.5MB/s|P002-260618 [b2a0cda5]
+  - 🇷🇴RO_11|1.3MB/s|P002-260618 [a6a85cc1]
+  - 🇷🇴RO_13|1.9MB/s|P002-260618 [28800221]
+  - 🇷🇴RO_14|1.5MB/s|R002-260618 [8a3268da]
+  - 🇷🇴RO_15|1.7MB/s|P002-260618 [d3cd5a39]
+  - 🇷🇴RO_16|1.7MB/s|Z001-260618 [79abf0c2]
+  - 🇷🇴RO_17|256KB/s|P002-260618 [c4901b5f]
+  - 🇷🇴RO_18|958KB/s|P002-260618 [0a7b8773]
+  - 🇷🇴RO_19|1.9MB/s [b6f2eb06]
+  - 🇷🇴RO_1|1.5MB/s|R002-260618 [c65aaa53]
+  - 🇷🇴RO_20|1.2MB/s|P002-260618 [07241eb8]
+  - 🇷🇴RO_21|1.6MB/s|P002-260618 [4a819159]
+  - 🇷🇴RO_22|2.0MB/s|G001-260618 [22d029c0]
+  - 🇷🇴RO_23|1.7MB/s|R002-260618 [a1103ffb]
+  - 🇷🇴RO_24|1.3MB/s|G001-260618 [86083a36]
+  - 🇷🇴RO_25|1.3MB/s|P002-260618 [3f9ee5bc]
+  - 🇷🇴RO_26|1.7MB/s [3aa491f0]
+  - 🇷🇴RO_27|1.3MB/s|P002-260618 [745e023b]
+  - 🇷🇴RO_28|2.0MB/s|P002-260618 [a8e46ad9]
+  - 🇷🇴RO_29|1.8MB/s|P002-260618 [cece57d9]
+  - 🇷🇴RO_2|2.0MB/s|R002-260618 [721b6cff]
+  - 🇷🇴RO_30|1.5MB/s|R002-260618 [f8fb0515]
+  - 🇷🇴RO_31|2.0MB/s|R002-260618 [7d7eb628]
+  - 🇷🇴RO_32|1.9MB/s|R002-260618 [6f2ea36f]
+  - 🇷🇴RO_33|2.0MB/s [d461c85b]
+  - 🇷🇴RO_34|2.1MB/s|R002-260618 [28952af3]
+  - 🇷🇴RO_35|1.5MB/s|P002-260618 [ac920514]
+  - 🇷🇴RO_36|1.8MB/s|P002-260618 [1e4bf9c6]
+  - 🇷🇴RO_37|2.0MB/s|G001-260618 [170ddd14]
+  - 🇷🇴RO_38|1.6MB/s [1738cb09]
+  - 🇷🇴RO_39|1.9MB/s|P002-260618 [a5e75755]
+  - 🇷🇴RO_3|1.9MB/s [3362f239]
+  - 🇷🇴RO_40|2.1MB/s|P002-260618 [15d901f1]
+  - 🇷🇴RO_41|672KB/s|R002-260618 [f2c93f9f]
+  - 🇷🇴RO_42|1.4MB/s|R002-260618 [e3cacffb]
+  - 🇷🇴RO_43|833KB/s [c5080689]
+  - 🇷🇴RO_44|2.0MB/s|R002-260618 [bef8f101]
+  - 🇷🇴RO_45|1021KB/s|P002-260618 [df4d881c]
+  - 🇷🇴RO_46|1.7MB/s|Z001-260618 [c3325aa9]
+  - 🇷🇴RO_47|1.2MB/s|P002-260618 [71621297]
+  - 🇷🇴RO_48|1.3MB/s [0125537e]
+  - 🇷🇴RO_49|1.6MB/s|R002-260618 [e445fc11]
+  - 🇷🇴RO_4|1.7MB/s|Z001-260618 [9d97cf0c]
+  - 🇷🇴RO_50|853KB/s|R002-260618 [7112dd44]
+  - 🇷🇴RO_51|1.6MB/s|P002-260618 [02df63db]
+  - 🇷🇴RO_52|1.3MB/s|R002-260618 [c09401f5]
+  - 🇷🇴RO_53|1.7MB/s|R002-260618 [c582a55e]
+  - 🇷🇴RO_54|1.8MB/s|P002-260618 [e9135379]
+  - 🇷🇴RO_55|1.4MB/s|R002-260618 [cbef5999]
+  - 🇷🇴RO_56|1.4MB/s|R002-260618 [b0b4eae9]
+  - 🇷🇴RO_57|2.0MB/s [51b1c437]
+  - 🇷🇴RO_58|2.1MB/s [c180f418]
+  - 🇷🇴RO_59|1.6MB/s|P002-260618 [f0034306]
+  - 🇷🇴RO_5|1.6MB/s [bb6fe7ab]
+  - 🇷🇴RO_60|1.3MB/s [5a90359e]
+  - 🇷🇴RO_61|2.1MB/s|P002-260618 [67b492cf]
+  - 🇷🇴RO_64|1.6MB/s|P002-260618 [61351d3c]
+  - 🇷🇴RO_65|1.4MB/s|R002-260618 [a49b0afb]
+  - 🇷🇴RO_66|1.7MB/s|P002-260618 [96ad36ab]
+  - 🇷🇴RO_67|1.2MB/s [d693a608]
+  - 🇷🇴RO_68|1.4MB/s|R002-260618 [7139ea68]
+  - 🇷🇴RO_69|545KB/s [06489cf3]
+  - 🇷🇴RO_6|1.9MB/s|P002-260618 [68732257]
+  - 🇷🇴RO_70|1.4MB/s|R002-260618 [31aa0468]
+  - 🇷🇴RO_71|1.6MB/s|R002-260618 [cbc9525f]
+  - 🇷🇴RO_72|1.6MB/s|R002-260618 [86bcd07b]
+  - 🇷🇴RO_73|1.4MB/s|R002-260618 [75df8bdc]
+  - 🇷🇴RO_74|1.8MB/s|R002-260618 [26b9e6a2]
+  - 🇷🇴RO_75|1.5MB/s|R002-260618 [8376ed41]
+  - 🇷🇴RO_76|1.5MB/s|R002-260618 [da03e882]
+  - 🇷🇴RO_77|1.8MB/s [194843d3]
+  - 🇷🇴RO_78|1.7MB/s|P002-260618 [791a920b]
+  - 🇷🇴RO_79|1.9MB/s|K001-260618 [ada8a99f]
+  - 🇷🇴RO_7|1.7MB/s|P002-260618 [aba11442]
+  - 🇷🇴RO_80|2.1MB/s|R002-260618 [788320fd]
+  - 🇷🇴RO_81|1.6MB/s|P002-260618 [927693c2]
+  - 🇷🇴RO_82|749KB/s|P002-260618 [abed6e20]
+  - 🇷🇴RO_83|1.3MB/s [6fd5f993]
+  - 🇷🇴RO_84|1.9MB/s [400c3aab]
+  - 🇷🇴RO_85|1.2MB/s|P002-260618 [34a2c7d7]
+  - 🇷🇴RO_86|1.2MB/s|R002-260618 [d18dac5f]
+  - 🇷🇴RO_88|1.4MB/s|R002-260618 [62592473]
+  - 🇷🇴RO_8|1.5MB/s [0a3cfa3f]
+  - 🇷🇴RO_90|973KB/s|R002-260618 [88784180]
+  - 🇷🇴RO_97|2.0MB/s|P002-260618 [380a1448]
+  - 🇷🇴RO_98|1.9MB/s|K001-260618 [ad8f9d1c]
+  - 🇷🇴RO_99|1.5MB/s|P002-260618 [97aea95f]
+  - 🇷🇴RO_9|1.5MB/s|R002-260618 [541a0965]
+  - ' SS-TCP-NA  RO-194.14.217.115:989 [98a3a39c]'
+  - RO🇷🇴 | 193.29.12.15-8443 | 123.49ms [b4fccb6e]
+  - '[OpenRay] 🇷🇴 RO-109 [073ea408]'
+  - '[OpenRay] 🇷🇴 RO-110 [077c3ce1]'
+  - '[OpenRay] 🇷🇴 RO-113 [4652955d]'
+  - '[OpenRay] 🇷🇴 RO-114 [b5139007]'
+  - '[OpenRay] 🇷🇴 RO-82 [5a146f3e]'
+  - 🇷🇴 Romania (RO) » Oneprovider.com » @Geek_Spot [00f91e34]
+  - 🇷🇴RO-185.126.237.38-0282 | 140ms [9e0c599e]
+  - 🇷🇴RO_91|195KB/s|A004-260618 [12d10667]
+  - 🇷🇴[www.v2nodes.com] ss-RO-1298... [8d15e8c36379206d] [ba8816e5]
+  - 🇷🇴[www.v2nodes.com] ss-RO-1595... [23441bd376c53499] [355f0158]
+  - RO 🇷🇴 | @Raydikalx | 928FAD | 145ms [7ce276f1]
+  - RO🇷🇴 [a7897722]
+  - 2|🌀7-RO |  5.0MB/s [7e8c396d]
+  - 'Moldova 🇲🇩 14 🇷🇴RO_4|1.1MB/s | 网盘搜宝: https://t.me/diskseeker [935419d1]'
+  - '[24678][RO][0][VLESS][None][Outline_Vpn][2026-06-11][2026-08-16 [5e814ddf]'
+  - '[2905][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [fde1627c]'
+  - '[3196][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-08-16][ [26df51bd]'
+  - '[6252][RO][0][VLESS][None][Capital_NET][2023-08-21][2026-10-28 [50a570d3]'
+  - '[6661][RO][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [fc996db1]'
+  - '[OpenRay] 🇷🇴 RO-45 [991f3be8]'
+  - '[OpenRay] 🇷🇴 RO-79 [4f81c478]'
+  - 🇷🇴RO-🚀@VPNine1 [fed04bef]
+  - 🇷🇴RO_105|2.3MB/s|A004-260618 [c8f22673]
+  - 🇷🇴RO_106|2.3MB/s|A004-260618 [9913cf37]
+  - 🇷🇴RO_107|2.2MB/s|A004-260618 [a4bb2266]
+  - 🇷🇴RO_78|541KB/s|B007-260618 01 [0a58feb3]
+  - 🇷🇴RO_89|2.8MB/s|A004-260618 [3d3c2b30]
+  - 🇷🇴RO_94|2.8MB/s|P002-260618 [ab7f49ca]
+  - 🇷🇴RO_96|2.8MB/s|A004-260618 [2f88b82e]
+  - '🇷🇴[www.v2nodes.com] vless-RO-1... #1 [79967e70]'
+rules:
+- MATCH,SCANNED-NODES

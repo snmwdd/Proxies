@@ -1,0 +1,1693 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🇦🇺AU_1|353KB/s|P002-260618 [2809b9de]
+  password: None
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇦🇺AU_1|422KB/s|R002-260618 [f0d6ce6b]
+  password: None
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇦🇺AU_2|405KB/s|R002-260618 [e912b1b2]
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇦🇺AU_7|431KB/s|R002-260618 [43311e6e]
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: 0|🇦🇺澳大利亚 01 | 1x AU [9ac224af]
+  server: free.2apzhfa.xyz
+  port: 31411
+  cipher: chacha20-ietf-poly1305
+  password: 295612f0-072a-42cd-be02-722f4f9389cf
+- type: ss
+  name: 1|🇦🇺 澳大利亚 01 | 1x AU [f75d3963]
+  server: free.2weradf.xyz
+  port: 36411
+  cipher: chacha20-ietf-poly1305
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+- type: ss
+  name: sshOcean-au01 [b27dce8a]
+  server: 139.99.170.241
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: ZWFmZ
+- type: ss
+  name: sshOcean-au01.cloak [4a6a5f1e]
+  server: 139.99.170.241
+  port: 8009
+  cipher: chacha20-ietf-poly1305
+  password: ZWFmZ
+- type: ss
+  name: sshOcean-au01.obfs_http [b1a6febe]
+  server: 139.99.170.241
+  port: 8139
+  cipher: chacha20-ietf-poly1305
+  password: ZWFmZ
+- type: ss
+  name: sshOcean-au01.obfs_tls [a8d8b737]
+  server: 139.99.170.241
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: ZWFmZ
+- type: ss
+  name: 🇦🇺 [70a96eb6]
+  server: 3.27.212.11
+  port: 80
+  cipher: aes-256-gcm
+  password: dada1203
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 103.75.119.144:20021 [06ce3519]
+  server: 103.75.119.144
+  port: 20021
+  cipher: aes-256-gcm
+  password: DBLW5GRS7NETPZRQ
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:1443 [c5074439]
+  server: 139.99.171.83
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: Njg1Y
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:8009 [cf16c414]
+  server: 139.99.171.83
+  port: 8009
+  cipher: chacha20-ietf-poly1305
+  password: Njg1Y
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:8139 [864296bc]
+  server: 139.99.171.83
+  port: 8139
+  cipher: chacha20-ietf-poly1305
+  password: Njg1Y
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:8388 [2e6702eb]
+  server: 139.99.171.83
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: Njg1Y
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 143.244.62.106:989 [854022e4]
+  server: 143.244.62.106
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 154.26.155.172:443 [eb241442]
+  server: 154.26.155.172
+  port: 443
+  cipher: aes-256-gcm
+  password: SL4vzcvhBHhTWivD
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 154.26.155.172:80 [1e379dfd]
+  server: 154.26.155.172
+  port: 80
+  cipher: aes-256-gcm
+  password: SL4vzcvhBHhTWivD
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 170.64.229.134:6223 [52464fbd]
+  server: 170.64.229.134
+  port: 6223
+  cipher: chacha20-ietf-poly1305
+  password: JyXBV4G6PIin7QcgG6lcwD
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 172.105.180.227:6679 [bca3e511]
+  server: 172.105.180.227
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 172.105.180.227:8080 [1757e94f]
+  server: 172.105.180.227
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 🇦🇺 Australia - Sydney | 180.149.228.179:49514 [83ee1e56]
+  server: 180.149.228.179
+  port: 49514
+  cipher: aes-256-gcm
+  password: dpGjA4GkzV28QPDYzEp94cTe
+- type: ss
+  name: 🇦🇺 Australia - Unknown | 160.187.111.61:40011 [4b7f3e76]
+  server: 160.187.111.61
+  port: 40011
+  cipher: chacha20-ietf-poly1305
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+- type: ss
+  name: 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB [635ee3ca]
+  server: gy.linghun3.xyz
+  port: 40069
+  cipher: aes-128-gcm
+  password: c17a100c-c816-47a9-9cc6-ab06aacc11b7
+- type: ss
+  name: 🇦🇺 [OpenRay] 🇦🇺 AU-15 [74b5887a]
+  server: 46.250.241.55
+  port: 45720
+  cipher: chacha20-ietf-poly1305
+  password: c90d63dc7a6203af
+- type: ss
+  name: 🇦🇺 🇦🇺 AU | 🔒 SS | @free4allvpn [4] [bdf35418]
+  server: 45.79.238.56
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: O9NPFK9063YZyrN1vm9bFL
+- type: ss
+  name: 🇦🇺 🇦🇺 Australia - NA 🌏 SS-TCP-NA 4⃣ [f68143dd]
+  server: 82.97.242.53
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: xSsJpvwY6xbqJ1R2cxZCmay5qfa8JbcQ
+- type: ss
+  name: 🇦🇺 🇦🇺 中国-澳大利亚 IPLC 悉尼 A02-136 [44bbc228]
+  server: au02.fjk.wtf
+  port: 19743
+  cipher: rc4-md5
+  password: 9hBa1m
+- type: ss
+  name: 🇦🇺 🇦🇺 澳大利亚原生ip [d7ee1548]
+  server: dfes.bcymanuscript.top
+  port: 38312
+  cipher: aes-128-gcm
+  password: 81994d2f-8233-4af4-96ba-4c3063465536
+- type: ss
+  name: 🇦🇺 🇦🇺[openproxylist.com] ss-AU [f6c38c7e]
+  server: 45.15.185.70
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- type: ss
+  name: 🇦🇺AU-45.79.238.129-7671 | 174ms [2fd86361]
+  server: 45.79.238.129
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: YUWX6COLZYmaHlUGiKwDaN
+- type: ss
+  name: 🇦🇺AU-95.111.222.113-0418 [661e3334]
+  server: 95.111.222.113
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
+- type: ss
+  name: 👉🆔@v2ray_configs_pool📡🇦🇺®️Australia©️Port Melbourne🅿️ping:295.02ms [f3c77c4a]
+  server: 67.219.106.119
+  port: 26286
+  cipher: chacha20-ietf-poly1305
+  password: xfscSDcb-SeEqqRb.omzVGgVgNpXh3bA1u
+- type: trojan
+  name: :澳大利亚-trojan-jgwxn4.gaox.ml:443-可用-中转:152.67.98.30-不支持Netflix [4be750dd]
+  server: jgwxn4.gaox.ml
+  port: 443
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  tls: true
+- type: trojan
+  name: '>>@v2nodes::AU [2c14b018]'
+  server: big-bonefish.rooster465.autos
+  port: 443
+  password: OD90375861
+  tls: true
+  servername: big-bonefish.rooster465.autos
+- type: trojan
+  name: '>>@v2nodes::AU [40f8a0e2]'
+  server: stirring-dane.rooster465.autos
+  port: 443
+  password: XG59623478
+  tls: true
+  servername: stirring-dane.rooster465.autos
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 241968 | 233ms [3b23593a]
+  server: au-1.tr202613.com
+  port: 443
+  password: 2ni2H9zUKdDCjREL8Z
+  tls: true
+  servername: au-1.tr202613.com
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 270EFC | 173ms [d5c34f46]
+  server: 193.187.119.41
+  port: 443
+  password: owreRY1bmquS1WcYN2
+  tls: true
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 37797E | 197ms [bb8e1cde]
+  server: au-3.tr202604.com
+  port: 443
+  password: q6UYkw9nUn6MYZz8Sp
+  tls: true
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 8A0C09 | 49ms [c06b9871]
+  server: 103.224.212.217
+  port: 443
+  password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
+  tls: true
+  servername: dl.kgvn.garenanow.com
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 910E67 | 173ms [6464bb46]
+  server: 103.106.231.55
+  port: 443
+  password: '3828095943467868160'
+  tls: true
+  servername: closing-longhorn.dolphin109.quest
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 9E1839 | 231ms [b60dbb11]
+  server: au-2.tr202604.com
+  port: 443
+  password: q6UYkw9nUn6MYZz8Sp
+  tls: true
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | 9F2B8A | 114ms [b6a762bb]
+  server: scottie.golfland.club
+  port: 443
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  tls: true
+- type: trojan
+  name: AU 🇦🇺 | @Raydikalx | C070B0 | 254ms [861ab869]
+  server: au-3.tr202605.com
+  port: 443
+  password: owreRY1bmquS1WcYN2
+  tls: true
+- type: trojan
+  name: AU🇦🇺 [8963805f]
+  server: 23.106.32.171
+  port: 443
+  password: F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT
+  tls: true
+  servername: scarily.golfland.club
+- type: trojan
+  name: Relay_🇦🇺AU-🇦🇺AU_79 [0bdb971f]
+  server: jgwxn2.gaox.ml
+  port: 443
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  tls: true
+- type: trojan
+  name: '[3021][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [9bd6ce57]'
+  server: 87.121.33.162
+  port: 443
+  password: AE62539071
+  tls: true
+  servername: together-dingo.rooster465.autos
+- type: trojan
+  name: '[3101][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [60e3c945]'
+  server: darling-mutt.rooster465.autos
+  port: 443
+  password: AE62539071
+  tls: true
+- type: trojan
+  name: '[449][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [44938822]'
+  server: mel12.yukiss.eu.org
+  port: 18818
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  tls: true
+- type: trojan
+  name: '[450][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [1b85b399]'
+  server: syd14.yukiss.eu.org
+  port: 18818
+  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+  tls: true
+- type: trojan
+  name: '[921][AU][0][TROJAN][None][mftizi][2024-07-17][2026-10-28 02:49] | 388 [b10b31cc]'
+  server: ct.cfyun.top
+  port: 443
+  password: c5110090-c3a2-429e-b9b8-072b6535be1b
+  tls: true
+- type: trojan
+  name: '[OpenRay] 🇦🇺AU-6 [f981601f]'
+  server: wanted-marmoset.rooster465.autos
+  port: 443
+  password: AE62539071
+  tls: true
+- type: trojan
+  name: '[OpenRay] 🇦🇺AU-7 [b24ccfe2]'
+  server: concise-buck.rooster465.autos
+  port: 443
+  password: XG59623478
+  tls: true
+- type: trojan
+  name: 澳大利亚_0816001 [bd45c9d9]
+  server: wanted-marmoset.rooster465.autos
+  port: 443
+  password: AE62539071
+  tls: true
+  servername: wanted-marmoset.rooster465.autos
+- type: trojan
+  name: 澳大利亚_0816006 [2ecdb664]
+  server: notdirect.howhealthyistoomajreally.homes
+  port: 443
+  password: e35026da-e985-49ca-b43b-276062a535a6
+  tls: true
+  servername: notdirect.howhealthyistoomajreally.homes
+- type: trojan
+  name: 澳大利亚_0816007 [91d6d5fa]
+  server: cnamemt.ciscocdn1.live
+  port: 443
+  password: 4d706727-996f-4427-930d-60f3bd414cf9
+  tls: true
+  servername: c2mt.ciscocdn1.live
+- type: trojan
+  name: 澳大利亚_0816008 [2e00755f]
+  server: cnamemk.ciscocdn1.live
+  port: 443
+  password: 4d706727-996f-4427-930d-60f3bd414cf9
+  tls: true
+  servername: c2mk.ciscocdn1.live
+- type: trojan
+  name: 澳大利亚_0816009 [e3981ffb]
+  server: cnamemc.ciscocdn1.live
+  port: 443
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  tls: true
+  servername: c3mc.ciscocdn1.live
+- type: trojan
+  name: 🇦🇺 Australia - Bungarribee | 140.238.205.173:443 [e0502c8a]
+  server: 140.238.205.173
+  port: 443
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  tls: true
+  servername: jamnews.ir
+- type: trojan
+  name: 🇦🇺 Australia - Melbourne | 161.33.76.218:8443 [82132aae]
+  server: 161.33.76.218
+  port: 8443
+  password: '521314'
+  tls: true
+  servername: tjplay.lxdxo.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+- type: trojan
+  name: 🇦🇺 Australia - Sydney | 103.43.75.230:13536 [d8ecd14c]
+  server: 103.43.75.230
+  port: 13536
+  password: S40Vr.vnDP2BsCKF
+  tls: true
+  servername: smartphone.angrypiano.click
+- type: trojan
+  name: 🇦🇺 Australia - Sydney | 13.210.76.227:443 [a01f17ef]
+  server: 13.210.76.227
+  port: 443
+  password: xxoo
+  tls: true
+- type: trojan
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:2053 [82b8e154]
+  server: 139.99.171.83
+  port: 2053
+  password: 06540774-e9b3-4e1c-8e82-4f58e9d514d5
+  tls: true
+  servername: uplod.ir
+- type: trojan
+  name: 🇦🇺 Australia - Sydney | 139.99.171.83:443 [b1bae1c6]
+  server: 139.99.171.83
+  port: 443
+  password: 06540774-e9b3-4e1c-8e82-4f58e9d514d5
+  tls: true
+  servername: uplod.ir
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 139.99.171.83
+- type: trojan
+  name: 🇦🇺 Australia - Sydney | 170.64.132.131:8080 [dd80cf27]
+  server: 170.64.132.131
+  port: 8080
+  password: FR8IHksUYg
+  tls: true
+- type: trojan
+  name: 🇦🇺 Australia - Unknown | 103.169.142.178:2096 [78143a2a]
+  server: 103.169.142.178
+  port: 2096
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  tls: true
+  servername: vle.amclubdns.dpdns.org
+- type: trojan
+  name: 🇦🇺 Australia - Unknown | 103.169.142.216:2096 [515d2704]
+  server: 103.169.142.216
+  port: 2096
+  password: ttfang
+  tls: true
+  servername: ttfang.fange.me
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳
+    headers:
+      Host: 103.169.142.216
+- type: trojan
+  name: 🇦🇺 Australia - Unknown | 103.224.212.210:443 [1151255b]
+  server: 103.224.212.210
+  port: 443
+  password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
+  tls: true
+  servername: c3mc.ciscocdn1.live
+  network: ws
+  ws-opts:
+    path: /ywQ9KSLI4ZBm9wOAXUaN
+    headers:
+      Host: c3mc.ciscocdn1.live
+- type: trojan
+  name: 🇦🇺 Australia - Unknown | 192.65.217.178:2096 [6b6b83ac]
+  server: 192.65.217.178
+  port: 2096
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  tls: true
+  servername: vle.amclubdns.dpdns.org
+- type: trojan
+  name: 🇦🇺 | @TFMTProto [334ce489]
+  server: 45.63.30.142
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: connectwithemployerstohireyouridealteam.com
+- type: trojan
+  name: 🇦🇺 🇦🇺 Australia - NA 🌏 TR-WS-TLS 4⃣ [bfd1edfd]
+  server: 192.65.217.195
+  port: 2096
+  password: slch2024
+  tls: true
+  servername: ocost-dy.wmlefl.cc
+- type: trojan
+  name: 🇦🇺AU-103.224.212.210-7480 | 200ms [53884bab]
+  server: cnamemk.ciscocdn1.live
+  port: 443
+  password: 4d706727-996f-4427-930d-60f3bd414cf9
+  tls: true
+  servername: c2mk.ciscocdn1.live
+  network: ws
+  ws-opts:
+    path: /rDCYQta83d0oPABKBhcIX
+    headers:
+      Host: cnamemk.ciscocdn1.live
+- type: trojan
+  name: 🇦🇺AU-103.224.212.211-0743 | 141ms [494b7267]
+  server: 60.72img.xyz
+  port: 443
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  tls: true
+- type: trojan
+  name: 🇦🇺AU-82.117.225.212-0183 [e05adb45]
+  server: true-pony.rooster465.autos
+  port: 443
+  password: PD07395842
+  tls: true
+- type: trojan
+  name: 🇦🇺AU-82.117.225.216-0220 [1e4b4ebe]
+  server: 82.117.225.216
+  port: 443
+  password: XG59623478
+  tls: true
+  servername: concise-buck.rooster465.autos
+- type: trojan
+  name: 🇦🇺AU-82.117.225.56-0182 [55216995]
+  server: 82.117.225.56
+  port: 443
+  password: XG59623478
+  tls: true
+  servername: stirring-dane.rooster465.autos
+- type: trojan
+  name: 🇦🇺AU-87.121.33.171-0254 [5623a0ef]
+  server: 87.121.33.171
+  port: 443
+  password: OD90375861
+  tls: true
+  servername: selected-bison.rooster465.autos
+- client-fingerprint: chrome
+  name: 🇦🇺AU_11|434KB/s|A004-260618 [7c277d9a]
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: au.tronsg.com
+  skip-cert-verify: true
+  sni: au.tronsg.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇦🇺AU_12|445KB/s|A004-260618 [d86d5493]
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: false
+  sni: connectwithemployerstohireyouridealteam.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇦🇺AU_13|432KB/s|A004-260618 [ff36f85e]
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇦🇺AU_14|450KB/s|A004-260618 [7b6b963b]
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: true
+  sni: 45.63.30.142
+  type: trojan
+  udp: true
+- password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  servername: connectwithemployerstohireyouridealteam.com
+  skip-cert-verify: false
+  sni: connectwithemployerstohireyouridealteam.com
+  tls: true
+  type: trojan
+  udp: true
+  name: 🇦🇺_澳大利亚 [06663f80d272b767] [09f70dfd]
+- type: vless
+  name: Australia 🇦🇺 1 🇦🇺 [67d6b61c]
+  server: 3.25.92.214
+  port: 44717
+  uuid: f4ae4cd4-7e7b-47a0-9817-e81ffa826b53
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk
+    short-id: e4a5aeecb8319d
+  client-fingerprint: firefox
+  servername: www.sony.com
+- type: vless
+  name: TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560&secur [38c24489]
+  server: au7.pad-sservice.lat
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: false
+  encryption: none
+- type: vless
+  name: '[2766][AU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [702c96a7]'
+  server: mci.vpncustomize.website
+  port: 2096
+  uuid: 38a6b5c4-3534-4a31-9d77-81d3a06ede79
+  tls: true
+  encryption: none
+  servername: multi.TrV2ray.cfd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@VPNCUSTOMIZE'
+- type: vless
+  name: '[3647][AU][0][VLESS][None][freeconfigv2][2023-08-29][2026-10-28 [3415037a]'
+  server: m2.melov2ray.shop
+  port: 2087
+  uuid: 4923fa90-c784-46f4-9059-a28de504684c
+  tls: false
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- type: vless
+  name: '[🇦🇺] [76699456]'
+  server: au1.gsafevpnapi.com
+  port: 20270
+  uuid: 38b8e2fb-b9a0-40a6-b42c-335def2765cf
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
+    short-id: e6a5a4a9115456de
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: '[🇦🇺] [9a4dd196]'
+  server: 192.9.162.122
+  port: 1443
+  uuid: 7a169e43-ff85-4572-9843-ba7207d07319
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ZIBYUH_qQSeI1T6xImXG6MEZXP2yZW3NqGa8W69Cfyk
+    short-id: dde50f55d81116
+  client-fingerprint: chrome
+  servername: swdist.apple.com
+- client-fingerprint: chrome
+  network: ws
+  port: 2087
+  server: 185.207.198.186
+  servername: film.dearhossein-taktaz.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 174622e3-2d1d-47ab-bf74-aef54996ec46
+  ws-opts:
+    headers:
+      Host: film.dearhossein-taktaz.ir
+    path: /
+  name: 澳大利亚 004 [7972a4bb9391e81e] [6102f1f3]
+- network: tcp
+  port: 24477
+  server: 43.163.241.110
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d
+  name: 澳大利亚 005 [b13fd65f166c3ea2] [342a5591]
+- network: ws
+  port: 8880
+  server: 192.65.217.30
+  servername: vms.lifetime37.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime37.workers.dev
+    path: /
+  name: 澳大利亚 006 [6a6569b20b8fc402] [cc1403ac]
+- network: tcp
+  port: 13954
+  server: 43.134.176.236
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ce8ff5b-4975-46d2-80ee-7eb48200cade
+  name: 澳大利亚 007 [33dbaed5649e2f19] [2a59f045]
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 103.102.228.113
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /TelegramU0001F1E8U0001F1F3
+  name: 澳大利亚 008 [7d84dadf5048b203] [a72ed12e]
+- network: ws
+  port: 80
+  server: 103.133.1.160
+  servername: soft-shadow-1e33.xicav73335.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  ws-opts:
+    headers:
+      Host: soft-shadow-1e33.xicav73335.workers.dev
+    path: /ws
+  name: 澳大利亚 009 [9339a90ec5d3b657] [8e47f516]
+- type: vless
+  name: 🇦🇺 [c388d6e6]
+  server: 54.253.37.164
+  port: 23951
+  uuid: 3e62a6f1-f8cb-40eb-9c33-fc4ed39a080e
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: FGnWfD70nPQhiMZUQETB_mKaR-J_2DonpOpy9eqQ_F0
+    short-id: 8c4907b7884b31
+  client-fingerprint: firefox
+  servername: www.tesla.com
+- type: vless
+  name: 🇦🇺 [9fb7b9ea]
+  server: 3.106.214.88
+  port: 31318
+  uuid: 3c7961e6-6ce7-4e55-8b8a-01a5d663efd4
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: uAhNpK_fDxgKKNtYtUs2uB79V28pjFv1-Mh7D4PTaW8
+    short-id: 1b665f78655294
+  client-fingerprint: firefox
+  servername: www.tesla.com
+- type: vless
+  name: 🇦🇺 [10492625]
+  server: 54.252.231.115
+  port: 55292
+  uuid: aca32055-db88-4634-b623-6429ddbb6c93
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: kPx16abMZD2x6dv7NW_hn1HSc2P8RsPptytcCT-neQs
+    short-id: bd711c02c8dc9955
+  client-fingerprint: chrome
+  servername: yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Bungarribee | 159.13.39.50:443 [6cfb770e]
+  server: 159.13.39.50
+  port: 443
+  uuid: 4959177b-62d7-4d1b-b6a3-eed72c0609c5
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.0wolf.com
+- type: vless
+  name: 🇦🇺 Australia - Melbourne | 168.138.13.201:443 [82dc5359]
+  server: 168.138.13.201
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  tls: true
+  encryption: none
+  servername: rt.ylks0033.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rt.ylks0033.dpdns.org
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 103.73.65.187:7000 [a10edd90]
+  server: 103.73.65.187
+  port: 7000
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: false
+  encryption: none
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 125.7.24.251:443 [b313ce62]
+  server: 125.7.24.251
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: vp58.cc.cd
+  network: ws
+  ws-opts:
+    path: /Telegram馃嚚馃嚦 @VPNine1
+    headers:
+      Host: vp58.cc.cd
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 13.239.112.139:42376 [3bad789f]
+  server: 13.239.112.139
+  port: 42376
+  uuid: c42b435d-e1d2-45ba-85bc-2f3c080ce826
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 5x6nErZvJp6uFYQ4VkOZSrnz4FWNRvYJqTfimjuBOCw
+    short-id: be125600cea6
+  client-fingerprint: firefox
+  servername: yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 13.239.241.181:20270 [96f4aed0]
+  server: 13.239.241.181
+  port: 20270
+  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
+    short-id: e6a5a4a9115456de
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 13.54.156.73:45565 [9a24b5c4]
+  server: 13.54.156.73
+  port: 45565
+  uuid: 78d9f9d6-f85a-4d39-9a1e-897b8e2cdf7a
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: zSlB0DPQHirXQtTzH6vCMDDl2ccUKPtDXFQFDpB-T0A
+    short-id: d24a5d31e3a6dc91
+  client-fingerprint: firefox
+  servername: yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 149.28.163.140:443 [46413607]
+  server: 149.28.163.140
+  port: 443
+  uuid: e8f25e87-f17f-4b38-9ba8-3d3ffd345186
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 149.28.165.143:443 [f0966481]
+  server: 149.28.165.143
+  port: 443
+  uuid: 6033ee9d-7c2a-4f37-a055-0c0d2d8487f0
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
+    short-id: ''
+  client-fingerprint: chrome
+  servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 16.176.222.48:53887 [7232c356]
+  server: 16.176.222.48
+  port: 53887
+  uuid: 777d639d-48b7-4070-9215-48191a8edc4c
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: U8LtEUIKwyRlOQnuyXwaOHW540WuYC2SFHY8VvER3Wk
+    short-id: d7e4c1b7cd86e462
+  client-fingerprint: firefox
+  servername: yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 16.176.42.97:443 [31cac78c]
+  server: 16.176.42.97
+  port: 443
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: zero.csmaster.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 16.176.42.97
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 16.176.5.2:58981 [8556f178]
+  server: 16.176.5.2
+  port: 58981
+  uuid: 649dcb36-db0c-41b0-ad50-26ec755bee55
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 4pGooKDmjXPxY0u7IJoYAfj6fw2sf6Tbhi_tW0n34zw
+    short-id: 4333dc36
+  client-fingerprint: firefox
+  servername: yahoo.com
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 170.64.183.81:443 [673a95a5]
+  server: 170.64.183.81
+  port: 443
+  uuid: 8de686ed-4e2e-46c5-b3b0-380a79d4f6fe
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: zula.ir
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: 170.64.183.81
+- type: vless
+  name: 🇦🇺 Australia - Sydney | 176.97.69.40:443 [cf051179]
+  server: 176.97.69.40
+  port: 443
+  uuid: 70d73194b3424d7c826dcf2d3ad3adff
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  client-fingerprint: chrome
+  servername: www.asus.com
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.0:443 [d42c9de8]
+  server: 103.169.142.0
+  port: 443
+  uuid: fa0825cd-89b2-4e57-a669-68d4f4a3bd2c
+  tls: true
+  encryption: none
+  client-fingerprint: random
+  servername: taochan.ssyyllpphhaachan.ip-ddns.com
+  network: ws
+  ws-opts:
+    path: /proxyip=nami.shorekeeper.ir
+    headers:
+      Host: taochan.ssyyllpphhaachan.ip-ddns.com
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.151:443 [d66634ca]
+  server: 103.169.142.151
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  tls: true
+  encryption: none
+  servername: kkc.ylks.link
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.169.142.151
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.181:443 [38d524f4]
+  server: 103.169.142.181
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  tls: true
+  encryption: none
+  servername: jpb.ylks01.eu.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.169.142.181
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.199:443 [03637fdc]
+  server: 103.169.142.199
+  port: 443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: /tg@zdyz2
+    headers:
+      Host: 103.169.142.199
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.20:443 [9d60fe9d]
+  server: 103.169.142.20
+  port: 443
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  tls: true
+  encryption: none
+  servername: cf11.evan00.dpdns.org
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: cf11.evan00.dpdns.org
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.217:443 [0d8f1efa]
+  server: 103.169.142.217
+  port: 443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: /tg@zdyz2
+    headers:
+      Host: 103.169.142.217
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.238:443 [731ec110]
+  server: 103.169.142.238
+  port: 443
+  uuid: 2cd6ed0f-636e-4`e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: tg@zdyz2
+    headers:
+      Host: 103.169.142.238
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.38:443 [8fa87fbf]
+  server: 103.169.142.38
+  port: 443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: /tg@VPNine1
+    headers:
+      Host: 103.169.142.38
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.71:443 [636f9403]
+  server: 103.169.142.71
+  port: 443
+  uuid: bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: us.xiaoer8867785.us.kg
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.169.142.71
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.78:443 [ff1aaef2]
+  server: 103.169.142.78
+  port: 443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: /tg@zdyz2
+    headers:
+      Host: 103.169.142.78
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.90:443 [2314f914]
+  server: 103.169.142.90
+  port: 443
+  uuid: 1c3fb1c0-1204-49db-b842-f72d50f014c1
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /Singapore1
+    headers:
+      Host: sg.lovehk.xyz
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.91:443 [26a50c41]
+  server: 103.169.142.91
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  tls: true
+  encryption: none
+  servername: jpi.ylks01.eu.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.169.142.91
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.169.142.99:443 [c4c7213e]
+  server: 103.169.142.99
+  port: 443
+  uuid: 0a506a60-ae3e-499d-9cbd-ab003f9f3f3b
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: FREEDOm.ZiStarvInbioTeCh.ir
+  network: ws
+  ws-opts:
+    path: /MTbeT87uR90Qfn6U?ed=2560
+    headers:
+      Host: 103.169.142.99
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.17.99.37:19280 [09c7fd31]
+  server: 103.17.99.37
+  port: 19280
+  uuid: 79b20a44-91d2-48c8-b6ac-6b369b325e8b
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
+    short-id: a8bd783f
+  client-fingerprint: firefox
+  servername: cdn-dynmedia-1.microsoft.com
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 103.17.99.54:19280 [217884ec]
+  server: 103.17.99.54
+  port: 19280
+  uuid: 89b90001-4206-4871-a99d-1744d48f215b
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
+    short-id: a8bd783f
+  client-fingerprint: edge
+  servername: cdn-dynmedia-1.microsoft.com
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 192.65.217.109:443 [792ee9be]
+  server: 192.65.217.109
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  tls: true
+  encryption: none
+  servername: va.zhuk.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: va.zhuk.us.kg
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 192.65.217.138:2096 [c52fee85]
+  server: 192.65.217.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: sni.111000.indevs.in
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- type: vless
+  name: 🇦🇺 Australia - Unknown | 192.65.217.17:443 [96636fa0]
+  server: 192.65.217.17
+  port: 443
+  uuid: 0b872eaf-74f5-4b58-ab4f-0ef1f46fc63e
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: ov186.ochmaybrooooo.online
+  network: ws
+  ws-opts:
+    path: /?Telegram-WangCai2
+    headers:
+      Host: ov186.ochmaybrooooo.online
+- type: vless
+  name: 🇦🇺 | @TFMTProto [145a196f]
+  server: 149.28.177.190
+  port: 35652
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  encryption: none
+  client-fingerprint: firefox
+  servername: au001.zestapp778.com
+- type: vless
+  name: 🇦🇺 | @TFMTProto [0514a87e]
+  server: au001.zestapp778.com
+  port: 35652
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: au001.zestapp778.com
+- type: vless
+  name: 🇦🇺 澳大利亚 [672ac634]
+  server: aws-linkau22.eovay.com
+  port: 56622
+  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: hAM6JbfXzxLRMq2ZKmQgbj1U1Tzwoak6dVZgHMih4no
+    short-id: f8c354d4
+  client-fingerprint: chrome
+  servername: www.lamer.com.hk
+- type: vless
+  name: 🇦🇺 澳大利亚 [49b69a9a]
+  server: aws-linkau11.eovay.com
+  port: 56611
+  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: hAM6JbfXzxLRMq2ZKmQgbj1U1Tzwoak6dVZgHMih4no
+    short-id: f8c354d4
+  client-fingerprint: chrome
+  servername: www.lamer.com.hk
+- type: vless
+  name: 🇦🇺 澳大利亚 [17f0c2fa]
+  server: aws-linkau33.eovay.com
+  port: 56633
+  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lQKxhNfGKwnogzqV_UdNLJc_qK5Q2B46XwgHeFrqRhU
+    short-id: '79963409'
+  client-fingerprint: chrome
+  servername: www.lamer.com.hk
+- client-fingerprint: chrome
+  network: tcp
+  port: 35652
+  server: au001.zestapp778.com
+  servername: au001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  name: 🇦🇺 澳大利亚 | AUS [1777b40c8803eb27] [1cdeda9b]
+- client-fingerprint: chrome
+  name: 🇦🇺AU_15|196KB/s|A004-260618 [0215de8d]
+  network: tcp
+  port: 35652
+  server: au001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  packet-encoding: xudp
+  servername: au001.zestapp778.com
+- client-fingerprint: android
+  encryption: none
+  name: 🇦🇺AU_3|260KB/s|F003-260618 [cc64f393]
+  network: ws
+  port: 443
+  server: 103.43.75.82
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  ws-opts:
+    headers:
+      Host: proxy-1cu.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /
+  packet-encoding: xudp
+  servername: proxy-1cu.pages.dev
+- type: vless
+  name: '🇦🇺[www.v2nodes.com] vless-AU-1... #1 [64e36c39]'
+  server: 51.161.204.242
+  port: 443
+  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+- port: 443
+  server: 51.161.204.242
+  tls: false
+  type: vless
+  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
+  name: '🇦🇺[www.v2nodes.com] vless-AU-1... #1 [abf4e0f1008143b1] [d0e57c52]'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  port: 443
+  reality-opts:
+    public-key: a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE
+    short-id: d15c17cef9b2e456
+  server: 51.161.204.242
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
+  name: 🇦🇺_澳大利亚 (2) [0ec4133a4c0418b7] [104cf6d9]
+- type: vless
+  name: 🔒 VL-WS-TLS 🇦🇺 AU-192.65.217.161:443 [a742edeb]
+  server: 192.65.217.161
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  tls: true
+  encryption: none
+  servername: vs1.ylks2024.us.kg
+  network: ws
+  ws-opts:
+    path: /ylks
+    headers:
+      Host: vs1.ylks2024.us.kg
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+  name: 'VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz: [e538 [b17abd9a]'
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: kneNaKHeSXnZH259.v.3dns.vip
+  servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kneNaKHeSXnZH259.v.3dns.vip
+    path: /ws-vmess
+  name: 澳大利亚 001 [ae0219f953bfd585] [46a76edb]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 1.1.1.1
+  servername: usbk.cfip.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d
+  ws-opts:
+    headers:
+      Host: usbk.cfip.top
+    path: /cctv13/hd.m3u8
+  name: 澳大利亚 002 [c50e17df47fc3c4f] [89b104a1]
+- alterId: 0
+  cipher: auto
+  network: tcp
+  port: 10087
+  server: 43.130.35.53
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8e93b009-f1af-448a-b8ef-b110849a35f0
+  name: 澳大利亚 003 [cb57d53daf9804d0] [d47affc2]
+- alterId: 0
+  cipher: auto
+  network: http
+  port: 80
+  server: 43.155.199.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d
+  name: 澳大利亚 010 [4449fd069af6304f] [5fa804b5]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+  name: 澳大利亚 011 [cdc2e41e8ce8bca9] [b21bf500]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 29930
+  server: 43.201.103.12
+  skip-cert-verify: true
+  type: vmess
+  uuid: f46b2e2a-e02c-437a-833c-023410840a80
+  ws-opts:
+    headers:
+      Host: 43.201.103.12
+    path: /f46b2e2a-e02c-437a-833c-023410840a80
+  name: 澳大利亚 012 [8776bf8ba8c11f80] [878e3552]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 26540
+  server: 43.201.253.222
+  skip-cert-verify: true
+  type: vmess
+  uuid: c841c903-7657-41f7-bf55-b41dd9456179
+  ws-opts:
+    headers:
+      Host: 43.201.253.222
+    path: /c841c903-7657-41f7-bf55-b41dd9456179
+  name: 澳大利亚 013 [524f28c02717a810] [8bd98fce]
+- alterId: 64
+  cipher: auto
+  network: ws
+  port: 443
+  server: 119.252.190.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23376046.xyz
+    path: /path/191019072927
+  name: 澳大利亚 014 [376773fa9d0ec566] [2f4be862]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 203.24.108.10
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+  name: 澳大利亚 015 [da5d1348f42346d1] [4d6aa805]
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 203.24.108.8
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+  name: 澳大利亚 016 [5c40c52156c1c7c9] [01ec5267]
+- alterId: 64
+  cipher: auto
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  name: 澳大利亚 017 [749da9f66e8f3df5] [9254dab3]
+- type: vmess
+  name: 澳大利亚 悉尼 [4511b1d7]
+  server: mci.saintink.eu.org
+  port: 443
+  uuid: c226d9fa-b5a7-4f6e-9532-50137c89311d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: nl1.v2rayserv.com/vmess
+    headers:
+      Host: 4.saintink.eu.org
+  tls: true
+- type: vmess
+  name: 澳大利亚_0816010 [e67c771c]
+  server: btbu996.icu
+  port: 443
+  uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: btbu996.icu
+  tls: true
+- type: vmess
+  name: 🇦🇺澳大利亚 01 [68c783ab]
+  server: cf.iepl1.me
+  port: 2086
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: auxnamd1.topf6.com
+- type: vmess
+  name: 🇦🇺澳大利亚 02 [d34079f9]
+  server: cf.335570.xyz
+  port: 2086
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: auxnamd1.topf6.com
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - 🇦🇺AU_1|353KB/s|P002-260618 [2809b9de]
+  - 🇦🇺AU_1|422KB/s|R002-260618 [f0d6ce6b]
+  - 🇦🇺AU_2|405KB/s|R002-260618 [e912b1b2]
+  - 🇦🇺AU_7|431KB/s|R002-260618 [43311e6e]
+  - 0|🇦🇺澳大利亚 01 | 1x AU [9ac224af]
+  - 1|🇦🇺 澳大利亚 01 | 1x AU [f75d3963]
+  - sshOcean-au01 [b27dce8a]
+  - sshOcean-au01.cloak [4a6a5f1e]
+  - sshOcean-au01.obfs_http [b1a6febe]
+  - sshOcean-au01.obfs_tls [a8d8b737]
+  - 🇦🇺 [70a96eb6]
+  - 🇦🇺 Australia - Sydney | 103.75.119.144:20021 [06ce3519]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:1443 [c5074439]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:8009 [cf16c414]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:8139 [864296bc]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:8388 [2e6702eb]
+  - 🇦🇺 Australia - Sydney | 143.244.62.106:989 [854022e4]
+  - 🇦🇺 Australia - Sydney | 154.26.155.172:443 [eb241442]
+  - 🇦🇺 Australia - Sydney | 154.26.155.172:80 [1e379dfd]
+  - 🇦🇺 Australia - Sydney | 170.64.229.134:6223 [52464fbd]
+  - 🇦🇺 Australia - Sydney | 172.105.180.227:6679 [bca3e511]
+  - 🇦🇺 Australia - Sydney | 172.105.180.227:8080 [1757e94f]
+  - 🇦🇺 Australia - Sydney | 180.149.228.179:49514 [83ee1e56]
+  - 🇦🇺 Australia - Unknown | 160.187.111.61:40011 [4b7f3e76]
+  - 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB [635ee3ca]
+  - 🇦🇺 [OpenRay] 🇦🇺 AU-15 [74b5887a]
+  - 🇦🇺 🇦🇺 AU | 🔒 SS | @free4allvpn [4] [bdf35418]
+  - 🇦🇺 🇦🇺 Australia - NA 🌏 SS-TCP-NA 4⃣ [f68143dd]
+  - 🇦🇺 🇦🇺 中国-澳大利亚 IPLC 悉尼 A02-136 [44bbc228]
+  - 🇦🇺 🇦🇺 澳大利亚原生ip [d7ee1548]
+  - 🇦🇺 🇦🇺[openproxylist.com] ss-AU [f6c38c7e]
+  - 🇦🇺AU-45.79.238.129-7671 | 174ms [2fd86361]
+  - 🇦🇺AU-95.111.222.113-0418 [661e3334]
+  - 👉🆔@v2ray_configs_pool📡🇦🇺®️Australia©️Port Melbourne🅿️ping:295.02ms [f3c77c4a]
+  - :澳大利亚-trojan-jgwxn4.gaox.ml:443-可用-中转:152.67.98.30-不支持Netflix [4be750dd]
+  - '>>@v2nodes::AU [2c14b018]'
+  - '>>@v2nodes::AU [40f8a0e2]'
+  - AU 🇦🇺 | @Raydikalx | 241968 | 233ms [3b23593a]
+  - AU 🇦🇺 | @Raydikalx | 270EFC | 173ms [d5c34f46]
+  - AU 🇦🇺 | @Raydikalx | 37797E | 197ms [bb8e1cde]
+  - AU 🇦🇺 | @Raydikalx | 8A0C09 | 49ms [c06b9871]
+  - AU 🇦🇺 | @Raydikalx | 910E67 | 173ms [6464bb46]
+  - AU 🇦🇺 | @Raydikalx | 9E1839 | 231ms [b60dbb11]
+  - AU 🇦🇺 | @Raydikalx | 9F2B8A | 114ms [b6a762bb]
+  - AU 🇦🇺 | @Raydikalx | C070B0 | 254ms [861ab869]
+  - AU🇦🇺 [8963805f]
+  - Relay_🇦🇺AU-🇦🇺AU_79 [0bdb971f]
+  - '[3021][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [9bd6ce57]'
+  - '[3101][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [60e3c945]'
+  - '[449][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [44938822]'
+  - '[450][AU][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [1b85b399]'
+  - '[921][AU][0][TROJAN][None][mftizi][2024-07-17][2026-10-28 02:49] | 388 [b10b31cc]'
+  - '[OpenRay] 🇦🇺AU-6 [f981601f]'
+  - '[OpenRay] 🇦🇺AU-7 [b24ccfe2]'
+  - 澳大利亚_0816001 [bd45c9d9]
+  - 澳大利亚_0816006 [2ecdb664]
+  - 澳大利亚_0816007 [91d6d5fa]
+  - 澳大利亚_0816008 [2e00755f]
+  - 澳大利亚_0816009 [e3981ffb]
+  - 🇦🇺 Australia - Bungarribee | 140.238.205.173:443 [e0502c8a]
+  - 🇦🇺 Australia - Melbourne | 161.33.76.218:8443 [82132aae]
+  - 🇦🇺 Australia - Sydney | 103.43.75.230:13536 [d8ecd14c]
+  - 🇦🇺 Australia - Sydney | 13.210.76.227:443 [a01f17ef]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:2053 [82b8e154]
+  - 🇦🇺 Australia - Sydney | 139.99.171.83:443 [b1bae1c6]
+  - 🇦🇺 Australia - Sydney | 170.64.132.131:8080 [dd80cf27]
+  - 🇦🇺 Australia - Unknown | 103.169.142.178:2096 [78143a2a]
+  - 🇦🇺 Australia - Unknown | 103.169.142.216:2096 [515d2704]
+  - 🇦🇺 Australia - Unknown | 103.224.212.210:443 [1151255b]
+  - 🇦🇺 Australia - Unknown | 192.65.217.178:2096 [6b6b83ac]
+  - 🇦🇺 | @TFMTProto [334ce489]
+  - 🇦🇺 🇦🇺 Australia - NA 🌏 TR-WS-TLS 4⃣ [bfd1edfd]
+  - 🇦🇺AU-103.224.212.210-7480 | 200ms [53884bab]
+  - 🇦🇺AU-103.224.212.211-0743 | 141ms [494b7267]
+  - 🇦🇺AU-82.117.225.212-0183 [e05adb45]
+  - 🇦🇺AU-82.117.225.216-0220 [1e4b4ebe]
+  - 🇦🇺AU-82.117.225.56-0182 [55216995]
+  - 🇦🇺AU-87.121.33.171-0254 [5623a0ef]
+  - 🇦🇺AU_11|434KB/s|A004-260618 [7c277d9a]
+  - 🇦🇺AU_12|445KB/s|A004-260618 [d86d5493]
+  - 🇦🇺AU_13|432KB/s|A004-260618 [ff36f85e]
+  - 🇦🇺AU_14|450KB/s|A004-260618 [7b6b963b]
+  - 🇦🇺_澳大利亚 [06663f80d272b767] [09f70dfd]
+  - Australia 🇦🇺 1 🇦🇺 [67d6b61c]
+  - TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560&secur [38c24489]
+  - '[2766][AU][0][VLESS][None][ext_raw.githubusercontent.com][2026-10-28][ [702c96a7]'
+  - '[3647][AU][0][VLESS][None][freeconfigv2][2023-08-29][2026-10-28 [3415037a]'
+  - '[🇦🇺] [76699456]'
+  - '[🇦🇺] [9a4dd196]'
+  - 澳大利亚 004 [7972a4bb9391e81e] [6102f1f3]
+  - 澳大利亚 005 [b13fd65f166c3ea2] [342a5591]
+  - 澳大利亚 006 [6a6569b20b8fc402] [cc1403ac]
+  - 澳大利亚 007 [33dbaed5649e2f19] [2a59f045]
+  - 澳大利亚 008 [7d84dadf5048b203] [a72ed12e]
+  - 澳大利亚 009 [9339a90ec5d3b657] [8e47f516]
+  - 🇦🇺 [c388d6e6]
+  - 🇦🇺 [9fb7b9ea]
+  - 🇦🇺 [10492625]
+  - 🇦🇺 Australia - Bungarribee | 159.13.39.50:443 [6cfb770e]
+  - 🇦🇺 Australia - Melbourne | 168.138.13.201:443 [82dc5359]
+  - 🇦🇺 Australia - Sydney | 103.73.65.187:7000 [a10edd90]
+  - 🇦🇺 Australia - Sydney | 125.7.24.251:443 [b313ce62]
+  - 🇦🇺 Australia - Sydney | 13.239.112.139:42376 [3bad789f]
+  - 🇦🇺 Australia - Sydney | 13.239.241.181:20270 [96f4aed0]
+  - 🇦🇺 Australia - Sydney | 13.54.156.73:45565 [9a24b5c4]
+  - 🇦🇺 Australia - Sydney | 149.28.163.140:443 [46413607]
+  - 🇦🇺 Australia - Sydney | 149.28.165.143:443 [f0966481]
+  - 🇦🇺 Australia - Sydney | 16.176.222.48:53887 [7232c356]
+  - 🇦🇺 Australia - Sydney | 16.176.42.97:443 [31cac78c]
+  - 🇦🇺 Australia - Sydney | 16.176.5.2:58981 [8556f178]
+  - 🇦🇺 Australia - Sydney | 170.64.183.81:443 [673a95a5]
+  - 🇦🇺 Australia - Sydney | 176.97.69.40:443 [cf051179]
+  - 🇦🇺 Australia - Unknown | 103.169.142.0:443 [d42c9de8]
+  - 🇦🇺 Australia - Unknown | 103.169.142.151:443 [d66634ca]
+  - 🇦🇺 Australia - Unknown | 103.169.142.181:443 [38d524f4]
+  - 🇦🇺 Australia - Unknown | 103.169.142.199:443 [03637fdc]
+  - 🇦🇺 Australia - Unknown | 103.169.142.20:443 [9d60fe9d]
+  - 🇦🇺 Australia - Unknown | 103.169.142.217:443 [0d8f1efa]
+  - 🇦🇺 Australia - Unknown | 103.169.142.238:443 [731ec110]
+  - 🇦🇺 Australia - Unknown | 103.169.142.38:443 [8fa87fbf]
+  - 🇦🇺 Australia - Unknown | 103.169.142.71:443 [636f9403]
+  - 🇦🇺 Australia - Unknown | 103.169.142.78:443 [ff1aaef2]
+  - 🇦🇺 Australia - Unknown | 103.169.142.90:443 [2314f914]
+  - 🇦🇺 Australia - Unknown | 103.169.142.91:443 [26a50c41]
+  - 🇦🇺 Australia - Unknown | 103.169.142.99:443 [c4c7213e]
+  - 🇦🇺 Australia - Unknown | 103.17.99.37:19280 [09c7fd31]
+  - 🇦🇺 Australia - Unknown | 103.17.99.54:19280 [217884ec]
+  - 🇦🇺 Australia - Unknown | 192.65.217.109:443 [792ee9be]
+  - 🇦🇺 Australia - Unknown | 192.65.217.138:2096 [c52fee85]
+  - 🇦🇺 Australia - Unknown | 192.65.217.17:443 [96636fa0]
+  - 🇦🇺 | @TFMTProto [145a196f]
+  - 🇦🇺 | @TFMTProto [0514a87e]
+  - 🇦🇺 澳大利亚 [672ac634]
+  - 🇦🇺 澳大利亚 [49b69a9a]
+  - 🇦🇺 澳大利亚 [17f0c2fa]
+  - 🇦🇺 澳大利亚 | AUS [1777b40c8803eb27] [1cdeda9b]
+  - 🇦🇺AU_15|196KB/s|A004-260618 [0215de8d]
+  - 🇦🇺AU_3|260KB/s|F003-260618 [cc64f393]
+  - '🇦🇺[www.v2nodes.com] vless-AU-1... #1 [64e36c39]'
+  - '🇦🇺[www.v2nodes.com] vless-AU-1... #1 [abf4e0f1008143b1] [d0e57c52]'
+  - 🇦🇺_澳大利亚 (2) [0ec4133a4c0418b7] [104cf6d9]
+  - 🔒 VL-WS-TLS 🇦🇺 AU-192.65.217.161:443 [a742edeb]
+  - 'VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz: [e538 [b17abd9a]'
+  - 澳大利亚 001 [ae0219f953bfd585] [46a76edb]
+  - 澳大利亚 002 [c50e17df47fc3c4f] [89b104a1]
+  - 澳大利亚 003 [cb57d53daf9804d0] [d47affc2]
+  - 澳大利亚 010 [4449fd069af6304f] [5fa804b5]
+  - 澳大利亚 011 [cdc2e41e8ce8bca9] [b21bf500]
+  - 澳大利亚 012 [8776bf8ba8c11f80] [878e3552]
+  - 澳大利亚 013 [524f28c02717a810] [8bd98fce]
+  - 澳大利亚 014 [376773fa9d0ec566] [2f4be862]
+  - 澳大利亚 015 [da5d1348f42346d1] [4d6aa805]
+  - 澳大利亚 016 [5c40c52156c1c7c9] [01ec5267]
+  - 澳大利亚 017 [749da9f66e8f3df5] [9254dab3]
+  - 澳大利亚 悉尼 [4511b1d7]
+  - 澳大利亚_0816010 [e67c771c]
+  - 🇦🇺澳大利亚 01 [68c783ab]
+  - 🇦🇺澳大利亚 02 [d34079f9]
+rules:
+- MATCH,SCANNED-NODES

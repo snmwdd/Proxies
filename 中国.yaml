@@ -1,0 +1,2597 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- type: ss
+  name: ' SS-TCP-NA  CN-101.132.80.243:30474 [4f6c3c15]'
+  server: 101.132.80.243
+  port: 30474
+  cipher: aes-256-gcm
+  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
+- type: ss
+  name: ' SS-TCP-NA  CN-58.63.250.61:18003 [7d2be147]'
+  server: 58.63.250.61
+  port: 18003
+  cipher: aes-256-gcm
+  password: LQC0I83BPCS02ZTZ
+- type: ss
+  name: ' SS-TCP-NA  CN-58.63.250.61:18007 [95f1566e]'
+  server: 58.63.250.61
+  port: 18007
+  cipher: aes-256-gcm
+  password: AWWQESJRK4285LIN
+- type: ss
+  name: ' SS-TCP-NA  CN-58.63.250.61:18010 [f979e5f7]'
+  server: 58.63.250.61
+  port: 18010
+  cipher: ss
+  password: //YWVzLTI1Ni1nY206WlY1NkJDNlVDUUQzTkRYRw
+- type: ss
+  name: 1|_CN_ [d00a1f90]
+  server: 59.56.77.178
+  port: 15082
+  cipher: aes-256-cfb
+  password: hGkQ6915tD
+- type: ss
+  name: '[11433][CN][0][SS][None][mftizi][2024-07-29][2026-10-28 [d9700137]'
+  server: aa01gg.sssyun.xyz
+  port: 36993
+  cipher: chacha20-ietf-poly1305
+  password: b5abc4c0-b518-4195-88b4-57900f16fb65
+- type: ss
+  name: '[6348][CN][0][SS][None][Hope_Net][2026-07-24][2026-07-25 [2ab5b770]'
+  server: free.2apzhfa.xyz
+  port: 31441
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZjEzOGU0Yy0zMjhiLTQzZGItYjUwNS03MTc3NjQ3OGZjNGY
+- type: ss
+  name: '[6356][CN][0][SS][None][Hope_Net][2026-07-24][2026-07-25 [112cd747]'
+  server: free.2apzhfa.xyz
+  port: 31313
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZTk1NDkyYi03ZDk1LTQ2MmQtYWMxZS04NmUzZmI4MzFjMGU
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-100 [9bab2d19]'
+  server: 36.33.35.105
+  port: 10006
+  cipher: aes-256-gcm
+  password: Butterfly123@qwe9527
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-101 [71d10f2d]'
+  server: 103.236.66.4
+  port: 10001
+  cipher: aes-256-gcm
+  password: Butterfly123@qwe9527
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-102 [074113c9]'
+  server: 112.28.141.77
+  port: 10006
+  cipher: aes-256-gcm
+  password: Butterfly123@qwe9527
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-103 [49ab8e18]'
+  server: 103.236.66.4
+  port: 40001
+  cipher: aes-256-gcm
+  password: Butterfly123@qwe9527
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-104 [e6c1f259]'
+  server: 103.236.66.4
+  port: 50003
+  cipher: aes-256-gcm
+  password: Butterfly123@qwe9527
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-144 [03226334]'
+  server: 124.151.25.50
+  port: 8024
+  cipher: aes-128-gcm
+  password: 2wsxcde4
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-145 [126791be]'
+  server: 124.151.25.50
+  port: 8020
+  cipher: aes-128-gcm
+  password: 2wsxcde3
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-45 [82b64aa5]'
+  server: 139.199.185.190
+  port: 55502
+  cipher: 2022-blake3-aes-128-gcm
+  password: ZqT32TsUo1A4MU8N17kAPQ==
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-57 [782977f3]'
+  server: 211.91.158.24
+  port: 21109
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-58 [357e3ef7]'
+  server: 211.91.158.24
+  port: 21114
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-59 [04d0c0b8]'
+  server: 211.91.158.24
+  port: 21107
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-60 [13a67e94]'
+  server: 211.91.158.24
+  port: 21119
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-61 [22ec9069]'
+  server: 211.91.158.27
+  port: 21109
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-62 [b9711c71]'
+  server: 211.91.158.27
+  port: 21107
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-63 [a7cc908a]'
+  server: 211.91.158.27
+  port: 21119
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-67 [e64c7ed6]'
+  server: sd-sz.bx-xb.xyz
+  port: 62610
+  cipher: 2022-blake3-aes-128-gcm
+  password: qPPU4cGU59hjRnOyNTjacA==
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-68 [de583188]'
+  server: sd-sh.bx-xb.xyz
+  port: 62740
+  cipher: 2022-blake3-aes-128-gcm
+  password: qPPU4cGU59hjRnOyNTjacA==
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-69 [9275ab65]'
+  server: sd-sh.bx-xb.xyz
+  port: 62780
+  cipher: 2022-blake3-aes-128-gcm
+  password: qPPU4cGU59hjRnOyNTjacA==
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-70 [a94c70ec]'
+  server: 211.91.158.44
+  port: 21123
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-71 [9e4a1997]'
+  server: 211.91.158.26
+  port: 21121
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-72 [f97a9d67]'
+  server: 211.91.158.26
+  port: 21119
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-73 [9283fdcf]'
+  server: 211.91.158.44
+  port: 21117
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-74 [bd9a4578]'
+  server: 211.91.158.44
+  port: 21105
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-75 [97b86ffd]'
+  server: 211.91.158.44
+  port: 21118
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-76 [85771ad7]'
+  server: 211.91.158.26
+  port: 21105
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-77 [0d4717a3]'
+  server: 211.91.158.26
+  port: 21125
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-78 [12ee5ddf]'
+  server: 211.91.158.26
+  port: 21114
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-79 [70e28aa0]'
+  server: 211.91.158.44
+  port: 21107
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-80 [abb010e8]'
+  server: 211.91.158.26
+  port: 21109
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-81 [b6ad2157]'
+  server: 211.91.158.44
+  port: 21125
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-82 [2a544227]'
+  server: 211.91.158.44
+  port: 21113
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-83 [bf7a5a63]'
+  server: 211.91.158.26
+  port: 21107
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-84 [98bde682]'
+  server: 211.91.158.44
+  port: 21108
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-85 [09bb2c24]'
+  server: 211.91.158.44
+  port: 21116
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-86 [f849988f]'
+  server: 211.91.158.26
+  port: 21120
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-87 [aaa8a572]'
+  server: 211.91.158.26
+  port: 21113
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-88 [f9ff7a1c]'
+  server: 211.91.158.44
+  port: 21119
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-89 [8bf1c9b5]'
+  server: 211.91.158.26
+  port: 21126
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-90 [f81860a0]'
+  server: 211.91.158.44
+  port: 21104
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-91 [aef0633b]'
+  server: 211.91.158.26
+  port: 21118
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-92 [e5185981]'
+  server: 211.91.158.26
+  port: 21103
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-93 [c5b25ca9]'
+  server: 211.91.158.44
+  port: 21103
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-94 [ffb3f429]'
+  server: 211.91.158.44
+  port: 21126
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-95 [ea7902fe]'
+  server: 211.91.158.26
+  port: 21117
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-96 [005ba303]'
+  server: 211.91.158.44
+  port: 21114
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-97 [0f7669dd]'
+  server: 211.91.158.26
+  port: 21104
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-98 [c3fb6269]'
+  server: 211.91.158.44
+  port: 21122
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: '[OpenRay] 🇨🇳 CN-99 [03f93151]'
+  server: 211.91.158.44
+  port: 21121
+  cipher: chacha20-ietf-poly1305
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+- type: ss
+  name: 🇨🇳 [94a4ab97]
+  server: ss.047.node-for-bigairport.win
+  port: 19001
+  cipher: chacha20-ietf-poly1305
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+- type: ss
+  name: 🇨🇳 [47c9f7f4]
+  server: 61.171.92.202
+  port: 1001
+  cipher: aes-256-gcm
+  password: '123'
+- type: ss
+  name: 🇨🇳 [503b719d]
+  server: 212.192.15.177
+  port: 30129
+  cipher: aes-256-gcm
+  password: 7e1dd4c55bf85da5
+- type: ss
+  name: 🇨🇳 CN-TW-台湾-35-cht.com.tw [22d39624]
+  server: tw2.oyvpnserver.com
+  port: 3572
+  cipher: rc4-md5
+  password: cht1997...///
+- type: ss
+  name: 🇨🇳 China - Guangzhou | 114.132.40.118:30018 [9336b7a1]
+  server: 114.132.40.118
+  port: 30018
+  cipher: aes-256-gcm
+  password: 645d056f-369c-46d3-a1cb-7f04c06916ce
+- type: ss
+  name: 🇨🇳 China - Unknown | 103.161.255.192:21121 [7e453986]
+  server: 103.161.255.192
+  port: 21121
+  cipher: aes-256-gcm
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- type: ss
+  name: 🇨🇳 China - Unknown | 103.161.255.192:21137 [0f20555c]
+  server: 103.161.255.192
+  port: 21137
+  cipher: aes-256-gcm
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- type: ss
+  name: 🇨🇳 China - Unknown | 103.161.255.192:21245 [f8e92f4d]
+  server: 103.161.255.192
+  port: 21245
+  cipher: aes-256-gcm
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- type: ss
+  name: 🇨🇳 China - Unknown | 103.37.45.155:19240 [3657fd4e]
+  server: 103.37.45.155
+  port: 19240
+  cipher: chacha20-ietf-poly1305
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+- type: ss
+  name: 🇨🇳 China - Unknown | 103.37.45.155:42151 [8765ae2d]
+  server: 103.37.45.155
+  port: 42151
+  cipher: chacha20-ietf-poly1305
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+- type: ss
+  name: 🇨🇳 China - Unknown | 106.75.162.7:50000 [178f9d9e]
+  server: 106.75.162.7
+  port: 50000
+  cipher: aes-128-gcm
+  password: d72781da-3ea8-4d7f-9bca-c04ed410443b
+- type: ss
+  name: 🇨🇳 China - Unknown | 111.45.30.41:10002 [17430b9c]
+  server: 111.45.30.41
+  port: 10002
+  cipher: aes-128-gcm
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+- type: ss
+  name: 🇨🇳 China - Unknown | 111.45.30.41:20006 [8cb39efc]
+  server: 111.45.30.41
+  port: 20006
+  cipher: aes-128-gcm
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+- type: ss
+  name: 🇨🇳 China - Unknown | 111.45.30.41:20007 [afbdf0f8]
+  server: 111.45.30.41
+  port: 20007
+  cipher: aes-128-gcm
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+- type: ss
+  name: 🇨🇳 China - Unknown | 111.45.33.5:30002 [e18970a6]
+  server: 111.45.33.5
+  port: 30002
+  cipher: ss
+  password: //YWVzLTI1Ni1nY206ZHd6MUd0Rjc
+- type: ss
+  name: 🇨🇳 China - Unknown | 111.45.33.5:30017 [d14115bd]
+  server: 111.45.33.5
+  port: 30017
+  cipher: aes-256-gcm
+  password: dwz1GtF7
+- type: ss
+  name: 🇨🇳 China - Unknown | 112.54.160.36:30232 [4b706724]
+  server: 112.54.160.36
+  port: 30232
+  cipher: aes-256-gcm
+  password: dwz1GtF7
+- type: ss
+  name: 🇨🇳 China - Unknown | 112.54.161.141:20406 [df6c15e3]
+  server: 112.54.161.141
+  port: 20406
+  cipher: aes-256-gcm
+  password: dwz1GtF7
+- type: ss
+  name: 🇨🇳 China - Unknown | 113.99.143.13:8761 [93dff0c8]
+  server: 113.99.143.13
+  port: 8761
+  cipher: rc4-md5
+  password: efanccyun
+- type: ss
+  name: 🇨🇳 China - Unknown | 113.99.143.13:8766 [3ee97050]
+  server: 113.99.143.13
+  port: 8766
+  cipher: rc4-md5
+  password: efanccyun
+- type: ss
+  name: 🇨🇳 China - Unknown | 113.99.143.13:8774 [ba07dd5c]
+  server: 113.99.143.13
+  port: 8774
+  cipher: rc4-md5
+  password: efanccyun
+- type: ss
+  name: 🇨🇳 China - Unknown | 118.184.136.148:29191 [e23bee28]
+  server: 118.184.136.148
+  port: 29191
+  cipher: ss
+  password: //cmM0LW1kNTpmd2pKeHE
+- type: ss
+  name: 🇨🇳 China - Unknown | 118.184.136.62:7780 [8c1a8ed4]
+  server: 118.184.136.62
+  port: 7780
+  cipher: rc4-md5
+  password: 5czcr84s0ab
+- type: ss
+  name: 🇨🇳 China - Unknown | 118.212.143.4:47082 [75761a75]
+  server: 118.212.143.4
+  port: 47082
+  cipher: chacha20-ietf-poly1305
+  password: xiV0iCe8ZnzGy
+- type: ss
+  name: 🇨🇳 China - Unknown | 119.167.230.252:20783 [aaae7a76]
+  server: 119.167.230.252
+  port: 20783
+  cipher: aes-128-gcm
+  password: b637f2e47b7827b308ebf399008075d2
+- type: ss
+  name: 🇨🇳 [中国][三网专线][台湾] [06f7d0b5]
+  server: zx.553779.xyz
+  port: 58294
+  cipher: aes-128-gcm
+  password: 8ba0c6bd-03ac-486f-b1fd-1a289a3701d9
+- type: ss
+  name: 🇨🇳 [中国][台湾01] [5befee08]
+  server: m.553779.xyz
+  port: 14527
+  cipher: aes-128-gcm
+  password: 1716307b-2c79-4927-aed1-f7480deef2e6
+- type: ss
+  name: 🇨🇳 [中国][台湾Hinet01] [b6d45abc]
+  server: m.553779.xyz
+  port: 50993
+  cipher: aes-128-gcm
+  password: 8ba0c6bd-03ac-486f-b1fd-1a289a3701d9
+- type: ss
+  name: 🇨🇳 [中国][台湾Hinet02] [5bca2dae]
+  server: n.553779.xyz
+  port: 47391
+  cipher: aes-128-gcm
+  password: 8ba0c6bd-03ac-486f-b1fd-1a289a3701d9
+- type: ss
+  name: 🇨🇳 [中国][台湾Hinet03] [4b80c526]
+  server: o.553779.xyz
+  port: 37999
+  cipher: aes-128-gcm
+  password: 8ba0c6bd-03ac-486f-b1fd-1a289a3701d9
+- type: ss
+  name: 🇨🇳 t.me/rghoddoosi رسول قدوسی - 8 [a48c431e]
+  server: 8.218.31.138
+  port: 5555
+  cipher: chacha20-ietf-poly1305
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+- type: ss
+  name: 🇨🇳 t.me/rghoddoosi رسول قدوسی - 8 [c1dfa951]
+  server: 8.218.24.165
+  port: 5555
+  cipher: chacha20-ietf-poly1305
+  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
+- type: ss
+  name: 🇨🇳 台湾 [ac91180f]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 559
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 B [e1191958]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 580
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 C [3534cd7a]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 581
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 D [6fc7688a]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 582
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 F [04b7831b]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 584
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 G [f790a306]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 585
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 H [0383d712]
+  server: ontwtoo-a.dlayernet.xyz
+  port: 586
+  cipher: aes-128-gcm
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+- type: ss
+  name: 🇨🇳 台湾 | 01 [939f24d5]
+  server: mm.huawei-api.top
+  port: 12921
+  cipher: aes-128-gcm
+  password: 2f0c7e37-2534-48dc-9615-d85ae800c41f
+- type: ss
+  name: 🇨🇳 台湾 | 02 [436ed8f3]
+  server: tt.huawei-api.top
+  port: 12022
+  cipher: aes-128-gcm
+  password: 2f0c7e37-2534-48dc-9615-d85ae800c41f
+- type: ss
+  name: 🇨🇳 台湾|IEPL家宽|03 x1 [0a1b3a0a]
+  server: zz2.sudun2.top
+  port: 10643
+  cipher: chacha20-ietf-poly1305
+  password: 7dbdba19-6a3b-4370-93b1-fb5a89adde0c
+- type: ss
+  name: 🇨🇳 台湾|广州移动|01 x1 [b1e7a942]
+  server: ali.sudun2.top
+  port: 29429
+  cipher: chacha20-ietf-poly1305
+  password: 7dbdba19-6a3b-4370-93b1-fb5a89adde0c
+- type: ss
+  name: 🇨🇳 机场推荐:dafei.de 台湾 01 [76c00fd5]
+  server: 6154ff9.t1.gladns.net
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳 海南省 移动(全省通用) [b9528b31]
+  server: 111.29.57.125
+  port: 52612
+  cipher: chacha20-ietf-poly1305
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+- type: ss
+  name: 🇨🇳 🇨🇳 CN | 🔒 SS | @zerobaipiao [18] [165a2c09]
+  server: dfes.bcymanuscript.top
+  port: 38318
+  cipher: aes-128-gcm
+  password: ba7bb62d-e5e2-42f6-ab7e-57baf5e95a4b
+- type: ss
+  name: 🇨🇳 🇨🇳 China - Guangzhou 🌏 SS-TCP-NA 4⃣ [ead5f2c1]
+  server: 14.18.106.88
+  port: 6100
+  cipher: aes-256-gcm
+  password: '123'
+- type: ss
+  name: 🇨🇳 🇨🇳 TW DCBG 06 t.me/txwl666-50 [84dc9288]
+  server: 118.184.136.218
+  port: 20692
+  cipher: rc4-md5
+  password: LIhcoa
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-02 [d745c150]
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21002
+  cipher: aes-256-gcm
+  password: 11DL86EW6G7Z1DBX
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-03 [68304057]
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21003
+  cipher: aes-256-gcm
+  password: 3X67WJ5XBR9BJGNH
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-04 [c89d8d9a]
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21004
+  cipher: aes-256-gcm
+  password: 8R259M1OKQJF224V
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-05 [dc0a674b]
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 21005
+  cipher: aes-256-gcm
+  password: RZYIT8FWVERGQ3J1
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-06 [4235f8d4]
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 21006
+  cipher: aes-256-gcm
+  password: H7ZWAVO0U96N54NK
+- type: ss
+  name: 🇨🇳 🇨🇳 TW-07 [fa181166]
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 21007
+  cipher: aes-256-gcm
+  password: HW53Y12FTZE6VVDT
+- type: ss
+  name: 🇨🇳 🇨🇳 Taiwan 05 [dc2359d8]
+  server: idsosuo.4waf46.cn
+  port: 46816
+  cipher: 2022-blake3-aes-128-gcm
+  password: MjdlZmY4YWIyZDU0OGNkNw==:NDYyMTg0OTctOWQ1Mi00MA==
+- type: ss
+  name: 🇨🇳 🇨🇳 中国-台湾 IEPL游戏专线 B-92 [edccfa60]
+  server: twgame02.fjk.wtf
+  port: 19743
+  cipher: rc4-md5
+  password: 9hBa1m
+- type: ss
+  name: 🇨🇳 🇨🇳 中国-台湾 IPLC 台湾固网 A12 Netflix 动画疯-109 [7a89cf96]
+  server: twct12.fjk.wtf
+  port: 19743
+  cipher: rc4-md5
+  password: 9hBa1m
+- type: ss
+  name: 🇨🇳 🇨🇳 台湾丨解GPT [a20d4d7d]
+  server: dfes.bcymanuscript.top
+  port: 38308
+  cipher: aes-128-gcm
+  password: 4d148100-49d6-421f-b721-4488561a26b7
+- type: ss
+  name: 🇨🇳118486 [71657794]
+  server: soskeynets.2weradf.xyz
+  port: 36241
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYzc4YmIwZi1iMTgzLTQ3YjktYjYwMS1jZjRhODgzNGI2YjI
+- type: ss
+  name: 🇨🇳118490 [98e25658]
+  server: soskeynets.2weradf.xyz
+  port: 36173
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYzc4YmIwZi1iMTgzLTQ3YjktYjYwMS1jZjRhODgzNGI2YjI
+- type: ss
+  name: 🇨🇳118517 [3bafcaf2]
+  server: soskeynets.2weradf.xyz
+  port: 36243
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYzc4YmIwZi1iMTgzLTQ3YjktYjYwMS1jZjRhODgzNGI2YjI
+- type: ss
+  name: 🇨🇳118576 [344cd351]
+  server: soskeynets.2weradf.xyz
+  port: 36245
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYzc4YmIwZi1iMTgzLTQ3YjktYjYwMS1jZjRhODgzNGI2YjI
+- type: ss
+  name: 🇨🇳118660 [5dbb6c30]
+  server: soskeynets.2weradf.xyz
+  port: 36141
+  cipher: ss
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYzc4YmIwZi1iMTgzLTQ3YjktYjYwMS1jZjRhODgzNGI2YjI
+- type: ss
+  name: 🇨🇳CN-120.232.250.163-1929 [ac5c6386]
+  server: 120.232.250.163
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+- type: ss
+  name: 🇨🇳TW_170 @WangCai_8 [e690df1c]
+  server: 60.249.39.170
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_190 @WangCai_8 [ddb5a357]
+  server: 59.125.62.190
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_236 @WangCai_8 [a52ffdff]
+  server: 210.61.187.236
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_26 @WangCai_8 [dca13725]
+  server: 60.248.221.26
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_28 @WangCai_8 [402cfc47]
+  server: 60.248.221.28
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_29 @WangCai_8 2 [95ca63b6]
+  server: 61.216.165.29
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_39 @WangCai_8 [bb8ec5e4]
+  server: 60.249.14.39
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_39 @WangCai_8 2 [30d2a10e]
+  server: 118.163.200.39
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_42 @WangCai_8 [90801df4]
+  server: 118.163.198.42
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_42 @WangCai_8 2 [e9594c42]
+  server: 118.163.200.42
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_44 @WangCai_8 [698e9edd]
+  server: 118.163.198.44
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_45 @WangCai_8 [f73e419e]
+  server: 118.163.198.45
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_48 @WangCai_8 [238b3b61]
+  server: 125.227.86.48
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_95 @WangCai_8 [be986fab]
+  server: 60.249.14.95
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳TW_96 @WangCai_8 2 [bfc4df73]
+  server: 60.249.35.96
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- type: ss
+  name: 🇨🇳_油管：全网最强白嫖 [79d5c4b4]
+  server: hnyd.52147.top
+  port: 49871
+  cipher: chacha20-ietf-poly1305
+  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
+- type: ss
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [18732892]
+  server: hnt.cndns.shop
+  port: 27765
+  cipher: chacha20-ietf-poly1305
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+- type: ss
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [28639cf6]
+  server: hnt.cndns.shop
+  port: 27766
+  cipher: chacha20-ietf-poly1305
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+- type: ss
+  name: 🇮🇷_IR_伊朗->🇨🇳_CN_中国_2 [b6b140ae]
+  server: 85.133.241.75
+  port: 1935
+  cipher: chacha20-ietf-poly1305
+  password: 21586aab-3a37-4f55-b8b7-5ae69572d403
+- type: ss
+  name: 🔒 SS-TCP-NA 🇨🇳 CN-183.2.150.137:15028 [df48bcd6]
+  server: 183.2.150.137
+  port: 15028
+  cipher: chacha20-ietf-poly1305
+  password: 9214b8e1-5eed-4b36-9ef5-42c2f915bd0e
+- type: trojan
+  name: 14|CN_speednode_0009 [eaa43507]
+  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 27103
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0010 [4dba1fee]
+  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 27102
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0012 [92d62908]
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 42881
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0014 [00e0878b]
+  server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 27401
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0019 [9fe6d9ed]
+  server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 27002
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0020 [325715de]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 27408
+  password: 6f4221ca-e019-4652-a3cc-0995dba60dc5
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0024 [96964391]
+  server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 22269
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0031 [db4371dc]
+  server: aafrtpfxr.inl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 42882
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0032 [ad9f3c54]
+  server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 46668
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0037 [0787dcd9]
+  server: aafrtpfxr.pkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 42883
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0038 [f5fdbdf2]
+  server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 33506
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0041 [fe36bfa1]
+  server: aafrtpfxr.aul01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 34017
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0043 [22814f5b]
+  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43583
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0044 [c75c8e24]
+  server: aafrtpfxr.nll01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43591
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0048 [9a699ee9]
+  server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 44397
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0049 [5989a3dd]
+  server: aafrtpfxr.ael01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43497
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0051 [9899e16b]
+  server: aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43394
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0057 [f9a86646]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 43591
+  password: a5655914-95bd-4834-9043-352245dec3b3
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0067 [bf6551e3]
+  server: aafrtpfxr.arl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43590
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 14|CN_speednode_0068 [2f80de9c]
+  server: aafrtpfxr.brl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  port: 43586
+  password: 67aae342-d53e-4b33-bc16-b70e15b30dc4
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: CN [d335a146]
+  server: 36.151.251.59
+  port: 7815
+  password: RlzoEILU
+  tls: true
+- type: trojan
+  name: CN [7a39dc07]
+  server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
+  port: 27235
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  tls: true
+- type: trojan
+  name: CN [5ffd32c0]
+  server: lm.kaiqsz.com
+  port: 51075
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  tls: true
+  servername: mmbiz10.redapricotcloud.com
+- type: trojan
+  name: CN [fff6ba61]
+  server: 36.151.192.242
+  port: 27381
+  password: QwwHvrnN
+  tls: true
+- type: trojan
+  name: CN 🇨🇳 | @Raydikalx | 3A2284 | 243ms [319a0985]
+  server: 42.51.25.69
+  port: 59443
+  password: 002023c45d18bca3eba2757bb683309a
+  tls: true
+  servername: ja262.magiclampcloud.cn
+- type: trojan
+  name: CN 🇨🇳 | @Raydikalx | 3F11F4 | 245ms [a2ff760f]
+  server: 117.149.198.190
+  port: 10051
+  password: a13820c547fa34c5c45515c12f0cd576
+  tls: true
+  servername: zz6.91js.pw
+- type: trojan
+  name: CN 🇨🇳 | @Raydikalx | 6F59DB | 243ms [cdd38a61]
+  server: 118.253.167.243
+  port: 59443
+  password: 14bac0e43c849123ccb0fd0690f24316
+  tls: true
+  servername: tyy129.magiclampcloud.com
+- type: trojan
+  name: CN_speednode_0003 [210c1a2f]
+  server: 106.75.134.1
+  port: 12000
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  tls: true
+  servername: aliyun.com
+- type: trojan
+  name: CN_speednode_0007 [60fb5a2b]
+  server: 36.156.102.88
+  port: 472
+  password: 253bc477d4e43c209f2d427272968280
+  tls: true
+  servername: www.nintendogames.net
+- type: trojan
+  name: "CN_youtube@资源分享师_153\r [b516d967]"
+  server: hnm.xiaohouzi.club
+  port: 47551
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  tls: true
+  servername: $hnm.xiaohouzi.club
+- type: trojan
+  name: "CN_youtube@资源分享师_193\r [8ce9c410]"
+  server: hn.xiaohouzi.club
+  port: 48437
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  tls: true
+  servername: $hn.xiaohouzi.club
+- type: trojan
+  name: "CN_youtube@资源分享师_47\r [58d38f06]"
+  server: hnm.xiaohouzi.club
+  port: 49353
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  tls: true
+  servername: $a89.xiaohouzi.club
+- type: trojan
+  name: '[1279][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [c31274d4]'
+  server: 36.151.251.24
+  port: 32765
+  password: 6927305290f4e972cdd3575433bbc5f1
+  tls: true
+  servername: www.baidu.com
+- type: trojan
+  name: '[127][CN][0][TROJAN][None][mftizi][2025-06-07][2026-10-28 [3bc04df0]'
+  server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
+  port: 27231
+  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  tls: true
+- type: trojan
+  name: '[1586][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [0c212fdd]'
+  server: 183.236.51.5
+  port: 10822
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[1594][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [0ded0a3e]'
+  server: 183.236.51.6
+  port: 10820
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[1601][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [1f212465]'
+  server: 183.236.51.6
+  port: 10823
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[201][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [d8538819]'
+  server: 120.226.39.25
+  port: 19233
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: '[206][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [5e87b4d1]'
+  server: 120.226.39.25
+  port: 19240
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: '[209][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [0137ae87]'
+  server: 120.226.39.25
+  port: 19243
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: '[389][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [31881146]'
+  server: 183.236.51.2
+  port: 10824
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[414][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [ca8584f9]'
+  server: 183.236.51.9
+  port: 10820
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[416][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [4fcf9e42]'
+  server: 183.236.51.9
+  port: 10824
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: '[474][CN][0][TROJAN][None][mftizi][2025-06-07][2026-10-28 [702c9200]'
+  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
+  port: 27231
+  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  tls: true
+- type: trojan
+  name: '[483][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [fc4f7f35]'
+  server: 36.156.102.125
+  port: 347
+  password: 253bc477d4e43c209f2d427272968280
+  tls: true
+  servername: www.baidu.com
+- type: trojan
+  name: 🇨🇳 [5d23b014]
+  server: 130.94.29.102
+  port: 443
+  password: d1UH4TrhvCmjc-s4nmChew1qGqX3MNMqel
+  tls: true
+  servername: www.ws-converter.click
+- type: trojan
+  name: 🇨🇳 [83bc6cb7]
+  server: 43.199.65.165
+  port: 11035
+  password: BxceQaOe
+  tls: true
+  servername: t.me/ripaojiedian
+- type: trojan
+  name: 🇨🇳 [7a33fca7]
+  server: 95.40.19.84
+  port: 1123
+  password: BxceQaOe
+  tls: true
+  servername: t.me/ripaojiedian
+- type: trojan
+  name: 🇨🇳 [ec699eab]
+  server: 95.40.53.120
+  port: 2008
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  tls: true
+  servername: www.nintendogames.net
+- type: trojan
+  name: 🇨🇳 China - Unknown | 101.69.122.104:443 [9f048f7c]
+  server: 101.69.122.104
+  port: 443
+  password: bpb-trojan
+  tls: true
+  servername: zamim340.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zamim340.ggff.net
+- type: trojan
+  name: 🇨🇳 China - Unknown | 111.47.212.170:20139 [b19238fd]
+  server: 111.47.212.170
+  port: 20139
+  password: 7fec5d9d-4a06-377f-9fc3-6c1fef6a7f4b
+  tls: true
+  servername: z139.hongkongnode.top
+- type: trojan
+  name: 🇨🇳 China - Unknown | 111.47.212.170:54178 [c34bf734]
+  server: 111.47.212.170
+  port: 54178
+  password: 93e7a8d5-c477-3ef2-8056-307a6e766b5a
+  tls: true
+  servername: x115.flybar.work
+- type: trojan
+  name: 🇨🇳 China - Unknown | 111.47.212.170:63985 [c24d73a5]
+  server: 111.47.212.170
+  port: 63985
+  password: 7fec5d9d-4a06-377f-9fc3-6c1fef6a7f4b
+  tls: true
+  servername: x74.flybar.work
+  alpn:
+  - h2
+- type: trojan
+  name: 🇨🇳 China - Unknown | 112.16.228.103:443 [6eed77f9]
+  server: 112.16.228.103
+  port: 443
+  password: BZjkHMao
+  tls: true
+- type: trojan
+  name: 🇨🇳 China - Unknown | 112.16.228.119:443 [40a85163]
+  server: 112.16.228.119
+  port: 443
+  password: BZjkHMao
+  tls: true
+- type: trojan
+  name: 🇨🇳 China - Unknown | 115.231.220.33:5443 [8fcbd091]
+  server: 115.231.220.33
+  port: 5443
+  password: a2992d75-9108-4b69-92b7-624a48f0f9a0
+  tls: true
+  servername: nodecn1.jiayinetwork.es
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.129.254.5:4568 [b095a992]
+  server: 116.129.254.5
+  port: 4568
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  tls: true
+  servername: hnhkhkt.cc.tjcct.xyz
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.129.254.7:4570 [ce588f27]
+  server: 116.129.254.7
+  port: 4570
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  tls: true
+  servername: hnjpntt2.cc.tjcct.xyz
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.129.254.7:4571 [ae5fc491]
+  server: 116.129.254.7
+  port: 4571
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  tls: true
+  servername: dl.hncujpwea2.cc.tjcct.xyz
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.129.254.7:4572 [e988c0e0]
+  server: 116.129.254.7
+  port: 4572
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  tls: true
+  servername: dl.cscuhkbgp2.cc.tjcct.xyz
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.129.254.7:4573 [40b855ac]
+  server: 116.129.254.7
+  port: 4573
+  password: 7243c2bd-5576-3c2d-aea0-594ff03522a0
+  tls: true
+  servername: dl.cscujpntt6.cc.tjcct.xyz
+- type: trojan
+  name: 🇨🇳 China - Unknown | 116.31.75.150:39001 [24e58ca5]
+  server: 116.31.75.150
+  port: 39001
+  password: 85f133142f04dbf6547da33895cfabb3
+  tls: true
+  servername: www.yrtok.com
+- type: trojan
+  name: 🇨🇳 China - Unknown | 119.188.204.76:443 [4e3ec93b]
+  server: 119.188.204.76
+  port: 443
+  password: bpb-trojan
+  tls: true
+  servername: zamim340.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zamim340.ggff.net
+- type: trojan
+  name: 🇨🇳 China - Yixing | 112.3.28.12:46002 [c42c85e1]
+  server: 112.3.28.12
+  port: 46002
+  password: 4ea1d07c-41c2-42b5-954d-414fee051856
+  tls: true
+- type: trojan
+  name: 🇨🇳 TW台湾(mibei77.com 米贝节点分享) | 6ms [7160c5f5]
+  server: 172.64.229.88
+  port: 2053
+  password: d9fa9bde-de15-4a5d-bee2-88db7599bfd8
+  tls: true
+  servername: 17931084844379.206352.xyz
+- type: trojan
+  name: 🇨🇳 TW台湾(mibei77.com 米贝节点分享) | 7ms [5b5b7e90]
+  server: 162.159.140.116
+  port: 2087
+  password: d9fa9bde-de15-4a5d-bee2-88db7599bfd8
+  tls: true
+  servername: 17931084844658.206352.xyz
+- type: trojan
+  name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB [6d9c4248]
+  server: 805tw.ljydw.top
+  port: 443
+  password: 6d9d7c53-3dcd-43bf-b60c-cac077817077
+  tls: true
+  servername: 805tw.ljydw.top
+- type: trojan
+  name: 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB [ee605d23]
+  server: 0309tw.ljydw.top
+  port: 443
+  password: 6d9d7c53-3dcd-43bf-b60c-cac077817077
+  tls: true
+  servername: 0309tw.ljydw.top
+- type: trojan
+  name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB [4b8c0e53]
+  server: 419tw.ljydw.top
+  port: 443
+  password: 6d9d7c53-3dcd-43bf-b60c-cac077817077
+  tls: true
+  servername: 419tw.ljydw.top
+- type: trojan
+  name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB [d5c71400]
+  server: 625tw.ljydw.top
+  port: 80
+  password: 6d9d7c53-3dcd-43bf-b60c-cac077817077
+  tls: true
+  servername: 625tw.ljydw.top
+- type: trojan
+  name: 🇨🇳 | @TFMTProto [dcf24586]
+  server: 172.66.40.99
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: 172.66.40.99
+- type: trojan
+  name: 🇨🇳 中国 01 [6e6f44fe]
+  server: fbxt0765gh0pielsss.ftisthebest.com
+  port: 56251
+  password: e4895ea3-7b4a-3f46-ba5a-44ac4a691635
+  tls: true
+  servername: fbxt0765gh0pielsss.ftisthebest.com
+- type: trojan
+  name: 🇨🇳 台湾1 [f03f6e98]
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  port: 55021
+  password: 6c33380e-1fe5-4b48-ad45-3ec01e1de618
+  tls: true
+  servername: 785981be-f60a-5784-a336-07445467c21e.blue-bgp.xyz
+- type: trojan
+  name: 🇨🇳 台湾2 [9e1704ea]
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  port: 55022
+  password: 6c33380e-1fe5-4b48-ad45-3ec01e1de618
+  tls: true
+  servername: 785981be-f60a-5784-a336-07445467c21e.blue-bgp.xyz
+- type: trojan
+  name: 🇨🇳 台湾3 [47044496]
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  port: 55023
+  password: 6c33380e-1fe5-4b48-ad45-3ec01e1de618
+  tls: true
+  servername: 785981be-f60a-5784-a336-07445467c21e.blue-bgp.xyz
+- type: trojan
+  name: 🇨🇳 山东省青岛市 联通 [00b70149]
+  server: gysz0000.dynu.net
+  port: 38340
+  password: VMhGp5wEIyCDf90T
+  tls: true
+  servername: hk39.work.gd
+- type: trojan
+  name: 🇨🇳 广东省广州市 电信 [84862233]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 27002
+  password: bd975dab-224e-4a10-8a69-0aa0c3ee3bec
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇨🇳 广东省广州市 电信 [44ddf946]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 43394
+  password: b280428a-b822-4b71-88b5-a09e4ae3dc55
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇨🇳 广东省广州市 电信 [72d17e32]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 27202
+  password: 64f346fb-617e-49df-a9dc-b962a1c0d136
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇨🇳 广东省广州市 电信 [774eb21d]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 27001
+  password: 223ee989-3575-4961-ac76-801b1832f650
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇨🇳 广东省广州市 电信 [b136f45b]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 44397
+  password: 53375817-099f-43d0-9ce1-44c5f1156c3c
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇨🇳 广东省肇庆市 中移铁通 [60cbcb8f]
+  server: csuzhou01.1cooldns.com
+  port: 42303
+  password: VMhGp5wEIyCDf90T
+  tls: true
+  servername: hk06.run.place
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [df83132b]
+  server: 120.241.226.94
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  tls: true
+  servername: 45.32.28.232
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [85d8ed64]
+  server: 14.215.39.158
+  port: 3462
+  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  tls: true
+  servername: 45.32.28.232
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [a7f0d95e]
+  server: 221.128.195.220
+  port: 4400
+  password: 253bc477d4e43c209f2d427272968280
+  tls: true
+  servername: www.nintendogames.net
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [f88d909f]
+  server: 221.128.195.221
+  port: 4419
+  password: 253bc477d4e43c209f2d427272968280
+  tls: true
+  servername: www.nintendogames.net
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [7596e303]
+  server: 221.128.195.222
+  port: 4400
+  password: e9368912c4ed6046dca6949229cbff02
+  tls: true
+  servername: www.nintendogames.net
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [282a7e5d]
+  server: 36.141.116.18
+  port: 30210
+  password: 8bcea386-7573-409f-bab7-1248364ccbf7
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [8e43e4aa]
+  server: 36.141.116.18
+  port: 19216
+  password: c35a9137-1783-4d89-9994-fca0a7307f7c
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [622d0e5b]
+  server: 36.141.116.18
+  port: 41274
+  password: 11c726a7-09c7-485a-9c15-4a6e6b0e74f2
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [a86bd38a]
+  server: 36.141.116.18
+  port: 49214
+  password: 68094bf6-279b-4f51-b343-5619ee16171b
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [83fc4ca1]
+  server: 36.141.116.18
+  port: 41275
+  password: a0369a7c-c295-4630-be4f-1dd215afafa9
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [e86786a5]
+  server: 36.141.116.18
+  port: 49213
+  password: f98fcd2f-0b09-40e7-9544-f23cb0d3ddc7
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [f18f020e]
+  server: 36.141.116.18
+  port: 41277
+  password: 79d9acf7-63ac-4a46-8166-2b2a6946555d
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [d6f81ca7]
+  server: 36.141.116.18
+  port: 41273
+  password: ae450ce4-1b17-49f1-a22a-0770791af60d
+  tls: true
+  servername: douyin.com
+- type: trojan
+  name: 🇨🇳 🇨🇳CN-116.129.253.134-0049 [215b2f73]
+  server: 116.129.253.134
+  port: 3389
+  password: faf42aa0a9ad4c1e
+  tls: true
+  servername: 116.129.253.134
+- type: trojan
+  name: 🇨🇳CN-120.226.39.25-1919 [5ad74991]
+  server: 120.226.39.25
+  port: 19232
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-120.226.39.25-1921 [d9240a05]
+  server: 120.226.39.25
+  port: 19239
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-120.226.39.25-1925 [5a8dae80]
+  server: 120.226.39.25
+  port: 19225
+  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-046 [5d2467fd]
+  server: scloud41.jafiyun.world
+  port: 22041
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud41.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-047 [57fb5fa9]
+  server: scloud42.jafiyun.world
+  port: 22042
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud42.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-048 [d6b2c78b]
+  server: scloud43.jafiyun.world
+  port: 22043
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud43.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-052 [a34e5a9c]
+  server: scloud55.jafiyun.world
+  port: 22055
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud55.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-060 [2fd9f416]
+  server: scloud47.jafiyun.world
+  port: 22047
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud47.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-120.240.82.60-061 [60ce6614]
+  server: scloud50.jafiyun.ltd
+  port: 22050
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud50.jafiyun.ltd
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2349 | 439ms [ccbd7f2e]
+  server: official.tokyometropolis.odesa.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2482 | 472ms [7704964f]
+  server: official.tokyometropolis.kherson.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2491 | 408ms [45dea68e]
+  server: official.tokyometropolis.kharkov.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2558 | 394ms [fd9e4de9]
+  server: official.tokyometropolis.ivano-frankivsk.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2604 | 346ms [dd68d338]
+  server: official.tokyometropolis.kyiv.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2631 | 342ms [7f3a41ea]
+  server: official.tokyometropolis.chernigov.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2740 | 267ms [f6a1fc58]
+  server: official.tokyometropolis.odessa.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-125.94.46.8-2769 | 342ms [ad19b539]
+  server: official.tokyometropolis.kiev.ua
+  port: 2053
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-183.236.51.3-0220 [7e0e9a53]
+  server: 183.236.51.3
+  port: 10819
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-183.236.51.4-4829 [c536c22b]
+  server: 183.236.51.4
+  port: 10825
+  password: 7d223bae-e183-4bf6-89c3-e327b15df490
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-044 [d012c077]
+  server: scloud15.jafiyun.world
+  port: 22015
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud15.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-045 [8695b25d]
+  server: scloud16.jafiyun.world
+  port: 22016
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud16.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-049 [3c97722b]
+  server: scloud52.jafiyun.world
+  port: 22052
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud52.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-050 [6c397dce]
+  server: scloud53.jafiyun.world
+  port: 22053
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud53.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-051 [21d5618b]
+  server: scloud54.jafiyun.world
+  port: 22054
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud54.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-053 [63b88ce5]
+  server: scloud56.jafiyun.world
+  port: 22056
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud56.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-055 [3cd91561]
+  server: scloud58.jafiyun.world
+  port: 22058
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud58.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-056 [e2ffdc62]
+  server: scloud59.jafiyun.world
+  port: 22059
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud59.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-057 [9dd52c6b]
+  server: scloud60.jafiyun.world
+  port: 22060
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud60.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-058 [37e55262]
+  server: scloud44.jafiyun.ltd
+  port: 22044
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud44.jafiyun.ltd
+- type: trojan
+  name: 🇨🇳CN-183.249.20.192-059 [f1b840ca]
+  server: scloud45.jafiyun.world
+  port: 22045
+  password: 05bf7037-a3d0-3d4a-96ea-fc4787f798e0
+  tls: true
+  servername: scloud45.jafiyun.world
+- type: trojan
+  name: 🇨🇳CN-36.151.195.48-2505 [2f169e6c]
+  server: 36.151.195.48
+  port: 4787
+  password: TNDSJfNv
+  tls: true
+- type: trojan
+  name: 🇨🇳CN-36.151.251.36-4718 [8feddd8d]
+  server: 36.151.251.36
+  port: 30534
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  tls: true
+- type: trojan
+  name: 🇨🇳_中国_45 [dc5b6418]
+  server: 62.234.223.235
+  port: 44003
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  tls: true
+  servername: baidu.com
+- type: trojan
+  name: 🇨🇳_中国_49 [577c709f]
+  server: 62.234.223.235
+  port: 44058
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  tls: true
+  servername: baidu.com
+- type: trojan
+  name: 🇨🇳_中国_53 [18b44741]
+  server: 62.234.223.235
+  port: 44001
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  tls: true
+  servername: baidu.com
+- type: trojan
+  name: 🇨🇳_中国_57 [d5183901]
+  server: 62.234.223.235
+  port: 44062
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  tls: true
+  servername: baidu.com
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [00080eec]
+  server: gonggao04.niuniucloud.xyz
+  port: 53006
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [34aaf7ae]
+  server: gonggao03.niuniucloud.xyz
+  port: 53004
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [fdab15cd]
+  server: gonggao01.niuniucloud.xyz
+  port: 53000
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [9bec262d]
+  server: j-p01.niuniucloud.xyz
+  port: 53044
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [a25a365e]
+  server: j-p02.niuniucloud.xyz
+  port: 53046
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳中国(欢迎订阅Youtube元亨利贞) [c94a26bf]
+  server: j-p04.niuniucloud.xyz
+  port: 53050
+  password: ae54202f-6e78-4362-b24f-528d18e79674
+  tls: true
+  servername: niuniucloud.xyz
+- type: trojan
+  name: 🇨🇳广东 [dbd2cb6a]
+  server: sla.cn.964e995b760.gogodns.xin
+  port: 46668
+  password: 4d3546b9-f55a-4ec4-af91-36408636d06b
+  tls: true
+  servername: q08m.vgraxiw73s.hasyaf.cn
+- type: trojan
+  name: 🇺🇦 24|_CN_国->🇺_UA_ [d73cbcf6]
+  server: other.kunlun-ppg.com
+  port: 10845
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  tls: true
+  servername: alibaba-node.cn
+- type: vless
+  name: 14|CN_speednode_0009 [5b50e0f8]
+  server: beiyong.dynuddns.net
+  port: 48121
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 14|CN_speednode_0011 [eaa0386b]
+  server: csuzhou01.1cooldns.com
+  port: 14548
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 14|CN_speednode_0013 [6d697621]
+  server: shenzhou05.mysynology.net
+  port: 37809
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 14|CN_speednode_0014 [5085dd72]
+  server: beiyong.dynuddns.net
+  port: 29877
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 14|CN_speednode_0015 [a9fc0811]
+  server: csuzhou01.1cooldns.com
+  port: 23301
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 14|CN_speednode_0017 [8541f42f]
+  server: test123.zlqhdns.top
+  port: 11555
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: 14|CN_speednode_0018 [00031d3a]
+  server: zhee01.dynu.net
+  port: 64654
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 14|CN_speednode_0019 [2645638e]
+  server: beiyong.dynuddns.net
+  port: 57926
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 14|CN_speednode_0020 [e13e67c9]
+  server: bsuqian01.dynu.net
+  port: 16955
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 14|CN_speednode_0022 [b2bdf276]
+  server: beiyong.dynuddns.net
+  port: 65053
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.amazon.com
+- type: vless
+  name: 2,14|CN_speednode_0012 [a6855a8b]
+  server: bsuqian01.dynu.net
+  port: 47531
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 2,14|CN_speednode_0016 [85d503da]
+  server: zhee01.dynu.net
+  port: 13263
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 2,14|CN_speednode_0021 [67df86ad]
+  server: bsuqian01.dynu.net
+  port: 42426
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 2,14|CN_speednode_0024 [54925dea]
+  server: shenzhou02.mysynology.net
+  port: 33048
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 2,14|CN_speednode_0025 [7d09a7c7]
+  server: zhee01.dynu.net
+  port: 27932
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.amazon.com
+- type: vless
+  name: 2,14|CN_speednode_0026 [09a5d89c]
+  server: shenzhou02.mysynology.net
+  port: 40430
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 2,14|CN_speednode_0027 [6710e0b9]
+  server: bsuqian01.dynu.net
+  port: 17889
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+- type: vless
+  name: 2,14|CN_speednode_0028 [84c83872]
+  server: shenzhou02.mysynology.net
+  port: 35311
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 2,14|CN_speednode_0029 [ccdd8f0a]
+  server: shenzhou02.mysynology.net
+  port: 38400
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+- type: vless
+  name: 2,14|CN_speednode_0030 [d08e4a30]
+  server: bsuqian01.dynu.net
+  port: 40581
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: www.nvidia.com
+- type: vless
+  name: '@VMESSIRAN+سرور+۲۴+بهمنtrojan://79c935c0-27dc-4383-b307-dcac1b8e5509@1 [d5b19fd3]'
+  server: c4.ciscocdn1.live
+  port: 2082
+  uuid: a2864d0a-ee91-45d9-b6ff-a9f3f1fae640
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c4.ciscocdn1.live
+- type: vless
+  name: zh-CN 订阅器内置节点 HOST/UUID 未设置！！！ [e11161e1]
+  server: zh-cn
+  port: 443
+  uuid: 30e9c5c8-ed28-4cd9-b008-dc67277f8b02
+  tls: true
+  encryption: none
+  client-fingerprint: random
+  servername: edgetunnel-2z2.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edgetunnel-2z2.pages.dev
+- type: vless
+  name: 🇨🇳 [b82c26c9]
+  server: 156.224.78.8
+  port: 10001
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls
+    short-id: f7223dab
+  client-fingerprint: chrome
+  servername: www.icloud.com
+- type: vless
+  name: 🇨🇳 [4c08181c]
+  server: 84.17.37.19
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  tls: true
+  encryption: none
+  servername: hkg1.fromblancwithlove.com
+  alpn:
+  - h2
+- type: vless
+  name: 🇨🇳 [1b055d0c]
+  server: 64.49.44.87
+  port: 19107
+  uuid: 9e13f74e-3ad7-437d-aba6-5def3c42b046
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: rdfVgNqwK528X1X4ZdKe9abvTm7yMICZ5FRUmdYLF14
+    short-id: bedc231e12dd39
+  client-fingerprint: chrome
+  servername: www.intel.com
+- type: vless
+  name: 🇨🇳 [b5e4284e]
+  server: assets.trorays.com
+  port: 443
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision-udp443
+  client-fingerprint: chrome
+  servername: assets.trorays.com
+- type: vless
+  name: 🇨🇳 AetrisVPN [d28a99c7]
+  server: beatrice.pcdlinkguadian.top
+  port: 49012
+  uuid: 44e1eece-99e8-4e15-89dc-86c584e543a1
+  tls: true
+  encryption: none
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM
+    short-id: 0eb59680
+  client-fingerprint: edge
+  servername: www.tesla.com
+- type: vless
+  name: 🇨🇳 China - Fuzhou | 112.49.49.154:443 [587bc726]
+  server: 112.49.49.154
+  port: 443
+  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  tls: true
+  encryption: none
+  client-fingerprint: randomized
+  servername: vlee.amclubs.nyc.mn
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vlee.amclubs.nyc.mn
+- type: vless
+  name: 🇨🇳 China - Unknown | 103.115.64.183:443 2 [f39a437e]
+  server: 103.115.64.183
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇳 China - Unknown | 103.118.254.37:443 [fe9c9279]
+  server: 103.118.254.37
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- type: vless
+  name: 🇨🇳 China - Unknown | 103.44.255.81:443 [0276f986]
+  server: 103.44.255.81
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  tls: false
+  encryption: none
+  servername: re1.ylks0033.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: re1.ylks0033.dpdns.org
+- type: vless
+  name: 🇨🇳 China - Unknown | 103.85.25.226:8443 [fab0dc29]
+  server: 103.85.25.226
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇳 China - Unknown | 110.72.99.106:49001 [647d06f4]
+  server: 110.72.99.106
+  port: 49001
+  uuid: e4e7b149-8bd8-4266-8cbb-0987604dbc87
+  tls: false
+  encryption: none
+- type: vless
+  name: 🇨🇳 China - Unknown | 120.0.0.1:10808 [cf089dda]
+  server: 120.0.0.1
+  port: 10808
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  encryption: none
+  servername: sni.latonyamadeline.ndjp.net
+  network: ws
+  ws-opts:
+    path: /?https://t.me/ProxyVPN11🇨🇳=
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+- type: vless
+  name: 🇨🇳 ShatakVPN 595900 [711545db]
+  server: 176.124.223.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  encryption: none
+  client-fingerprint: chrome
+  servername: sni.111000.indevs.in
+  network: ws
+  ws-opts:
+    path: /?ed=2560&telegram🇨🇳+@wangcai2
+    headers:
+      Host: sni.111000.indevs.in
+- type: vless
+  name: 🇨🇳+CN+中国+34 [e7bbd039]
+  server: 43.198.53.11
+  port: 443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: tg@zdyz2
+    headers:
+      Host: cfed.tgzdyz2.top
+- type: vless
+  name: 🇨🇳+CN+中国+57 [d471c09d]
+  server: 103.232.214.11
+  port: 8443
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  tls: true
+  encryption: none
+  servername: cfed.tgzdyz2.top
+  network: ws
+  ws-opts:
+    path: tg@zdyz2
+    headers:
+      Host: cfed.tgzdyz2.top
+- type: vmess
+  name: 🇨🇳 台湾_102620010 [26e3244e]
+  server: 107.167.182.230
+  port: 80
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /tg@hkaa0
+    headers:
+      Host: br.gy.youxuan-1.66688888.xyz
+- type: vmess
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-112.132.212.19:50004 [bbffd85f]
+  server: 112.132.212.19
+  port: 50004
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+- type: vmess
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-112.132.215.12:50002 [2c6a6f57]
+  server: 112.132.215.12
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+- type: vmess
+  name: 🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003 [a58d63db]
+  server: 183.236.51.36
+  port: 59003
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+- type: vmess
+  name: 🔒 VM-WS-NA 🇨🇳 CN-120.48.133.162:10086 [5f9e73e2]
+  server: 120.48.133.162
+  port: 10086
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /?Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+    headers:
+      Host: 120.48.133.162
+proxy-groups:
+- name: SCANNED-NODES
+  type: select
+  proxies:
+  - ' SS-TCP-NA  CN-101.132.80.243:30474 [4f6c3c15]'
+  - ' SS-TCP-NA  CN-58.63.250.61:18003 [7d2be147]'
+  - ' SS-TCP-NA  CN-58.63.250.61:18007 [95f1566e]'
+  - ' SS-TCP-NA  CN-58.63.250.61:18010 [f979e5f7]'
+  - 1|_CN_ [d00a1f90]
+  - '[11433][CN][0][SS][None][mftizi][2024-07-29][2026-10-28 [d9700137]'
+  - '[6348][CN][0][SS][None][Hope_Net][2026-07-24][2026-07-25 [2ab5b770]'
+  - '[6356][CN][0][SS][None][Hope_Net][2026-07-24][2026-07-25 [112cd747]'
+  - '[OpenRay] 🇨🇳 CN-100 [9bab2d19]'
+  - '[OpenRay] 🇨🇳 CN-101 [71d10f2d]'
+  - '[OpenRay] 🇨🇳 CN-102 [074113c9]'
+  - '[OpenRay] 🇨🇳 CN-103 [49ab8e18]'
+  - '[OpenRay] 🇨🇳 CN-104 [e6c1f259]'
+  - '[OpenRay] 🇨🇳 CN-144 [03226334]'
+  - '[OpenRay] 🇨🇳 CN-145 [126791be]'
+  - '[OpenRay] 🇨🇳 CN-45 [82b64aa5]'
+  - '[OpenRay] 🇨🇳 CN-57 [782977f3]'
+  - '[OpenRay] 🇨🇳 CN-58 [357e3ef7]'
+  - '[OpenRay] 🇨🇳 CN-59 [04d0c0b8]'
+  - '[OpenRay] 🇨🇳 CN-60 [13a67e94]'
+  - '[OpenRay] 🇨🇳 CN-61 [22ec9069]'
+  - '[OpenRay] 🇨🇳 CN-62 [b9711c71]'
+  - '[OpenRay] 🇨🇳 CN-63 [a7cc908a]'
+  - '[OpenRay] 🇨🇳 CN-67 [e64c7ed6]'
+  - '[OpenRay] 🇨🇳 CN-68 [de583188]'
+  - '[OpenRay] 🇨🇳 CN-69 [9275ab65]'
+  - '[OpenRay] 🇨🇳 CN-70 [a94c70ec]'
+  - '[OpenRay] 🇨🇳 CN-71 [9e4a1997]'
+  - '[OpenRay] 🇨🇳 CN-72 [f97a9d67]'
+  - '[OpenRay] 🇨🇳 CN-73 [9283fdcf]'
+  - '[OpenRay] 🇨🇳 CN-74 [bd9a4578]'
+  - '[OpenRay] 🇨🇳 CN-75 [97b86ffd]'
+  - '[OpenRay] 🇨🇳 CN-76 [85771ad7]'
+  - '[OpenRay] 🇨🇳 CN-77 [0d4717a3]'
+  - '[OpenRay] 🇨🇳 CN-78 [12ee5ddf]'
+  - '[OpenRay] 🇨🇳 CN-79 [70e28aa0]'
+  - '[OpenRay] 🇨🇳 CN-80 [abb010e8]'
+  - '[OpenRay] 🇨🇳 CN-81 [b6ad2157]'
+  - '[OpenRay] 🇨🇳 CN-82 [2a544227]'
+  - '[OpenRay] 🇨🇳 CN-83 [bf7a5a63]'
+  - '[OpenRay] 🇨🇳 CN-84 [98bde682]'
+  - '[OpenRay] 🇨🇳 CN-85 [09bb2c24]'
+  - '[OpenRay] 🇨🇳 CN-86 [f849988f]'
+  - '[OpenRay] 🇨🇳 CN-87 [aaa8a572]'
+  - '[OpenRay] 🇨🇳 CN-88 [f9ff7a1c]'
+  - '[OpenRay] 🇨🇳 CN-89 [8bf1c9b5]'
+  - '[OpenRay] 🇨🇳 CN-90 [f81860a0]'
+  - '[OpenRay] 🇨🇳 CN-91 [aef0633b]'
+  - '[OpenRay] 🇨🇳 CN-92 [e5185981]'
+  - '[OpenRay] 🇨🇳 CN-93 [c5b25ca9]'
+  - '[OpenRay] 🇨🇳 CN-94 [ffb3f429]'
+  - '[OpenRay] 🇨🇳 CN-95 [ea7902fe]'
+  - '[OpenRay] 🇨🇳 CN-96 [005ba303]'
+  - '[OpenRay] 🇨🇳 CN-97 [0f7669dd]'
+  - '[OpenRay] 🇨🇳 CN-98 [c3fb6269]'
+  - '[OpenRay] 🇨🇳 CN-99 [03f93151]'
+  - 🇨🇳 [94a4ab97]
+  - 🇨🇳 [47c9f7f4]
+  - 🇨🇳 [503b719d]
+  - 🇨🇳 CN-TW-台湾-35-cht.com.tw [22d39624]
+  - 🇨🇳 China - Guangzhou | 114.132.40.118:30018 [9336b7a1]
+  - 🇨🇳 China - Unknown | 103.161.255.192:21121 [7e453986]
+  - 🇨🇳 China - Unknown | 103.161.255.192:21137 [0f20555c]
+  - 🇨🇳 China - Unknown | 103.161.255.192:21245 [f8e92f4d]
+  - 🇨🇳 China - Unknown | 103.37.45.155:19240 [3657fd4e]
+  - 🇨🇳 China - Unknown | 103.37.45.155:42151 [8765ae2d]
+  - 🇨🇳 China - Unknown | 106.75.162.7:50000 [178f9d9e]
+  - 🇨🇳 China - Unknown | 111.45.30.41:10002 [17430b9c]
+  - 🇨🇳 China - Unknown | 111.45.30.41:20006 [8cb39efc]
+  - 🇨🇳 China - Unknown | 111.45.30.41:20007 [afbdf0f8]
+  - 🇨🇳 China - Unknown | 111.45.33.5:30002 [e18970a6]
+  - 🇨🇳 China - Unknown | 111.45.33.5:30017 [d14115bd]
+  - 🇨🇳 China - Unknown | 112.54.160.36:30232 [4b706724]
+  - 🇨🇳 China - Unknown | 112.54.161.141:20406 [df6c15e3]
+  - 🇨🇳 China - Unknown | 113.99.143.13:8761 [93dff0c8]
+  - 🇨🇳 China - Unknown | 113.99.143.13:8766 [3ee97050]
+  - 🇨🇳 China - Unknown | 113.99.143.13:8774 [ba07dd5c]
+  - 🇨🇳 China - Unknown | 118.184.136.148:29191 [e23bee28]
+  - 🇨🇳 China - Unknown | 118.184.136.62:7780 [8c1a8ed4]
+  - 🇨🇳 China - Unknown | 118.212.143.4:47082 [75761a75]
+  - 🇨🇳 China - Unknown | 119.167.230.252:20783 [aaae7a76]
+  - 🇨🇳 [中国][三网专线][台湾] [06f7d0b5]
+  - 🇨🇳 [中国][台湾01] [5befee08]
+  - 🇨🇳 [中国][台湾Hinet01] [b6d45abc]
+  - 🇨🇳 [中国][台湾Hinet02] [5bca2dae]
+  - 🇨🇳 [中国][台湾Hinet03] [4b80c526]
+  - 🇨🇳 t.me/rghoddoosi رسول قدوسی - 8 [a48c431e]
+  - 🇨🇳 t.me/rghoddoosi رسول قدوسی - 8 [c1dfa951]
+  - 🇨🇳 台湾 [ac91180f]
+  - 🇨🇳 台湾 B [e1191958]
+  - 🇨🇳 台湾 C [3534cd7a]
+  - 🇨🇳 台湾 D [6fc7688a]
+  - 🇨🇳 台湾 F [04b7831b]
+  - 🇨🇳 台湾 G [f790a306]
+  - 🇨🇳 台湾 H [0383d712]
+  - 🇨🇳 台湾 | 01 [939f24d5]
+  - 🇨🇳 台湾 | 02 [436ed8f3]
+  - 🇨🇳 台湾|IEPL家宽|03 x1 [0a1b3a0a]
+  - 🇨🇳 台湾|广州移动|01 x1 [b1e7a942]
+  - 🇨🇳 机场推荐:dafei.de 台湾 01 [76c00fd5]
+  - 🇨🇳 海南省 移动(全省通用) [b9528b31]
+  - 🇨🇳 🇨🇳 CN | 🔒 SS | @zerobaipiao [18] [165a2c09]
+  - 🇨🇳 🇨🇳 China - Guangzhou 🌏 SS-TCP-NA 4⃣ [ead5f2c1]
+  - 🇨🇳 🇨🇳 TW DCBG 06 t.me/txwl666-50 [84dc9288]
+  - 🇨🇳 🇨🇳 TW-02 [d745c150]
+  - 🇨🇳 🇨🇳 TW-03 [68304057]
+  - 🇨🇳 🇨🇳 TW-04 [c89d8d9a]
+  - 🇨🇳 🇨🇳 TW-05 [dc0a674b]
+  - 🇨🇳 🇨🇳 TW-06 [4235f8d4]
+  - 🇨🇳 🇨🇳 TW-07 [fa181166]
+  - 🇨🇳 🇨🇳 Taiwan 05 [dc2359d8]
+  - 🇨🇳 🇨🇳 中国-台湾 IEPL游戏专线 B-92 [edccfa60]
+  - 🇨🇳 🇨🇳 中国-台湾 IPLC 台湾固网 A12 Netflix 动画疯-109 [7a89cf96]
+  - 🇨🇳 🇨🇳 台湾丨解GPT [a20d4d7d]
+  - 🇨🇳118486 [71657794]
+  - 🇨🇳118490 [98e25658]
+  - 🇨🇳118517 [3bafcaf2]
+  - 🇨🇳118576 [344cd351]
+  - 🇨🇳118660 [5dbb6c30]
+  - 🇨🇳CN-120.232.250.163-1929 [ac5c6386]
+  - 🇨🇳TW_170 @WangCai_8 [e690df1c]
+  - 🇨🇳TW_190 @WangCai_8 [ddb5a357]
+  - 🇨🇳TW_236 @WangCai_8 [a52ffdff]
+  - 🇨🇳TW_26 @WangCai_8 [dca13725]
+  - 🇨🇳TW_28 @WangCai_8 [402cfc47]
+  - 🇨🇳TW_29 @WangCai_8 2 [95ca63b6]
+  - 🇨🇳TW_39 @WangCai_8 [bb8ec5e4]
+  - 🇨🇳TW_39 @WangCai_8 2 [30d2a10e]
+  - 🇨🇳TW_42 @WangCai_8 [90801df4]
+  - 🇨🇳TW_42 @WangCai_8 2 [e9594c42]
+  - 🇨🇳TW_44 @WangCai_8 [698e9edd]
+  - 🇨🇳TW_45 @WangCai_8 [f73e419e]
+  - 🇨🇳TW_48 @WangCai_8 [238b3b61]
+  - 🇨🇳TW_95 @WangCai_8 [be986fab]
+  - 🇨🇳TW_96 @WangCai_8 2 [bfc4df73]
+  - 🇨🇳_油管：全网最强白嫖 [79d5c4b4]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [18732892]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [28639cf6]
+  - 🇮🇷_IR_伊朗->🇨🇳_CN_中国_2 [b6b140ae]
+  - 🔒 SS-TCP-NA 🇨🇳 CN-183.2.150.137:15028 [df48bcd6]
+  - 14|CN_speednode_0009 [eaa43507]
+  - 14|CN_speednode_0010 [4dba1fee]
+  - 14|CN_speednode_0012 [92d62908]
+  - 14|CN_speednode_0014 [00e0878b]
+  - 14|CN_speednode_0019 [9fe6d9ed]
+  - 14|CN_speednode_0020 [325715de]
+  - 14|CN_speednode_0024 [96964391]
+  - 14|CN_speednode_0031 [db4371dc]
+  - 14|CN_speednode_0032 [ad9f3c54]
+  - 14|CN_speednode_0037 [0787dcd9]
+  - 14|CN_speednode_0038 [f5fdbdf2]
+  - 14|CN_speednode_0041 [fe36bfa1]
+  - 14|CN_speednode_0043 [22814f5b]
+  - 14|CN_speednode_0044 [c75c8e24]
+  - 14|CN_speednode_0048 [9a699ee9]
+  - 14|CN_speednode_0049 [5989a3dd]
+  - 14|CN_speednode_0051 [9899e16b]
+  - 14|CN_speednode_0057 [f9a86646]
+  - 14|CN_speednode_0067 [bf6551e3]
+  - 14|CN_speednode_0068 [2f80de9c]
+  - CN [d335a146]
+  - CN [7a39dc07]
+  - CN [5ffd32c0]
+  - CN [fff6ba61]
+  - CN 🇨🇳 | @Raydikalx | 3A2284 | 243ms [319a0985]
+  - CN 🇨🇳 | @Raydikalx | 3F11F4 | 245ms [a2ff760f]
+  - CN 🇨🇳 | @Raydikalx | 6F59DB | 243ms [cdd38a61]
+  - CN_speednode_0003 [210c1a2f]
+  - CN_speednode_0007 [60fb5a2b]
+  - "CN_youtube@资源分享师_153\r [b516d967]"
+  - "CN_youtube@资源分享师_193\r [8ce9c410]"
+  - "CN_youtube@资源分享师_47\r [58d38f06]"
+  - '[1279][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [c31274d4]'
+  - '[127][CN][0][TROJAN][None][mftizi][2025-06-07][2026-10-28 [3bc04df0]'
+  - '[1586][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [0c212fdd]'
+  - '[1594][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [0ded0a3e]'
+  - '[1601][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16] [1f212465]'
+  - '[201][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [d8538819]'
+  - '[206][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [5e87b4d1]'
+  - '[209][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [0137ae87]'
+  - '[389][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [31881146]'
+  - '[414][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [ca8584f9]'
+  - '[416][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-10-28][ [4fcf9e42]'
+  - '[474][CN][0][TROJAN][None][mftizi][2025-06-07][2026-10-28 [702c9200]'
+  - '[483][CN][0][TROJAN][None][ext_raw.githubusercontent.com][2026-08-16][ [fc4f7f35]'
+  - 🇨🇳 [5d23b014]
+  - 🇨🇳 [83bc6cb7]
+  - 🇨🇳 [7a33fca7]
+  - 🇨🇳 [ec699eab]
+  - 🇨🇳 China - Unknown | 101.69.122.104:443 [9f048f7c]
+  - 🇨🇳 China - Unknown | 111.47.212.170:20139 [b19238fd]
+  - 🇨🇳 China - Unknown | 111.47.212.170:54178 [c34bf734]
+  - 🇨🇳 China - Unknown | 111.47.212.170:63985 [c24d73a5]
+  - 🇨🇳 China - Unknown | 112.16.228.103:443 [6eed77f9]
+  - 🇨🇳 China - Unknown | 112.16.228.119:443 [40a85163]
+  - 🇨🇳 China - Unknown | 115.231.220.33:5443 [8fcbd091]
+  - 🇨🇳 China - Unknown | 116.129.254.5:4568 [b095a992]
+  - 🇨🇳 China - Unknown | 116.129.254.7:4570 [ce588f27]
+  - 🇨🇳 China - Unknown | 116.129.254.7:4571 [ae5fc491]
+  - 🇨🇳 China - Unknown | 116.129.254.7:4572 [e988c0e0]
+  - 🇨🇳 China - Unknown | 116.129.254.7:4573 [40b855ac]
+  - 🇨🇳 China - Unknown | 116.31.75.150:39001 [24e58ca5]
+  - 🇨🇳 China - Unknown | 119.188.204.76:443 [4e3ec93b]
+  - 🇨🇳 China - Yixing | 112.3.28.12:46002 [c42c85e1]
+  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享) | 6ms [7160c5f5]
+  - 🇨🇳 TW台湾(mibei77.com 米贝节点分享) | 7ms [5b5b7e90]
+  - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB [6d9c4248]
+  - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB [ee605d23]
+  - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB [4b8c0e53]
+  - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB [d5c71400]
+  - 🇨🇳 | @TFMTProto [dcf24586]
+  - 🇨🇳 中国 01 [6e6f44fe]
+  - 🇨🇳 台湾1 [f03f6e98]
+  - 🇨🇳 台湾2 [9e1704ea]
+  - 🇨🇳 台湾3 [47044496]
+  - 🇨🇳 山东省青岛市 联通 [00b70149]
+  - 🇨🇳 广东省广州市 电信 [84862233]
+  - 🇨🇳 广东省广州市 电信 [44ddf946]
+  - 🇨🇳 广东省广州市 电信 [72d17e32]
+  - 🇨🇳 广东省广州市 电信 [774eb21d]
+  - 🇨🇳 广东省广州市 电信 [b136f45b]
+  - 🇨🇳 广东省肇庆市 中移铁通 [60cbcb8f]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [df83132b]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [85d8ed64]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [a7f0d95e]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [f88d909f]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [7596e303]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [282a7e5d]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [8e43e4aa]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [622d0e5b]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [a86bd38a]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [83fc4ca1]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [e86786a5]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [f18f020e]
+  - 🇨🇳 🇨🇳 China - NA 🌏 TR-TCP-TLS 4⃣ [d6f81ca7]
+  - 🇨🇳 🇨🇳CN-116.129.253.134-0049 [215b2f73]
+  - 🇨🇳CN-120.226.39.25-1919 [5ad74991]
+  - 🇨🇳CN-120.226.39.25-1921 [d9240a05]
+  - 🇨🇳CN-120.226.39.25-1925 [5a8dae80]
+  - 🇨🇳CN-120.240.82.60-046 [5d2467fd]
+  - 🇨🇳CN-120.240.82.60-047 [57fb5fa9]
+  - 🇨🇳CN-120.240.82.60-048 [d6b2c78b]
+  - 🇨🇳CN-120.240.82.60-052 [a34e5a9c]
+  - 🇨🇳CN-120.240.82.60-060 [2fd9f416]
+  - 🇨🇳CN-120.240.82.60-061 [60ce6614]
+  - 🇨🇳CN-125.94.46.8-2349 | 439ms [ccbd7f2e]
+  - 🇨🇳CN-125.94.46.8-2482 | 472ms [7704964f]
+  - 🇨🇳CN-125.94.46.8-2491 | 408ms [45dea68e]
+  - 🇨🇳CN-125.94.46.8-2558 | 394ms [fd9e4de9]
+  - 🇨🇳CN-125.94.46.8-2604 | 346ms [dd68d338]
+  - 🇨🇳CN-125.94.46.8-2631 | 342ms [7f3a41ea]
+  - 🇨🇳CN-125.94.46.8-2740 | 267ms [f6a1fc58]
+  - 🇨🇳CN-125.94.46.8-2769 | 342ms [ad19b539]
+  - 🇨🇳CN-183.236.51.3-0220 [7e0e9a53]
+  - 🇨🇳CN-183.236.51.4-4829 [c536c22b]
+  - 🇨🇳CN-183.249.20.192-044 [d012c077]
+  - 🇨🇳CN-183.249.20.192-045 [8695b25d]
+  - 🇨🇳CN-183.249.20.192-049 [3c97722b]
+  - 🇨🇳CN-183.249.20.192-050 [6c397dce]
+  - 🇨🇳CN-183.249.20.192-051 [21d5618b]
+  - 🇨🇳CN-183.249.20.192-053 [63b88ce5]
+  - 🇨🇳CN-183.249.20.192-055 [3cd91561]
+  - 🇨🇳CN-183.249.20.192-056 [e2ffdc62]
+  - 🇨🇳CN-183.249.20.192-057 [9dd52c6b]
+  - 🇨🇳CN-183.249.20.192-058 [37e55262]
+  - 🇨🇳CN-183.249.20.192-059 [f1b840ca]
+  - 🇨🇳CN-36.151.195.48-2505 [2f169e6c]
+  - 🇨🇳CN-36.151.251.36-4718 [8feddd8d]
+  - 🇨🇳_中国_45 [dc5b6418]
+  - 🇨🇳_中国_49 [577c709f]
+  - 🇨🇳_中国_53 [18b44741]
+  - 🇨🇳_中国_57 [d5183901]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [00080eec]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [34aaf7ae]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [fdab15cd]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [9bec262d]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [a25a365e]
+  - 🇨🇳中国(欢迎订阅Youtube元亨利贞) [c94a26bf]
+  - 🇨🇳广东 [dbd2cb6a]
+  - 🇺🇦 24|_CN_国->🇺_UA_ [d73cbcf6]
+  - 14|CN_speednode_0009 [5b50e0f8]
+  - 14|CN_speednode_0011 [eaa0386b]
+  - 14|CN_speednode_0013 [6d697621]
+  - 14|CN_speednode_0014 [5085dd72]
+  - 14|CN_speednode_0015 [a9fc0811]
+  - 14|CN_speednode_0017 [8541f42f]
+  - 14|CN_speednode_0018 [00031d3a]
+  - 14|CN_speednode_0019 [2645638e]
+  - 14|CN_speednode_0020 [e13e67c9]
+  - 14|CN_speednode_0022 [b2bdf276]
+  - 2,14|CN_speednode_0012 [a6855a8b]
+  - 2,14|CN_speednode_0016 [85d503da]
+  - 2,14|CN_speednode_0021 [67df86ad]
+  - 2,14|CN_speednode_0024 [54925dea]
+  - 2,14|CN_speednode_0025 [7d09a7c7]
+  - 2,14|CN_speednode_0026 [09a5d89c]
+  - 2,14|CN_speednode_0027 [6710e0b9]
+  - 2,14|CN_speednode_0028 [84c83872]
+  - 2,14|CN_speednode_0029 [ccdd8f0a]
+  - 2,14|CN_speednode_0030 [d08e4a30]
+  - '@VMESSIRAN+سرور+۲۴+بهمنtrojan://79c935c0-27dc-4383-b307-dcac1b8e5509@1 [d5b19fd3]'
+  - zh-CN 订阅器内置节点 HOST/UUID 未设置！！！ [e11161e1]
+  - 🇨🇳 [b82c26c9]
+  - 🇨🇳 [4c08181c]
+  - 🇨🇳 [1b055d0c]
+  - 🇨🇳 [b5e4284e]
+  - 🇨🇳 AetrisVPN [d28a99c7]
+  - 🇨🇳 China - Fuzhou | 112.49.49.154:443 [587bc726]
+  - 🇨🇳 China - Unknown | 103.115.64.183:443 2 [f39a437e]
+  - 🇨🇳 China - Unknown | 103.118.254.37:443 [fe9c9279]
+  - 🇨🇳 China - Unknown | 103.44.255.81:443 [0276f986]
+  - 🇨🇳 China - Unknown | 103.85.25.226:8443 [fab0dc29]
+  - 🇨🇳 China - Unknown | 110.72.99.106:49001 [647d06f4]
+  - 🇨🇳 China - Unknown | 120.0.0.1:10808 [cf089dda]
+  - 🇨🇳 ShatakVPN 595900 [711545db]
+  - 🇨🇳+CN+中国+34 [e7bbd039]
+  - 🇨🇳+CN+中国+57 [d471c09d]
+  - 🇨🇳 台湾_102620010 [26e3244e]
+  - 🔒 VM-TCP-NA 🇨🇳 CN-112.132.212.19:50004 [bbffd85f]
+  - 🔒 VM-TCP-NA 🇨🇳 CN-112.132.215.12:50002 [2c6a6f57]
+  - 🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003 [a58d63db]
+  - 🔒 VM-WS-NA 🇨🇳 CN-120.48.133.162:10086 [5f9e73e2]
+rules:
+- MATCH,SCANNED-NODES
